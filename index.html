@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TİKE CİĞER Halil Usta – Menü</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Üst bölüm: restoran adı, slogan, usta adı -->
+  <header class="site-header">
+    <h1 class="restaurant-name">TİKE CİĞER</h1>
+    <p class="slogan">HER ŞİŞTE USTALIK</p>
+    <p class="usta-name">Halil Usta</p>
+    <!-- Kategori atlama linkleri (smooth scroll) -->
+    <nav class="nav-categories" aria-label="Menü kategorileri">
+      <a href="#kebaplar">Kebaplar</a>
+      <span aria-hidden="true">|</span>
+      <a href="#pideler">Pideler</a>
+      <span aria-hidden="true">|</span>
+      <a href="#icecekler">İçecekler</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- KEBAPLAR: Dürüm ve Porsiyon fiyatları -->
+    <section id="kebaplar" class="menu-section">
+      <h2 class="section-title">KEBAPLAR</h2>
+      <div class="menu-table kebap-table">
+        <div class="table-header">
+          <span class="col-name">Ürün</span>
+          <span class="col-durum">Dürüm</span>
+          <span class="col-porsiyon">Porsiyon</span>
+        </div>
+        <div class="table-row"><span class="col-name">CİĞER</span><span class="col-durum">220₺</span><span class="col-porsiyon">390₺</span></div>
+        <div class="table-row"><span class="col-name">YÜREK</span><span class="col-durum">220₺</span><span class="col-porsiyon">390₺</span></div>
+        <div class="table-row"><span class="col-name">ADANA</span><span class="col-durum">220₺</span><span class="col-porsiyon">390₺</span></div>
+        <div class="table-row"><span class="col-name">URFA</span><span class="col-durum">220₺</span><span class="col-porsiyon">390₺</span></div>
+        <div class="table-row"><span class="col-name">KUŞBAŞI</span><span class="col-durum">250₺</span><span class="col-porsiyon">500₺</span></div>
+        <div class="table-row"><span class="col-name">PATLICANLI</span><span class="col-durum">250₺</span><span class="col-porsiyon">500₺</span></div>
+        <div class="table-row"><span class="col-name">KARIŞIK KEBAP</span><span class="col-durum">—</span><span class="col-porsiyon">500₺</span></div>
+        <div class="table-row"><span class="col-name">DOMATESLİ</span><span class="col-durum">250₺</span><span class="col-porsiyon">500₺</span></div>
+        <div class="table-row"><span class="col-name">KANAT</span><span class="col-durum">—</span><span class="col-porsiyon">250₺</span></div>
+        <div class="table-row"><span class="col-name">TAVUK ŞİŞ</span><span class="col-durum">150₺</span><span class="col-porsiyon">300₺</span></div>
+        <div class="table-row"><span class="col-name">T.PİRZOLA</span><span class="col-durum">—</span><span class="col-porsiyon">300₺</span></div>
+        <div class="table-row"><span class="col-name">DALAK-BÖBREK</span><span class="col-durum">200₺</span><span class="col-porsiyon">350₺</span></div>
+      </div>
+    </section>
+
+    <!-- PİDELER: tek fiyat -->
+    <section id="pideler" class="menu-section">
+      <h2 class="section-title">PİDELER</h2>
+      <ul class="menu-list">
+        <li><span class="item-name">LAHMACUN</span><span class="item-price">100₺</span></li>
+        <li><span class="item-name">FINDIK LAHMACUN</span><span class="item-price">50₺</span></li>
+        <li><span class="item-name">KUŞBAŞILI PİDE</span><span class="item-price">230₺</span></li>
+        <li><span class="item-name">KUŞBAŞI KAŞARLI</span><span class="item-price">270₺</span></li>
+        <li><span class="item-name">ATOM PİDE</span><span class="item-price">180₺</span></li>
+        <li><span class="item-name">KAŞARLI SUCUKLU</span><span class="item-price">160₺</span></li>
+      </ul>
+    </section>
+
+    <!-- İÇECEKLER: tek fiyat -->
+    <section id="icecekler" class="menu-section">
+      <h2 class="section-title">İÇECEKLER</h2>
+      <ul class="menu-list">
+        <li><span class="item-name">KOLA - FANTA</span><span class="item-price">50₺</span></li>
+        <li><span class="item-name">AYRAN</span><span class="item-price">20₺</span></li>
+        <li><span class="item-name">ŞALGAM</span><span class="item-price">35₺</span></li>
+        <li><span class="item-name">SU</span><span class="item-price">15₺</span></li>
+        <li><span class="item-name">İCE TEA</span><span class="item-price">50₺</span></li>
+        <li><span class="item-name">BEYPAZARI SODA</span><span class="item-price">25₺</span></li>
+        <li><span class="item-name">K.AYRAN</span><span class="item-price">30₺</span></li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- Sosyal medya linkleri -->
+  <footer class="site-footer">
+    <p class="footer-title">Bizi takip edin</p>
+    <div class="social-links">
+      <a href="https://www.tiktok.com/@tikeciger" target="_blank" rel="noopener noreferrer" aria-label="TikTok">TikTok @tikeciger</a>
+      <a href="https://www.instagram.com/tikeciger" target="_blank" rel="noopener noreferrer" aria-label="Instagram">Instagram @tikeciger</a>
+    </div>
+  </footer>
+
+  <!-- Kategori linklerine tıklanınca yumuşak kaydırma -->
+  <script>
+    document.querySelectorAll('.nav-categories a[href^="#"]').forEach(function (anchor) {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        var target = document.querySelector(this.getAttribute('href'));
+        if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    });
+  </script>
+</body>
+</html>
