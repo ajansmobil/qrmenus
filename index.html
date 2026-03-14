@@ -10,76 +10,78 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <!-- Üst bölüm: restoran adı, slogan, usta adı -->
+  <!-- Üst bölüm: logo, restoran adı, slogan, usta adı -->
   <header class="site-header">
-    <h1 class="restaurant-name">TİKE CİĞER</h1>
-    <p class="slogan">HER ŞİŞTE USTALIK</p>
-    <p class="usta-name">Halil Usta</p>
-    <!-- Kategori atlama linkleri (smooth scroll) -->
+    <div class="header-brand">
+      <img src="logo.png" alt="TİKE CİĞER logo" class="site-logo" width="120" />
+      <div class="header-text">
+        <p class="slogan">HER ŞİŞTE USTALIK</p>
+        <p class="usta-name">Halil Usta</p>
+      </div>
+    </div>
+    <!-- Kategori atlama: chip/pill navigasyon (mobil app tarzı) -->
     <nav class="nav-categories" aria-label="Menü kategorileri">
-      <a href="#kebaplar">Kebaplar</a>
-      <span aria-hidden="true">|</span>
-      <a href="#pideler">Pideler</a>
-      <span aria-hidden="true">|</span>
-      <a href="#icecekler">İçecekler</a>
+      <a href="#kebaplar" class="nav-chip">Kebaplar</a>
+      <a href="#pideler" class="nav-chip">Pideler</a>
+      <a href="#icecekler" class="nav-chip">İçecekler</a>
     </nav>
   </header>
 
   <main>
     <!-- KEBAPLAR: Dürüm ve Porsiyon fiyatları -->
-    <section id="kebaplar" class="menu-section">
-      <h2 class="section-title">KEBAPLAR</h2>
+    <section id="kebaplar" class="menu-section card animate-in">
+      <h2 class="section-title section-pill">KEBAPLAR</h2>
       <div class="menu-table kebap-table">
         <div class="table-header">
           <span class="col-name">Ürün</span>
           <span class="col-durum">Dürüm</span>
           <span class="col-porsiyon">Porsiyon</span>
         </div>
-        <div class="table-row"><span class="col-name">CİĞER</span><span class="col-durum">220₺</span><span class="col-porsiyon">390₺</span></div>
-        <div class="table-row"><span class="col-name">YÜREK</span><span class="col-durum">220₺</span><span class="col-porsiyon">390₺</span></div>
-        <div class="table-row"><span class="col-name">ADANA</span><span class="col-durum">220₺</span><span class="col-porsiyon">390₺</span></div>
-        <div class="table-row"><span class="col-name">URFA</span><span class="col-durum">220₺</span><span class="col-porsiyon">390₺</span></div>
-        <div class="table-row"><span class="col-name">KUŞBAŞI</span><span class="col-durum">250₺</span><span class="col-porsiyon">500₺</span></div>
-        <div class="table-row"><span class="col-name">PATLICANLI</span><span class="col-durum">250₺</span><span class="col-porsiyon">500₺</span></div>
-        <div class="table-row"><span class="col-name">KARIŞIK KEBAP</span><span class="col-durum">—</span><span class="col-porsiyon">500₺</span></div>
-        <div class="table-row"><span class="col-name">DOMATESLİ</span><span class="col-durum">250₺</span><span class="col-porsiyon">500₺</span></div>
-        <div class="table-row"><span class="col-name">KANAT</span><span class="col-durum">—</span><span class="col-porsiyon">250₺</span></div>
-        <div class="table-row"><span class="col-name">TAVUK ŞİŞ</span><span class="col-durum">150₺</span><span class="col-porsiyon">300₺</span></div>
-        <div class="table-row"><span class="col-name">T.PİRZOLA</span><span class="col-durum">—</span><span class="col-porsiyon">300₺</span></div>
-        <div class="table-row"><span class="col-name">DALAK-BÖBREK</span><span class="col-durum">200₺</span><span class="col-porsiyon">350₺</span></div>
+        <div class="table-row menu-item"><span class="col-name">CİĞER</span><span class="col-durum price-pill">220₺</span><span class="col-porsiyon price-pill">390₺</span></div>
+        <div class="table-row menu-item"><span class="col-name">YÜREK</span><span class="col-durum price-pill">220₺</span><span class="col-porsiyon price-pill">390₺</span></div>
+        <div class="table-row menu-item"><span class="col-name">ADANA</span><span class="col-durum price-pill">220₺</span><span class="col-porsiyon price-pill">390₺</span></div>
+        <div class="table-row menu-item"><span class="col-name">URFA</span><span class="col-durum price-pill">220₺</span><span class="col-porsiyon price-pill">390₺</span></div>
+        <div class="table-row menu-item"><span class="col-name">KUŞBAŞI</span><span class="col-durum price-pill">250₺</span><span class="col-porsiyon price-pill">500₺</span></div>
+        <div class="table-row menu-item"><span class="col-name">PATLICANLI</span><span class="col-durum price-pill">250₺</span><span class="col-porsiyon price-pill">500₺</span></div>
+        <div class="table-row menu-item"><span class="col-name">KARIŞIK KEBAP</span><span class="col-durum price-pill">—</span><span class="col-porsiyon price-pill">500₺</span></div>
+        <div class="table-row menu-item"><span class="col-name">DOMATESLİ</span><span class="col-durum price-pill">250₺</span><span class="col-porsiyon price-pill">500₺</span></div>
+        <div class="table-row menu-item"><span class="col-name">KANAT</span><span class="col-durum price-pill">—</span><span class="col-porsiyon price-pill">250₺</span></div>
+        <div class="table-row menu-item"><span class="col-name">TAVUK ŞİŞ</span><span class="col-durum price-pill">150₺</span><span class="col-porsiyon price-pill">300₺</span></div>
+        <div class="table-row menu-item"><span class="col-name">T.PİRZOLA</span><span class="col-durum price-pill">—</span><span class="col-porsiyon price-pill">300₺</span></div>
+        <div class="table-row menu-item"><span class="col-name">DALAK-BÖBREK</span><span class="col-durum price-pill">200₺</span><span class="col-porsiyon price-pill">350₺</span></div>
       </div>
     </section>
 
     <!-- PİDELER: tek fiyat -->
-    <section id="pideler" class="menu-section">
-      <h2 class="section-title">PİDELER</h2>
+    <section id="pideler" class="menu-section card animate-in">
+      <h2 class="section-title section-pill">PİDELER</h2>
       <ul class="menu-list">
-        <li><span class="item-name">LAHMACUN</span><span class="item-price">100₺</span></li>
-        <li><span class="item-name">FINDIK LAHMACUN</span><span class="item-price">50₺</span></li>
-        <li><span class="item-name">KUŞBAŞILI PİDE</span><span class="item-price">230₺</span></li>
-        <li><span class="item-name">KUŞBAŞI KAŞARLI</span><span class="item-price">270₺</span></li>
-        <li><span class="item-name">ATOM PİDE</span><span class="item-price">180₺</span></li>
-        <li><span class="item-name">KAŞARLI SUCUKLU</span><span class="item-price">160₺</span></li>
+        <li class="menu-item"><span class="item-name">LAHMACUN</span><span class="item-price price-pill">100₺</span></li>
+        <li class="menu-item"><span class="item-name">FINDIK LAHMACUN</span><span class="item-price price-pill">50₺</span></li>
+        <li class="menu-item"><span class="item-name">KUŞBAŞILI PİDE</span><span class="item-price price-pill">230₺</span></li>
+        <li class="menu-item"><span class="item-name">KUŞBAŞI KAŞARLI</span><span class="item-price price-pill">270₺</span></li>
+        <li class="menu-item"><span class="item-name">ATOM PİDE</span><span class="item-price price-pill">180₺</span></li>
+        <li class="menu-item"><span class="item-name">KAŞARLI SUCUKLU</span><span class="item-price price-pill">160₺</span></li>
       </ul>
     </section>
 
     <!-- İÇECEKLER: tek fiyat -->
-    <section id="icecekler" class="menu-section">
-      <h2 class="section-title">İÇECEKLER</h2>
+    <section id="icecekler" class="menu-section card animate-in">
+      <h2 class="section-title section-pill">İÇECEKLER</h2>
       <ul class="menu-list">
-        <li><span class="item-name">KOLA - FANTA</span><span class="item-price">50₺</span></li>
-        <li><span class="item-name">AYRAN</span><span class="item-price">20₺</span></li>
-        <li><span class="item-name">ŞALGAM</span><span class="item-price">35₺</span></li>
-        <li><span class="item-name">SU</span><span class="item-price">15₺</span></li>
-        <li><span class="item-name">İCE TEA</span><span class="item-price">50₺</span></li>
-        <li><span class="item-name">BEYPAZARI SODA</span><span class="item-price">25₺</span></li>
-        <li><span class="item-name">K.AYRAN</span><span class="item-price">30₺</span></li>
+        <li class="menu-item"><span class="item-name">KOLA - FANTA</span><span class="item-price price-pill">50₺</span></li>
+        <li class="menu-item"><span class="item-name">AYRAN</span><span class="item-price price-pill">20₺</span></li>
+        <li class="menu-item"><span class="item-name">ŞALGAM</span><span class="item-price price-pill">35₺</span></li>
+        <li class="menu-item"><span class="item-name">SU</span><span class="item-price price-pill">15₺</span></li>
+        <li class="menu-item"><span class="item-name">İCE TEA</span><span class="item-price price-pill">50₺</span></li>
+        <li class="menu-item"><span class="item-name">BEYPAZARI SODA</span><span class="item-price price-pill">25₺</span></li>
+        <li class="menu-item"><span class="item-name">K.AYRAN</span><span class="item-price price-pill">30₺</span></li>
       </ul>
     </section>
   </main>
 
   <!-- Sosyal medya linkleri -->
-  <footer class="site-footer">
+  <footer class="site-footer animate-in">
     <p class="footer-title">Bizi takip edin</p>
     <div class="social-links">
       <a href="https://www.tiktok.com/@tikeciger" target="_blank" rel="noopener noreferrer" aria-label="TikTok">TikTok @tikeciger</a>

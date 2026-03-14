@@ -1,17 +1,20 @@
 /* ============================================
    TİKE CİĞER Halil Usta – QR Menü Stilleri
-   Koyu tema, mobil öncelikli, tek sayfa
+   Koyu tema, mobil öncelikli, animasyonlu tek sayfa
+   Logo, kartlar, pill fiyatlar, giriş animasyonları
    ============================================ */
 
 /* CSS değişkenleri: renk paleti ve tipografi */
 :root {
   --bg-dark: #0d0d0d;
   --bg-section: #1a1a1a;
+  --bg-card: #151515;
   --text-primary: #ffffff;
   --text-muted: #b3b3b3;
   --accent: #e6b800;
   --accent-soft: rgba(230, 184, 0, 0.15);
-  --border: rgba(255, 255, 255, 0.12);
+  --accent-pill: #c9a000;
+  --border: rgba(255, 255, 255, 0.1);
   --font-heading: 'Oswald', sans-serif;
   --font-body: 'Open Sans', sans-serif;
   --space-unit: 1rem;
@@ -19,6 +22,11 @@
   --space-xl: 2rem;
   --space-xxl: 2.5rem;
   --min-touch: 44px;
+  --radius: 12px;
+  --radius-pill: 999px;
+  --shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  --duration: 0.35s;
+  --ease: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Temel sıfırlama ve kutu modeli */
@@ -42,21 +50,73 @@ body {
   color: var(--text-primary);
   background-color: var(--bg-dark);
   min-height: 100vh;
+  padding-bottom: env(safe-area-inset-bottom);
 }
 
-/* ========== Header: restoran adı, slogan, usta ========== */
+/* ========== Animasyonlar ========== */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Hareket azaltma tercihi: animasyonları kısalt veya kapat */
+@media (prefers-reduced-motion: reduce) {
+  .animate-in,
+  .menu-item {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ========== Header: logo + restoran adı, slogan, usta ========== */
 .site-header {
-  padding: var(--space-xl) var(--space-unit);
+  padding: var(--space-lg) var(--space-unit) var(--space-xl);
+  padding-top: calc(var(--space-lg) + env(safe-area-inset-top));
   text-align: center;
-  background-color: var(--bg-section);
+  background: linear-gradient(180deg, var(--bg-section) 0%, var(--bg-dark) 100%);
   border-bottom: 1px solid var(--border);
+  animation: fadeIn 0.5s var(--ease);
+}
+
+/* Logo ve başlık yan yana (mobilde ortalanmış) */
+.header-brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-lg);
+  flex-wrap: wrap;
+}
+
+.site-logo {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  flex-shrink: 0;
+  border-radius: 50%;
+  /* Hafif parıltı */
+  box-shadow: 0 0 0 2px var(--accent-soft);
+}
+
+.header-text {
+  text-align: left;
 }
 
 .restaurant-name {
   margin: 0;
   font-family: var(--font-heading);
   font-weight: 700;
-  font-size: clamp(1.75rem, 5vw, 2.5rem);
+  font-size: clamp(1.75rem, 5vw, 2.25rem);
   letter-spacing: 0.05em;
   color: var(--text-primary);
 }
@@ -65,78 +125,96 @@ body {
   margin: var(--space-unit) 0 0;
   font-family: var(--font-heading);
   font-weight: 600;
-  font-size: clamp(0.95rem, 2.5vw, 1.1rem);
+  font-size: clamp(0.9rem, 2.5vw, 1.05rem);
   letter-spacing: 0.08em;
   color: var(--accent);
 }
 
 .usta-name {
-  margin: 0.25rem 0 0;
-  font-size: 1rem;
+  margin: 0.2rem 0 0;
+  font-size: 0.95rem;
   color: var(--text-muted);
   font-style: italic;
 }
 
-/* Kategori atlama navigasyonu – büyük dokunma alanı */
+/* Kategori chip’leri – mobil app tarzı pill navigasyon */
 .nav-categories {
   margin-top: var(--space-lg);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  gap: var(--space-unit);
+  gap: 0.5rem;
 }
 
-.nav-categories a {
+.nav-chip {
   display: inline-block;
-  padding: 0.5rem 0.75rem;
+  padding: 0.5rem 1rem;
   min-height: var(--min-touch);
   line-height: calc(var(--min-touch) - 1rem);
-  color: var(--accent);
+  color: var(--text-primary);
+  background-color: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-pill);
   text-decoration: none;
   font-weight: 600;
-  font-size: 0.95rem;
-  border-radius: 4px;
-  transition: background-color 0.2s, color 0.2s;
+  font-size: 0.9rem;
+  transition: background-color var(--duration) var(--ease),
+              color var(--duration) var(--ease),
+              transform 0.2s var(--ease);
 }
 
-.nav-categories a:hover,
-.nav-categories a:focus {
+.nav-chip:hover,
+.nav-chip:focus {
   background-color: var(--accent-soft);
-  color: var(--text-primary);
+  color: var(--accent);
   outline: none;
 }
 
-.nav-categories span {
-  color: var(--text-muted);
-  font-size: 0.85rem;
-  user-select: none;
+.nav-chip:active {
+  transform: scale(0.97);
 }
 
-/* ========== Main: menü bölümleri ========== */
+/* ========== Main: kartlar ve bölümler ========== */
 main {
   padding: var(--space-lg) var(--space-unit) var(--space-xxl);
   max-width: 520px;
   margin: 0 auto;
 }
 
-.menu-section {
-  margin-bottom: var(--space-xxl);
-  padding-bottom: var(--space-xl);
-  border-bottom: 1px solid var(--border);
+/* Kart: yuvarlatılmış köşe, gölge, giriş animasyonu */
+.menu-section.card {
+  margin-bottom: var(--space-lg);
+  padding: var(--space-lg);
+  background-color: var(--bg-card);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  animation: fadeInUp 0.5s var(--ease) backwards;
 }
 
-.menu-section:last-of-type {
-  border-bottom: none;
-}
+/* Bölüm gecikmeleri: sırayla belirme */
+.menu-section.card:nth-child(1) { animation-delay: 0.1s; }
+.menu-section.card:nth-child(2) { animation-delay: 0.2s; }
+.menu-section.card:nth-child(3) { animation-delay: 0.3s; }
+.menu-section.card:nth-child(4) { animation-delay: 0.4s; }
 
 .section-title {
   margin: 0 0 var(--space-lg);
   font-family: var(--font-heading);
   font-weight: 600;
-  font-size: clamp(1.25rem, 3.5vw, 1.5rem);
+  font-size: clamp(1.2rem, 3.5vw, 1.4rem);
   letter-spacing: 0.06em;
-  color: var(--accent);
+  color: var(--text-primary);
+}
+
+/* Kategori başlığı: altın pill (resimdeki gibi) */
+.section-pill {
+  display: inline-block;
+  padding: 0.4rem 1rem;
+  background-color: var(--accent);
+  color: #1a1a1a;
+  border-radius: var(--radius-pill);
+  font-weight: 700;
 }
 
 /* Kebap tablosu: Ürün | Dürüm | Porsiyon */
@@ -158,7 +236,7 @@ main {
 
 .kebap-table .table-header {
   font-weight: 600;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   color: var(--text-muted);
   text-transform: uppercase;
   letter-spacing: 0.04em;
@@ -169,14 +247,58 @@ main {
   word-break: break-word;
 }
 
+/* Fiyat pill: altın arka plan, beyaz yazı */
+.price-pill {
+  display: inline-block;
+  padding: 0.25rem 0.6rem;
+  background-color: var(--accent);
+  color: #1a1a1a;
+  border-radius: var(--radius-pill);
+  font-weight: 700;
+  font-size: 0.9rem;
+  min-width: 3.5ch;
+  text-align: center;
+  transition: transform 0.2s var(--ease), background-color 0.2s var(--ease);
+}
+
+/* Dürüm yoksa (—) pill: soluk arka plan */
+.col-durum.price-pill {
+  min-width: 2ch;
+}
+
+/* Menü satırı: girişte hafif gecikmeli (stagger) */
+.menu-item {
+  animation: fadeInUp 0.4s var(--ease) backwards;
+}
+
+/* Kebap satırları: ilk child table-header, 2–13 table-row */
+.kebap-table .table-row.menu-item:nth-child(2) { animation-delay: 0.05s; }
+.kebap-table .table-row.menu-item:nth-child(3) { animation-delay: 0.08s; }
+.kebap-table .table-row.menu-item:nth-child(4) { animation-delay: 0.11s; }
+.kebap-table .table-row.menu-item:nth-child(5) { animation-delay: 0.14s; }
+.kebap-table .table-row.menu-item:nth-child(6) { animation-delay: 0.17s; }
+.kebap-table .table-row.menu-item:nth-child(7) { animation-delay: 0.2s; }
+.kebap-table .table-row.menu-item:nth-child(8) { animation-delay: 0.23s; }
+.kebap-table .table-row.menu-item:nth-child(9) { animation-delay: 0.26s; }
+.kebap-table .table-row.menu-item:nth-child(10) { animation-delay: 0.29s; }
+.kebap-table .table-row.menu-item:nth-child(11) { animation-delay: 0.32s; }
+.kebap-table .table-row.menu-item:nth-child(12) { animation-delay: 0.35s; }
+.kebap-table .table-row.menu-item:nth-child(13) { animation-delay: 0.38s; }
+
+.menu-list .menu-item:nth-child(1) { animation-delay: 0.05s; }
+.menu-list .menu-item:nth-child(2) { animation-delay: 0.08s; }
+.menu-list .menu-item:nth-child(3) { animation-delay: 0.11s; }
+.menu-list .menu-item:nth-child(4) { animation-delay: 0.14s; }
+.menu-list .menu-item:nth-child(5) { animation-delay: 0.17s; }
+.menu-list .menu-item:nth-child(6) { animation-delay: 0.2s; }
+.menu-list .menu-item:nth-child(7) { animation-delay: 0.23s; }
+
 .kebap-table .col-durum,
 .kebap-table .col-porsiyon {
   text-align: right;
-  min-width: 4ch;
-  color: var(--accent);
 }
 
-/* Pide ve içecek listesi: ürün adı + fiyat */
+/* Pide ve içecek listesi: ürün adı + noktalı çizgi hissi + fiyat pill */
 .menu-list {
   list-style: none;
   margin: 0;
@@ -189,27 +311,38 @@ main {
   align-items: center;
   padding: 0.6rem 0;
   min-height: var(--min-touch);
-  border-bottom: 1px solid var(--border);
+  border-bottom: 1px dotted var(--border);
   gap: var(--space-unit);
+  transition: background-color 0.2s var(--ease);
+}
+
+/* Dokunma geri bildirimi: satıra basınca hafif vurgu */
+.menu-list li:active {
+  background-color: var(--accent-soft);
+  border-radius: 8px;
+  margin: 0 -4px;
+  padding-left: 4px;
+  padding-right: 4px;
 }
 
 .menu-list .item-name {
   flex: 1;
   word-break: break-word;
+  min-width: 0;
 }
 
 .menu-list .item-price {
   flex-shrink: 0;
-  color: var(--accent);
-  font-weight: 600;
 }
 
 /* ========== Footer: sosyal medya ========== */
 .site-footer {
   padding: var(--space-xl) var(--space-unit);
+  padding-bottom: calc(var(--space-xl) + env(safe-area-inset-bottom));
   text-align: center;
   background-color: var(--bg-section);
   border-top: 1px solid var(--border);
+  animation: fadeIn 0.5s var(--ease) 0.3s backwards;
 }
 
 .footer-title {
@@ -226,16 +359,21 @@ main {
 }
 
 .social-links a {
-  display: inline-block;
-  padding: 0.5rem 0.75rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.6rem 1rem;
   min-height: var(--min-touch);
-  line-height: calc(var(--min-touch) - 1rem);
   color: var(--accent);
   text-decoration: none;
   font-weight: 600;
   font-size: 0.95rem;
-  border-radius: 4px;
-  transition: background-color 0.2s, color 0.2s;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background-color: var(--bg-card);
+  transition: background-color var(--duration) var(--ease),
+              color var(--duration) var(--ease),
+              transform 0.2s var(--ease);
 }
 
 .social-links a:hover,
@@ -243,4 +381,8 @@ main {
   background-color: var(--accent-soft);
   color: var(--text-primary);
   outline: none;
+}
+
+.social-links a:active {
+  transform: scale(0.98);
 }
