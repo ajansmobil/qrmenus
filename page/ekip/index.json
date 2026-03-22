@@ -1,0 +1,46 @@
+{
+  "id": "ekip",
+  "path": "ekip",
+  "name": {
+    "tr": "Ekip",
+    "en": "Team"
+  },
+  "title": {
+    "tr": "Ekip - QR Menü Hizmeti",
+    "en": "Team - QR Menu Service"
+  },
+  "description": {
+    "tr": "QR Menus'un arkasındaki deneyimli ekibi tanıyın. Yazılım geliştirme, tasarım ve müşteri hizmetleri alanlarında uzman kadromuzla hizmetinizdeyiz.",
+    "en": "Information about our team at QR Menu Service."
+  },
+  "keyword": {
+    "tr": "ekip, equipe, team, qr menü, hizmet",
+    "en": "team, staff, qr menu, service"
+  },
+  "text": {
+    "tr": "QR Menus ekibi, dijital menü teknolojileri alanında tutkulu ve deneyimli profesyonellerden oluşmaktadır. Her birimiz sektördeki uzmanlıklarımızla projelerinizi başarılı bir şekilde hayata geçiriyoruz.\n\nEkibimiz yazılım geliştiriciler, UI/UX tasarımcılar, proje yöneticileri ve müşteri ilişkileri uzmanlarından oluşmaktadır. Amacımız, her işletmeye özel dijital menü çözümleri sunarak müşterilerimizin dijital dönüşüm sürecini en verimli şekilde yönetmektir.\n\nSürekli gelişen teknolojiye ayak uydurmak ve müşterilerimize en iyi hizmeti vermek için düzenli eğitimler alıyor, sektörel trendleri takip ediyoruz. QR Menus olarak farkımız, teknolojiyi insan odaklı bir yaklaşımla sunmamızdır.",
+    "en": "<p>Our experienced team provides QR menu services. Each of us successfully completes our projects with expertise in the industry.</p>"
+  },
+  "img": "team.jpg",
+  "bgimg": "team-bg.jpg",
+  "desing": {
+    "header": [
+      "menu-slider"
+    ],
+    "body": [
+      "text-module"
+    ],
+    "footer": [
+      "footer-basic"
+    ]
+  },
+  "textmodul": true,
+  "status": "play",
+  "category": "team",
+  "pathnext": "hakkimizda",
+  "update": "2026-03-22T22:07:02.966Z",
+  "date": "2023-01-01",
+  "slider": [],
+  "desc": {},
+  "index": 4
+}

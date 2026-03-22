@@ -1,0 +1,35 @@
+{
+  "id": "kurumsal",
+  "path": "kurumsal",
+  "name": {
+    "tr": "Kurumsal",
+    "en": "Corporate"
+  },
+  "title": {
+    "tr": "Kurumsal - QR Menü Hizmeti",
+    "en": "Corporate - QR Menu Service"
+  },
+  "description": {
+    "tr": "QR Menü Hizmeti firmamızın kurumsal bilgileri ve şirket tanıtımı.",
+    "en": "Our company's corporate information and company introduction."
+  },
+  "keyword": {
+    "tr": "kurumsal, firma, tanıtım, qr menü",
+    "en": "corporate, company, introduction, qr menu"
+  },
+  "text": {
+    "tr": "QR Menü Hizmeti, dijital menü sistemleri konusunda uzmanlaşmış bir firmadır. 2015 yılında kurulan şirketimiz, RESTAURANT ve lokanta sektöründe teknolojiyi kullanarak müşterilere daha iyi hizmet sunmayı amaçlamaktadır.\n\n**Misyonumuz:**\n\nMüşterilerimize dijital menü sistemleri ile daha iyi bir deneyim sunmak ve onların iş verimliliğini artırmak.\n\n**Vizyonumuz:**\n\nDijital menü teknolojisi alanında Türkiye'nin öncü firmalarından biri olmak ve dünya çapında tanınmış bir marka haline gelmek.\n\n**Değerlerimiz:**\n\n1. Müşteri odaklılık\n2. Kalite ve sürdürülebilirlik\n3. Yenilikçi düşünce\n4. Profesyonellik\n5. İş birliği ve dürüstlük\n\n**İzlenim:**\n\nQR Menü Hizmeti olarak, teknolojiyi kullanarak müşterilerimize değer katan çözümler sunmayı hedefliyoruz. Firmamız, sektörde yer alan tüm işletmelerin dijital dönüşüm süreçlerine destek olmayı amaçlamaktadır.",
+    "en": "QR Menu Service is a company specialized in digital menu systems. Founded in 2015, our company aims to provide better services to customers using technology in the restaurant and catering sector.\n\n**Our Mission:**\n\nTo provide customers with a better experience through digital menu systems and to increase their business efficiency.\n\n**Our Vision:**\n\nTo become one of Turkey's leading companies in digital menu technology and to become a globally recognized brand.\n\n**Our Values:**\n\n1. Customer orientation\n2. Quality and sustainability\n3. Innovative thinking\n4. Professionalism\n5. Collaboration and integrity\n\n**Impression:**\n\nAs QR Menu Service, we aim to provide solutions that add value to our customers using technology. Our company aims to support the digital transformation processes of all businesses in the industry."
+  },
+  "desing": {
+    "header": [
+      "menu-slider"
+    ],
+    "body": [
+      "text-module"
+    ],
+    "footer": [
+      "footer-basic"
+    ]
+  }
+}

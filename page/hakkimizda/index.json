@@ -1,0 +1,42 @@
+{
+  "id": "hakkimizda",
+  "path": "hakkimizda",
+  "name": {
+    "tr": "Hakkımızda",
+    "en": "About Us"
+  },
+  "description": {
+    "tr": "QR Menü Hizmeti firmamız, restoran ve lokantalar için modern ve kolay menü çözümleri sunar.",
+    "en": "Our company provides modern and easy menu solutions for restaurants and cafes."
+  },
+  "desing": {
+    "header": [
+      "menu-slider"
+    ],
+    "body": [
+      "text-module"
+    ],
+    "footer": [
+      "footer-basic"
+    ]
+  },
+  "pathnext": "",
+  "category": "",
+  "textmodul": false,
+  "index": 0,
+  "title": {
+    "tr": "Hakkımızda - QR Menü Hizmeti",
+    "en": "About Us - QR Menu Service"
+  },
+  "keyword": {
+    "tr": "hakkımızda, qr menü, restoran menüsü",
+    "en": "about us, qr menu, restaurant menu"
+  },
+  "text": {
+    "tr": "QR Menus olarak, restoran, kafe, otel ve yeme-içme sektöründeki işletmelere dijital menü çözümleri sunuyoruz. 2024 yılında kurulan firmamız, geleneksel basılı menülerin yerini alan modern, hijyenik ve çevre dostu QR kod menü sistemleri geliştirmektedir.\n\nMisyonumuz, işletmelerin müşterilerine en iyi dijital deneyimi sunmalarına yardımcı olmaktır. QR kod teknolojisi sayesinde müşterileriniz, telefonlarını menü üzerindeki QR koda okutarak saniyeler içinde güncel menünüze ulaşabilir. Menü değişikliklerinizi anında güncelleyebilir, fiyat değişikliklerini basım maliyeti olmadan yapabilirsiniz.\n\nNeden QR Menus? Hijyenik ve temassız menü deneyimi, anlık güncelleme imkanı, basım maliyetlerinden tasarruf, çoklu dil desteği, görsel zengin menü tasarımı ve detaylı analiz raporları ile işletmenizi bir adım öne taşıyoruz. Profesyonel ekibimiz, her işletmenin ihtiyacına özel çözümler üreterek müşteri memnuniyetini en üst düzeyde tutmayı hedeflemektedir.",
+    "en": "Our company provides modern and easy menu solutions for restaurants and cafes. We aim to provide a fast, secure and user-friendly experience for our customers. Our digital menu system is designed with attention to the usability for both customers and staff."
+  },
+  "update": "2026-03-22T21:59:55.800Z",
+  "date": "2026-03-22T21:59:55.800Z",
+  "slider": []
+}

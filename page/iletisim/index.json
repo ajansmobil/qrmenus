@@ -1,0 +1,44 @@
+{
+  "id": "iletisim",
+  "path": "iletisim",
+  "name": {
+    "tr": "İletişim",
+    "en": "Contact"
+  },
+  "title": {
+    "tr": "İletişim - QR Menus Dijital Menü Çözümleri",
+    "en": "Contact - QR Menu Service"
+  },
+  "description": {
+    "tr": "QR Menus ile iletişime geçin. Dijital menü çözümleri, fiyat teklifi ve teknik destek için bize ulaşın. 7/24 destek hattımızla her zaman yanınızdayız.",
+    "en": "Contact QR Menu Service. You can contact us for your questions and support requests."
+  },
+  "keyword": {
+    "tr": "iletişim, qr menü, destek, iletişim formu",
+    "en": "contact, qr menu, support, contact form"
+  },
+  "text": {
+    "tr": "QR Menus ile iletişime geçmek için aşağıdaki bilgileri kullanabilirsiniz:\n\n**Adres:** İstanbul, Türkiye\n\n**Telefon:** +90 123 456 7890\n\n**WhatsApp Destek:** +90 123 456 7890\n\n**E-posta:** bilgi@qrmenus.com.tr\n\n**Destek E-posta:** destek@qrmenus.com.tr\n\n**Çalışma Saatleri:** Pazartesi - Cumartesi: 09:00 - 18:00\n\n**Teknik Destek:** 7/24 aktif destek hattımız ile her zaman yanınızdayız.\n\nÜcretsiz demo talebi, fiyat teklifi veya teknik destek için bize ulaşın. Uzman ekibimiz en kısa sürede size dönüş yapacaktır.",
+    "en": "You can contact us through the following information:\n\n**Address:** Istanbul, Turkey\n\n**Phone:** +90 123 456 7890\n\n**Email:** info@qrmenus.com.tr\n\n**Working Hours:** Mon - Fri: 09:00 - 18:00"
+  },
+  "textmodul": true,
+  "desing": {
+    "header": [
+      "menu-slider"
+    ],
+    "body": [
+      "text-module",
+      "contact-form"
+    ],
+    "footer": [
+      "footer-basic"
+    ]
+  },
+  "slider": [],
+  "desc": {},
+  "index": 1,
+  "pathnext": "",
+  "category": "",
+  "update": "2026-03-22T22:05:34.674Z",
+  "date": "2026-03-22T22:05:34.674Z"
+}

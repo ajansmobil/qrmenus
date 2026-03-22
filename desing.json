@@ -1,0 +1,69 @@
+{
+  "header": [
+    "menu-slider"
+  ],
+  "body": [
+    "text-module",
+    "contact-form"
+  ],
+  "footer": [
+    "footer-basic"
+  ],
+  "headerdefault": [
+    "menu-slider"
+  ],
+  "bodydefault": [
+    "text-module"
+  ],
+  "footerdefault": [
+    "footer-basic"
+  ],
+  "headtop": "",
+  "headbottom": "",
+  "colors": {
+    "lite": [
+      {
+        "name": "--primary-color",
+        "value": "#2c3e50"
+      },
+      {
+        "name": "--secondary-color",
+        "value": "#3498db"
+      },
+      {
+        "name": "--accent-color",
+        "value": "#e74c3c"
+      },
+      {
+        "name": "--light-color",
+        "value": "#ecf0f1"
+      },
+      {
+        "name": "--dark-color",
+        "value": "#34495e"
+      }
+    ],
+    "dark": [
+      {
+        "name": "--primary-color",
+        "value": "#34495e"
+      },
+      {
+        "name": "--secondary-color",
+        "value": "#2980b9"
+      },
+      {
+        "name": "--accent-color",
+        "value": "#e74c3c"
+      },
+      {
+        "name": "--light-color",
+        "value": "#7f8c8d"
+      },
+      {
+        "name": "--dark-color",
+        "value": "#2c3e50"
+      }
+    ]
+  }
+}

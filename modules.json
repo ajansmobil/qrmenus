@@ -1,0 +1,94 @@
+{
+  "data": [
+    {
+      "id": "menu-slider",
+      "path": "menu-slider",
+      "local": "header",
+      "name": "Menü Slider",
+      "category": "menu",
+      "desing": {
+        "bgcolor": "",
+        "color": "",
+        "activebgcolor": "#ffffff",
+        "activecolor": "#000000",
+        "delay": 3000,
+        "margin": "0px",
+        "logo-height": "200px"
+      },
+      "data": [
+        {
+          "title": "",
+          "description": "",
+          "img": "",
+          "path": ""
+        }
+      ],
+      "version": "1.0.0",
+      "icon": "menu",
+      "index": 0
+    },
+    {
+      "id": "footer-basic",
+      "path": "footer-basic",
+      "local": "footer",
+      "name": "Basit Footer",
+      "category": "footer",
+      "desing": {
+        "bgcolor": "",
+        "color": "",
+        "text": ""
+      },
+      "data": [
+        {
+          "text": ""
+        }
+      ],
+      "version": "1.0.0",
+      "icon": "footer",
+      "error": "An error occurred while reading the file.",
+      "index": 1
+    },
+    {
+      "index": 2,
+      "name": "Metin Modülü",
+      "path": "text-module",
+      "id": "text-module",
+      "local": "body",
+      "category": "content",
+      "desing": {},
+      "data": [
+        {
+          "text": "<h2>QR Menus - Dijital Menü Çözümleri</h2><p>Restoranınız, kafeniz veya oteliniz için modern ve şık dijital menü sistemi. QR kod ile müşterileriniz menünüze anında ulaşsın. Basım maliyetlerine son verin, menünüzü istediğiniz zaman güncelleyin.</p><p><strong>Neden QR Menus?</strong></p><ul><li>Hijyenik ve temassız menü deneyimi</li><li>Anlık güncelleme imkanı</li><li>Çoklu dil desteği</li><li>Görsel zengin menü tasarımı</li><li>Sipariş ve ödeme entegrasyonu</li></ul><p>Hemen ücretsiz demo talep edin ve dijital menünüzü keşfedin!</p>"
+        }
+      ],
+      "version": "1.0.0",
+      "icon": "text",
+      "error": "An error occurred while reading the file."
+    },
+    {
+      "id": "contact-form",
+      "path": "contact-form",
+      "local": "body",
+      "name": "İletişim Formu",
+      "category": "contact",
+      "desing": {
+        "bgcolor": "",
+        "color": "",
+        "padding": "",
+        "margin": ""
+      },
+      "data": [
+        {
+          "name": "",
+          "email": "",
+          "phone": "",
+          "message": ""
+        }
+      ],
+      "version": "1.0.0",
+      "icon": "contact",
+      "error": "An error occurred while reading the file.",
+      "index": 3
+    }
+  ]
+}

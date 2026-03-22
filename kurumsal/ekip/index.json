@@ -1,0 +1,34 @@
+{
+  "id": "ekip",
+  "path": "ekip",
+  "name": {
+    "tr": "Ekip",
+    "en": "Team"
+  },
+  "title": {
+    "tr": "Ekip - QR Menü Hizmeti",
+    "en": "Team - QR Menu Service"
+  },
+  "description": {
+    "tr": "QR Menü Hizmeti firmamızın ekibi ve ekip üyelerimiz hakkında bilgiler.",
+    "en": "Information about our team and team members at QR Menu Service."
+  },
+  "keyword": {
+    "tr": "ekip, ekip üyeler, firmamız, qr menü",
+    "en": "team, team members, company, qr menu"
+  },
+  "text": {
+    "tr": "QR Menü Hizmeti firmamızın ekibi, sektörde deneyimli uzmanlardan oluşan profesyonel bir ekip olarak, müşterilerimize en iyi hizmeti sunmayı amaçlamaktadır.\n\nEkip üyelerimiz:\n\n1. **Ahmet Yılmaz** - Proje Müdürü\n   - 10+ yıllık sektör deneyimi\n   - Teknoloji ve yazılım yönetimi\n\n2. **Ayşe Kaya** - Yazılım Geliştirici\n   - Web ve mobil uygulama geliştirme\n   - Dijital menü sistemleri\n\n3. **Mehmet Demir** - Grafik Tasarımcı\n   - Menü tasarımı ve kullanıcı arayüzü\n   - Marka kimliği\n\n4. **Fatma Şahin** - Müşteri Hizmetleri Uzmanı\n   - Müşteri memnuniyeti odaklı hizmetler\n   - Teknik destek\n\n5. **Emre Öztürk** - Pazarlama Müdürü\n   - Sistem pazarlaması ve tanıtımlar\n   - İş geliştirme\n\nBütün ekip üyelerimiz, dijital dönüşümün en önde gelen çözümlerini sunarak müşterilerimize kaliteli hizmet sunmayı hedeflemektedir."
+  },
+  "desing": {
+    "header": [
+      "menu-slider"
+    ],
+    "body": [
+      "text-module"
+    ],
+    "footer": [
+      "footer-basic"
+    ]
+  }
+}

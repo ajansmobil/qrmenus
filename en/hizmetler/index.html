@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta http-equiv="Page-Exit" content="BlendTrans(Duration"="0)" />
+  <meta http-equiv="Page-Enter" content="BlendTrans(Duration"="0)" />
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+  <meta http-equiv="Cache-Control" content="max-age=3600, public" />
+  <meta http-equiv="Pragma" content="cache" />
+  <meta http-equiv="Expires" content="3600" />
+  <title>Services - QR Menu Service</title>
+  <meta property="og:title" content="Services - QR Menu Service" />
+  <meta name="description" content="Learn about the services offered by QR Menu Service. Digital menu, QR code installation, technical support and more." />
+  <meta name="keywords" content="services, qr menu, restaurant menu, digital menu, technical support, training" />
+  <meta property="og:description" content="Learn about the services offered by QR Menu Service. Digital menu, QR code installation, technical support and more." />
+  <meta property="og:image" content="https://qrmenus.com.tr/img/icon.png" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://qrmenus.com.tr/en/hizmetler/" />
+
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
+  <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
+
+  <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=fys7s" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=fys7s" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="shortcut icon" href="/img/icon.png?v=fys7s" type="image/png" />
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "QR Menus - Dijital Menü Çözümleri",
+  "description": "Our company provides modern, easy and fast menu solutions for restaurants and cafes.",
+  "url": "https://qrmenus.com.tr",
+  "logo": "https://qrmenus.com.tr/img/logo.png",
+  "image": "https://qrmenus.com.tr/img/logo.png"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "QR Menus - Dijital Menü Çözümleri",
+  "url": "https://qrmenus.com.tr",
+  "logo": "https://qrmenus.com.tr/img/logo.png"
+}
+</script>
+  
+<link rel="stylesheet" href="style.css?v=fys7s">
+</head>
+
+<body>
+  <div id="header"><div class="y7lqe">
+
+  <div class="y7lqemenu-sticky">
+ 
+    <div class="y7lqeheader">
+      <div class="y7lqebody">
+        <a href="/en/"
+          ><img
+            src="/img/logo.png?v=i1dq9"
+            alt="QR Menus - Dijital Menü Çözümleri Logo"
+            class="y7lqebodylogo"
+            loading="lazy"
+        /></a>
+      </div>
+      <div class="y7lqemenubody">
+        <!-- Mobilde sağdan açılan menü (Apple tarzı): overlay + panel -->
+        <div class="y7lqemenuoverlay y7lqemenuoverlay-slider" id="menu-slider-overlay" aria-hidden="true"></div>
+        <div class="y7lqemenu" id="menu-slider-root">
+          <div class="y7lqemenulistbody">
+            <button type="button" class="y7lqemenuclose y7lqemenuclose-slider" onclick="menu_slider_toggle()" aria-label="Close Menu">
+              <span class="material-symbols-outlined">close</span>
+            </button>
+            <div class="y7lqemenulist">
+              <ul>
+                <a href="/en/">Home </a>
+              </ul>
+              <div class="y7lqelanguages-mobile">
+                <ul>
+                  <li><a href="/tr/hizmetler/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/hizmetler/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="y7lqetitlebodylang">
+          <ul>
+            <li><a href="/tr/hizmetler/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/hizmetler/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li>
+          </ul>
+        </div>
+      </div>
+      <button type="button" class="y7lqe-mobile-toggle" onclick="menu_slider_toggle()">
+        <span class="material-symbols-outlined">menu</span>
+      </button>
+    </div>
+  </div>
+
+
+
+  <div class="y7lqeslider">
+    <div class="swiper-container y7lqe-slider">
+      <div class="swiper-wrapper" id="y7lqe-slider-wrapper"><div class="swiper-slide"><img  src="/img/menu-slider/?v=1774217498951" alt="QR Menus - Dijital Menü Çözümleri"  loading="lazy"/></div></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+
+
+</div>
+
+<script>
+  // Mobil menü aç/kapa: sağdan panel + overlay + body scroll kilidi
+  if (typeof menu_slider_toggle === "undefined") {
+    function menu_slider_toggle() {
+      var root = document.getElementById("menu-slider-root");
+      var overlay = document.getElementById("menu-slider-overlay");
+      if (!root) {
+        return;
+      }
+      var isOpen = root.classList.contains("y7lqemenu-open");
+      if (isOpen) {
+        root.classList.remove("y7lqemenu-open");
+        if (overlay) {
+          overlay.classList.remove("active");
+          overlay.setAttribute("aria-hidden", "true");
+        }
+        document.body.style.overflow = "";
+      } else {
+        root.classList.add("y7lqemenu-open");
+        if (overlay) {
+          overlay.classList.add("active");
+          overlay.setAttribute("aria-hidden", "false");
+        }
+        document.body.style.overflow = "hidden";
+      }
+    }
+  }
+
+  // Overlay tıklanınca menüyü kapat (Apple tarzı davranış)
+  (function menuSliderOverlayInit() {
+    setTimeout(function() {
+      var overlay = document.getElementById("menu-slider-overlay");
+      var root = document.getElementById("menu-slider-root");
+      if (overlay && root) {
+        overlay.addEventListener("click", function() {
+          if (root.classList.contains("y7lqemenu-open")) {
+            root.classList.remove("y7lqemenu-open");
+            overlay.classList.remove("active");
+            overlay.setAttribute("aria-hidden", "true");
+            document.body.style.overflow = "";
+          }
+        });
+      }
+    }, 100);
+  })();
+
+  (function menuSliderInit() {
+    // Swiper yüklenene kadar bekle, sonra başlat
+    var attempts = 0;
+    var maxAttempts = 20;
+    var timer = setInterval(function () {
+      attempts++;
+      if (typeof Swiper === "function") {
+        clearInterval(timer);
+        new Swiper(".y7lqe-slider", {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          loop: true,
+          autoplay: {
+            delay: "3000",
+            disableOnInteraction: false,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      } else if (attempts >= maxAttempts) {
+        clearInterval(timer);
+        console.warn("menu-slider: Swiper bulunamadı, slider başlatılamadı.");
+      }
+    }, 250);
+  })();
+</script>
+
+</div>
+  <div id="content"></div>
+  <div id="footer"></div>
+</body>
+<link rel="preload" href="/src/material-symbols-outlined.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+
+
+
+<script defer src="/src/swiper-bundle.min.js"></script>
+<script defer type="text/javascript" src="/src/js.js?v=fys7s"></script>
+<script defer src="/src/cookie.js?v=fys7s"></script>
+
+<script>
+  // RTL dil kontrolü - Arapça için sağdan sola yazım desteği
+  setTimeout(function() {
+    var currentPath = window.location.pathname;
+    var rtlLanguages = ['ar', 'he', 'fa']; // RTL diller: Arapça, İbranice, Farsça
+    
+    // URL'den dil kodunu çıkar (/ar/, /he/, /fa/ gibi)
+    var langMatch = currentPath.match(/^\/([a-z]{2})\//);
+    var currentLang = langMatch ? langMatch[1] : '';
+    
+    // Eğer RTL dil ise dir="rtl" set et
+    if (rtlLanguages.indexOf(currentLang) !== -1) {
+      document.documentElement.setAttribute('dir', 'rtl');
+    } else {
+      document.documentElement.setAttribute('dir', 'ltr');
+    }
+  }, 100);
+</script>
+
+</html>

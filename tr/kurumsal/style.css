@@ -1,0 +1,443 @@
+
+  .qg5tr {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .qg5trslider {
+    width: 100%;
+    position: relative;
+    z-index: 0;
+  }
+
+  .qg5trmenu-sticky {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    margin-top: calc(-200px - 15px) ;
+  }
+
+  .qg5trtitle {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+  }
+
+  .qg5trtitle:has(.qg5trtitlebodylang:empty),
+  .qg5trtitle:has(.qg5trtitlebodylang ul:empty) {
+    display: none;
+  }
+
+  .qg5trtitlebody {
+    color: ;
+    width: var(--max);
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 0px 10px 0px;
+  }
+
+  .qg5trtitlebodytitle {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+
+  .qg5trtitlebodylang {
+    width: auto;
+    margin: -5px 0px -5px 0px;
+  }
+
+  .qg5trtitlebodylang:empty,
+  .qg5trtitlebodylang ul:empty {
+    display: none;
+  }
+
+  .qg5trtitlebodylang ul {
+    display: flex;
+    gap: 5px;
+  }
+
+  .qg5trheader {
+    width: var(--max);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px auto;
+    position: relative;
+    gap: 30px;
+  }
+
+  .qg5trbody {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .qg5tr-mobile-toggle {
+    display: none;
+    background: ;
+    color: ;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 12px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .qg5tr-mobile-toggle span {
+    font-size: 24px;
+  }
+
+  /* Overlay ve kapatma butonu: sadece mobilde kullanılır, masaüstünde gizli */
+  .qg5trmenuoverlay-slider {
+    display: none;
+  }
+
+  .qg5trmenuclose-slider {
+    display: none;
+  }
+
+  .qg5trmenu {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 0 10px 0 10px;
+  }
+
+  .qg5trmenulist {
+    background-color: ;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+  }
+
+  .qg5trmenubody {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+    gap: 10px;
+    width: 100%;
+  }
+
+  /* Menü linkleri listesi (sadece doğrudan çocuk ul; dil listesi hariç) */
+  .qg5trmenulist > ul {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .qg5trmenulist > ul a {
+    padding: 10px;
+    font-size: 16px;
+    color:  !important;
+    border-bottom: 1px solid transparent;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    white-space: nowrap;
+  }
+
+  .qg5trmenulist > ul a:hover {
+    background-color: #ffffff;
+    border-radius: 5px;
+    color: #000000 !important;
+    cursor: pointer;
+  }
+
+  .qg5trmenulist > ul a.qg5tr-menu-list-active {
+    color: #000000 !important;
+  }
+
+  .qg5tr-menu-list-active {
+    background-color: #ffffff;
+    border-radius: 5px;
+    color: #000000 !important;
+    border-bottom: 1px solid #000000 !important;
+    cursor: pointer;
+  }
+
+  .qg5trmenulistbody {
+    width: 100%;
+  }
+
+  .qg5trlanguages-mobile {
+    display: none;
+    padding-top: 15px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .qg5trlanguages-mobile:empty,
+  .qg5trlanguages-mobile ul:empty {
+    display: none !important;
+  }
+
+  /* Dil seçici: li'ler her zaman yan yana (flex row) */
+  .qg5trlanguages-mobile ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .qg5trlanguages-mobile li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex-shrink: 0;
+    width: 35px;
+    height: 35px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .qg5trlanguages-mobile li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  .qg5trlanguages-mobile li:hover {
+    background-color: #ffffff;
+    border-color: #000000;
+  }
+
+
+  .swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide>img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* Safari özel düzeltme */
+  @media not all and (min-resolution:.001dpcm) {
+    @supports (-webkit-appearance:none) {
+      .swiper-slide>img {
+        height: auto;
+        min-height: 100%;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+      }
+
+      .swiper-slide {
+        overflow: hidden;
+      }
+    }
+  }
+
+  .swiper-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  @media screen and (min-width: 1024px) {
+    .qg5trbodylogo {
+      height: 200px;
+      max-width: 90vw;
+    }
+
+    .qg5trtitle {
+      margin-bottom: -30px;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+
+    .qg5trmenu-sticky {
+      margin-top: -100px ;
+    }
+
+    .qg5trheader {
+      width: calc(100% - 20px);
+      padding: 0 10px;
+    }
+
+    .qg5trmenulist > ul {
+      flex-direction: row;
+    }
+
+    .qg5trbodylogo {
+      width: 50vw;
+      max-width: 50vw;
+      max-height: 100px;
+    }
+
+    .qg5trtitlebody {
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+      display: none;
+    }
+
+    .qg5trtitlebodytitle {
+      text-align: center;
+      font-size: 14px;
+    }
+
+    .qg5trtitlebodylang {
+      display: none;
+    }
+
+    .qg5trheader {
+      width: calc(100% - 20px);
+      padding: 0 10px;
+      justify-content: space-between;
+    }
+
+    .qg5tr-mobile-toggle {
+      display: inline-flex;
+    }
+
+    .qg5trbodylogo {
+      width: 40vw;
+      max-width: 40vw;
+      max-height: 80px;
+    }
+
+    /* Overlay: mobilde menü açıkken arka plan karartma, tıklanınca kapanır */
+    .qg5trmenuoverlay-slider {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 9998;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      pointer-events: none;
+    }
+
+    .qg5trmenuoverlay-slider.active {
+      display: block;
+      opacity: 1;
+      pointer-events: auto;
+      cursor: pointer;
+    }
+
+    /* Sağdan açılan panel (Apple tarzı): fixed, sağda dışarıda başlar, açılınca kayar */
+    .qg5trmenulistbody {
+      position: fixed;
+      top: 0;
+      right: -100%;
+      width: 85%;
+      max-width: 320px;
+      height: 100%;
+      background-color: ;
+      box-shadow: -2px 0 10px rgba(0, 0, 0, 0.3);
+      z-index: 9999;
+      overflow-y: auto;
+      transition: right 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      padding: 0;
+    }
+
+    .qg5trmenu.qg5trmenu-open .qg5trmenulistbody {
+      right: 0;
+    }
+
+    /* Panel içi kapatma butonu */
+    .qg5trmenuclose-slider {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      padding: 15px;
+      background: transparent;
+      border: none;
+      color: ;
+      cursor: pointer;
+    }
+
+    .qg5trmenuclose-slider span {
+      font-size: 28px;
+    }
+
+    .qg5trmenulist {
+      display: flex;
+      flex-direction: column;
+      padding: 0 12px 12px;
+      box-shadow: none;
+    }
+
+    /* Mobil panel: menü linkleri dikey liste */
+    .qg5trmenulist > ul {
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .qg5trmenulist > ul a {
+      font-size: 14px;
+      width: 100%;
+      padding: 12px;
+      text-align: left;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 0;
+    }
+
+    .qg5trmenulist > ul a:last-child {
+      border-bottom: none;
+    }
+
+    .qg5trmenulist > ul a:hover {
+      background-color: #ffffff;
+      border-radius: 0;
+    }
+
+    /* Dil seçici: panel açıkken görünür, li'ler yan yana (üstteki .qg5trlanguages-mobile ul/li kuralları geçerli) */
+    .qg5trmenu.qg5trmenu-open .qg5trlanguages-mobile {
+      display: block;
+    }
+
+    .qg5trtitlebodytitle {
+      font-size: 12px;
+    }
+  }
+

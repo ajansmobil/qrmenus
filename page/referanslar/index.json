@@ -1,0 +1,43 @@
+{
+  "id": "referanslar",
+  "path": "referanslar",
+  "name": {
+    "tr": "Referanslar",
+    "en": "References"
+  },
+  "title": {
+    "tr": "Referanslar - QR Menü Hizmeti",
+    "en": "References - QR Menu Service"
+  },
+  "description": {
+    "tr": "QR Menus'un dijital menü çözümleriyle işletmelerini dijitale taşıyan müşterilerimizin başarı hikayeleri ve referansları. Restoran, kafe, otel ve yeme-içme sektöründen memnun müşterilerimiz.",
+    "en": "References and success stories from our customers who have used our QR menu services."
+  },
+  "keyword": {
+    "tr": "referanslar, müşteri yorumları, qr menü, restoran menüsü",
+    "en": "references, customer reviews, qr menu, restaurant menu"
+  },
+  "text": {
+    "tr": "QR Menus olarak birçok işletmenin dijital dönüşümüne katkıda bulunduk. İşte müşterilerimizden bazı başarı hikayeleri:\n\n**Mauro Cafe** - \"QR Menus sayesinde müşterilerimiz masadaki QR kodu okutarak menümüze anında ulaşabiliyor. Basılı menü maliyetimiz sıfıra indi ve menü güncellemelerini dakikalar içinde yapabiliyoruz.\"\n\n**Cafe Indigo** - \"Dijital menüye geçtikten sonra sipariş bekleme süremiz %40 azaldı. Müşteriler memnun, personelimiz de daha az yorgun.\"\n\n**Spice Route Restaurant** - \"Temassız menü çözümüyle hijyen standartlarımızı yükselttik. Çoklu dil desteği sayesinde yabancı misafirlerimize de kolayca hizmet veriyoruz.\"\n\n**Urban Bites** - \"QR menü sayesinde baskı maliyetlerimizi tamamen ortadan kaldırdık. Görsel menü tasarımı müşterilerimizin ilgisini artırdı.\"\n\n**Deniz Balık Restaurant** - \"Sezonluk menü değişikliklerini artık hiç maliyet olmadan anında yapıyoruz. Müşteri memnuniyetimiz gözle görülür şekilde arttı.\"\n\nBu referansların yanı sıra, 50'den fazla restoran, kafe ve otel QR Menus dijital menü sistemini başarıyla kullanmaktadır.",
+    "en": ""
+  },
+  "desing": {
+    "header": [
+      "menu-slider"
+    ],
+    "body": [
+      "text-module"
+    ],
+    "footer": [
+      "footer-basic"
+    ]
+  },
+  "slider": [],
+  "desc": {},
+  "index": 1,
+  "pathnext": "",
+  "category": "",
+  "textmodul": false,
+  "update": "2026-03-22T22:03:44.969Z",
+  "date": "2026-03-22T22:03:44.969Z"
+}

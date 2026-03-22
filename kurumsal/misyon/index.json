@@ -1,0 +1,35 @@
+{
+  "id": "misyon",
+  "path": "misyon",
+  "name": {
+    "tr": "Misyon",
+    "en": "Mission"
+  },
+  "title": {
+    "tr": "Misyon - QR Menü Hizmeti",
+    "en": "Mission - QR Menu Service"
+  },
+  "description": {
+    "tr": "QR Menü Hizmeti firmamızın misyonu ve amaçları hakkında bilgi edinin.",
+    "en": "Learn about our company's mission and objectives."
+  },
+  "keyword": {
+    "tr": "misyon, amacımız, qr menü, hizmet",
+    "en": "mission, our goal, qr menu, service"
+  },
+  "text": {
+    "tr": "QR Menü Hizmeti firmamızın misyonu, müşterilerimize dijital menü sistemleri ile daha iyi bir deneyim sunmak ve onların iş verimliliğini artırmaktır.\n\n**Temel Hedeflerimiz:**\n\n1. Müşterilerimizin iş süreçlerini kolaylaştırmak\n2. Teknolojiyi kullanarak daha kaliteli hizmet sunmak\n3. Dijital dönüşüm süreçlerinde müşterilerimize destek olmak\n4. Sektörde yer alan işletmelerin teknoloji kullanımına katkıda bulunmak\n5. Müşteri memnuniyetini en üst seviyeye çıkarmak\n\n**İşe Yatırılan Değerler:**\n\n- Müşteri memnuniyeti\n- Kalite ve sürdürülebilirlik\n- Yenilikçi yaklaşım\n- Profesyonellik ve dürüstlük\n- Ekip çalışması\n\n**Sektördeki Yerimiz:**\n\nDijital menü teknolojisi alanında, sektörde yer alan işletmelerin dijital dönüşüm süreçlerinde önemli bir rol oynamayı hedefliyoruz. Firmamız, teknoloji kullanarak müşterilerimize değer katmayı amaçlayan bir kuruluşumuz.",
+    "en": "Our company's mission is to provide customers with a better experience through digital menu systems and to increase their business efficiency.\n\n**Our Main Objectives:**\n\n1. Make our customers' business processes easier\n2. Provide higher quality services using technology\n3. Support our customers in the digital transformation processes\n4. Contribute to technology use in businesses in the industry\n5. Raise customer satisfaction to the highest level\n\n**Values We Invest In:**\n\n- Customer satisfaction\n- Quality and sustainability\n- Innovative approach\n- Professionalism and integrity\n- Teamwork\n\n**Our Position in the Sector:**\n\nIn the digital menu technology sector, we aim to play an important role in the digital transformation processes of businesses in the industry. Our company is a organization that aims to add value to our customers using technology."
+  },
+  "desing": {
+    "header": [
+      "menu-slider"
+    ],
+    "body": [
+      "text-module"
+    ],
+    "footer": [
+      "footer-basic"
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "QR Menus - Dijital Menü Çözümleri",
+  "domain": "qrmenus.com.tr",
+  "logo": "logo.png",
+  "description": {
+    "tr": "QR Menus - Restoran, kafe ve oteller için profesyonel dijital QR kod menü çözümleri. Temassız menü deneyimi, anlık güncelleme, çoklu dil desteği ve sipariş entegrasyonu ile işletmenizi dijitale taşıyın.",
+    "en": "Our company provides modern, easy and fast menu solutions for restaurants and cafes."
+  },
+  "keyword": {
+    "tr": "qr menü, dijital menü, restoran menüsü, qr kod menü, temassız menü, online menü, kafe menüsü, otel menüsü, dijital menü sistemi, qr menus",
+    "en": "qr menu, restaurant menu, digital menu, cafe menu, online menu"
+  },
+  "langs": {
+    "tr": true,
+    "en": true,
+    "ar": false,
+    "de": false,
+    "ru": false,
+    "es": false,
+    "fr": false,
+    "it": false,
+    "ja": false,
+    "zh": false,
+    "ko": false,
+    "pt": false
+  },
+  "order": true,
+  "user": true,
+  "category": "",
+  "multi": true
+}

@@ -1,0 +1,35 @@
+{
+  "id": "vizyon",
+  "path": "vizyon",
+  "name": {
+    "tr": "Vizyon",
+    "en": "Vision"
+  },
+  "title": {
+    "tr": "Vizyon - QR Menü Hizmeti",
+    "en": "Vision - QR Menu Service"
+  },
+  "description": {
+    "tr": "QR Menü Hizmeti firmamızın vizyonu ve gelecekteki hedefleri hakkında bilgi edinin.",
+    "en": "Learn about our company's vision and future goals."
+  },
+  "keyword": {
+    "tr": "vizyon, hedefler, gelecek, qr menü, teknoloji",
+    "en": "vision, goals, future, qr menu, technology"
+  },
+  "text": {
+    "tr": "QR Menü Hizmeti firmamızın vizyonu, dijital menü teknolojisi alanında Türkiye'nin öncü firmalarından biri olmak ve dünya çapında tanınmış bir marka haline gelmektilir.\n\n**Uzun Vadeli Hedeflerimiz:**\n\n1. Türkiye'nin en önde gelen dijital menü teknolojisi firması olmak\n2. Yeni teknolojileri kullanarak müşterilerimize daha iyi hizmet sunmak\n3. Sektörde yer alan işletmelerin dijital dönüşüm sürecine katkıda bulunmak\n4. Türkiye'nin dijital menü sektöründe lider marka olmak\n5. Global pazarlarda faaliyet göstermek\n\n**Yol Haritası:**\n\n- 2025 yılı itibariyle, sektörde öncü bir marka olmak\n- Yeni teknolojileri entegre etmek\n- Müşteri memnuniyetini sürekli artırmak\n- Profesyonel ekibimizi geliştirmek\n- Sektördeki etkinliğini artırmak\n\n**İş Birliği ve Gelişime Açıklık:**\n\nFirmamız, iş birliklerini ve gelişime açık bir yaklaşımı benimsemektedir. Yeni teknolojileri benimseyerek, müşterilerimize en iyi hizmeti sunma hedefimiz doğrultusunda çalışmaktayız.",
+    "en": "Our company's vision is to become one of Turkey's leading companies in digital menu technology and to become a globally recognized brand.\n\n**Our Long-term Goals:**\n\n1. Becoming Turkey's leading company in digital menu technology\n2. Providing better services to our customers by using new technologies\n3. Contributing to the digital transformation process of businesses in the industry\n4. Becoming a leading brand in Turkey's digital menu sector\n5. Operating in global markets\n\n**Roadmap:**\n\n- By 2025, becoming a leading brand in the industry\n- Integrating new technologies\n- Continuously improving customer satisfaction\n- Developing our professional team\n- Increasing our effectiveness in the sector\n\n**Openness to Cooperation and Development:**\n\nOur company maintains an approach open to cooperation and development. We work in the direction of providing the best service to our customers by adopting new technologies."
+  },
+  "desing": {
+    "header": [
+      "menu-slider"
+    ],
+    "body": [
+      "text-module"
+    ],
+    "footer": [
+      "footer-basic"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "id": "hizmetler",
+  "path": "hizmetler",
+  "name": {
+    "tr": "Hizmetler",
+    "en": "Services"
+  },
+  "title": {
+    "tr": "Hizmetler - QR Menü Hizmeti",
+    "en": "Services - QR Menu Service"
+  },
+  "description": {
+    "tr": "QR Menü Hizmeti firmamızın sunduğu hizmetler hakkında bilgi edinin. Dijital menü, QR kod kurulumu, teknik destek ve daha fazlası.",
+    "en": "Learn about the services offered by QR Menu Service. Digital menu, QR code installation, technical support and more."
+  },
+  "keyword": {
+    "tr": "hizmetler, qr menü, restoran menüsü, dijital menü, teknik destek,教育培训",
+    "en": "services, qr menu, restaurant menu, digital menu, technical support, training"
+  },
+  "text": {
+    "tr": "QR Menü Hizmeti firmamız aşağıdaki hizmetleri sunar:\n\n**1. Dijital Menü Sistemi**\n\nRestoran ve lokantalar için modern ve özelleştirilebilir dijital menü sistemleri. Müşterilerinize daha iyi bir deneyim sunmak için geliştirilmiş bu sistem, menü içeriklerinizi kolayca yönetmenizi sağlar.\n\n**2. QR Kod Kurulumu**\n\nMüşterilerinizin kolayca menüye ulaşabilmesi için QR kodlar kurulumu yaparız. Sisteminize uygun olarak profesyonel ve estetik QR kodlar oluştururuz.\n\n**3. Menü Güncellemeleri**\n\nDilerseniz menü içeriklerinizi kolayca güncelleyebiliriz. Yeni ürünler eklemek, fiyat güncellemeleri yapmak veya menü düzenlemeleri yapmak kolaydır.\n\n**4. Teknik Destek**\n\nSistemimizle ilgili ihtiyaç duyduğunuz her konuda teknik destek sunarız. Hızlı ve profesyonel destek ile sorunlarınızı çözeriz.\n\n**5. Eğitim Programları**\n\nSistemimizi kullanan personel için eğitim programları hazırlayabiliriz. Daha iyi bir kullanım deneyimi için eğitimlerimizle personellerinizi destekliyoruz.\n\n**6. Sistem Entegrasyonu**\n\nMevcut POS sistemlerinize entegrasyon sağlar, sipariş süreçlerinizi kolaylaştırırız.\n\n**7. Çoklu Dil Destekli Menüler**\n\n10'dan fazla dil destekli menüler oluşturarak müşterilerinize daha geniş bir hizmet sunabilirsiniz.\n\n**8. Raporlama ve Analiz**\n\nSistemimizle oluşturulan detaylı raporlar ve analizler ile iş verimliliğinizi artırabilirsiniz.\n\n**9. Mobil Uygulama Entegrasyonu**\n\nMüşterileriniz için özel mobil uygulamalar geliştirerek, menü ve sipariş süreçlerini kolaylaştırabiliriz.\n\n**10. Gel-Al Sistemi**\n\nDış sipariş sistemi ile müşterilerinizin sipariş vermesini kolaylaştırıyoruz. Sipariş süreçleri daha hızlı ve verimli olur.",
+    "en": "Our company offers the following services:\n\n**1. Digital Menu System**\n\nModern and customizable digital menu systems for restaurants and cafes. This system, developed to provide a better experience for your customers, allows you to easily manage your menu content.\n\n**2. QR Code Installation**\n\nWe install QR codes so your customers can easily access the menu. We create professional and aesthetic QR codes that suit your system.\n\n**3. Menu Updates**\n\nWe can easily update your menu content upon request. Adding new products, updating prices or making menu changes is easy.\n\n**4. Technical Support**\n\nWe provide technical support for any issues related to our system. We solve your problems with fast and professional support.\n\n**5. Training Programs**\n\nWe can prepare training programs for staff who use our system. We support your staff to provide a better user experience.\n\n**6. System Integration**\n\nWe provide integration with your existing POS systems to make the order process easier.\n\n**7. Multi-Language Menu Support**\n\nWe create menu support for more than 10 languages to provide a wider service to your customers.\n\n**8. Reporting and Analytics**\n\nDetailed reports and analyses created with our system can help increase your business efficiency.\n\n**9. Mobile Application Integration**\n\nWe develop special mobile applications for your customers to make menu and order processes easier.\n\n**10. Take-Home Order System**\n\nWe make it easier for your customers to place orders with our external order system. The order process becomes faster and more efficient."
+  },
+  "desing": {
+    "header": [
+      "menu-slider"
+    ],
+    "body": [
+      "text-module"
+    ],
+    "footer": [
+      "footer-basic"
+    ]
+  },
+  "slider": []
+}

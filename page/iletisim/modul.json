@@ -1,0 +1,13 @@
+{
+  "name": "İletişim Formu",
+  "desing": {
+    "bgcolor": "#f8f9fa",
+    "padding": "20px"
+  },
+  "data": [
+    {
+      "name": "İletişim Bilgileri",
+      "type": "contact-info"
+    }
+  ]
+}

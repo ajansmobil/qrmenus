@@ -1,0 +1,80 @@
+{
+  "name": "Kurumsal",
+  "path": "kurumsal",
+  "desc": [],
+  "data": [
+    {
+      "id": "kurumsal",
+      "path": "kurumsal",
+      "name": {
+        "tr": "Kurumsal",
+        "en": "Corporate"
+      },
+      "status": "play",
+      "desc": {},
+      "index": 0
+    },
+    {
+      "id": "misyon",
+      "path": "misyon",
+      "name": {
+        "tr": "Misyon",
+        "en": "Mission"
+      },
+      "status": "play",
+      "desc": {},
+      "index": 1
+    },
+    {
+      "id": "vizyon",
+      "path": "vizyon",
+      "name": {
+        "tr": "Vizyon",
+        "en": "Vision"
+      },
+      "status": "play",
+      "desc": {},
+      "index": 2
+    },
+    {
+      "id": "ekip",
+      "path": "ekip",
+      "name": {
+        "tr": "Ekip",
+        "en": "Team"
+      },
+      "status": "play",
+      "desc": {},
+      "index": 3
+    },
+    {
+      "id": "ekip",
+      "path": "ekip",
+      "name": {
+        "tr": "Ekip",
+        "en": "Team"
+      },
+      "status": "play",
+      "desc": {},
+      "index": 4
+    }
+  ],
+  "index": 1,
+  "desing": {
+    "header": [
+      "menu-slider"
+    ],
+    "body": [
+      "text-module"
+    ],
+    "footer": [
+      "footer-basic"
+    ]
+  },
+  "modulestatus": {
+    "page": true,
+    "body": true,
+    "detail": true,
+    "img": false
+  }
+}
