@@ -27,5 +27,6 @@
   "order": true,
   "user": true,
   "category": "",
-  "multi": true
+  "multi": true,
+  "status": "stop"
 }

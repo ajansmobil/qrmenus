@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=k73c7" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=k73c7" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=md6b8" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=md6b8" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=k73c7" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=md6b8" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -50,37 +50,37 @@
 }
 </script>
   
-<link rel="stylesheet" href="style.css?v=k73c7">
+<link rel="stylesheet" href="style.css?v=md6b8">
 </head>
 
 <body>
-  <div id="header"><div class="rsfqz">
+  <div id="header"><div class="uw9dd">
 
-  <div class="rsfqzmenu-sticky">
+  <div class="uw9ddmenu-sticky">
  
-    <div class="rsfqzheader">
-      <div class="rsfqzbody">
+    <div class="uw9ddheader">
+      <div class="uw9ddbody">
         <a href="/en/"
           ><img
-            src="/img/logo.png?v=w28iv"
+            src="/img/logo.png?v=a346m"
             alt="QR Menus - Dijital Menü Çözümleri Logo"
-            class="rsfqzbodylogo"
+            class="uw9ddbodylogo"
             loading="lazy"
         /></a>
       </div>
-      <div class="rsfqzmenubody">
+      <div class="uw9ddmenubody">
         <!-- Mobilde sağdan açılan menü (Apple tarzı): overlay + panel -->
-        <div class="rsfqzmenuoverlay rsfqzmenuoverlay-slider" id="menu-slider-overlay" aria-hidden="true"></div>
-        <div class="rsfqzmenu" id="menu-slider-root">
-          <div class="rsfqzmenulistbody">
-            <button type="button" class="rsfqzmenuclose rsfqzmenuclose-slider" onclick="menu_slider_toggle()" aria-label="Close Menu">
+        <div class="uw9ddmenuoverlay uw9ddmenuoverlay-slider" id="menu-slider-overlay" aria-hidden="true"></div>
+        <div class="uw9ddmenu" id="menu-slider-root">
+          <div class="uw9ddmenulistbody">
+            <button type="button" class="uw9ddmenuclose uw9ddmenuclose-slider" onclick="menu_slider_toggle()" aria-label="Close Menu">
               <span class="material-symbols-outlined">close</span>
             </button>
-            <div class="rsfqzmenulist">
+            <div class="uw9ddmenulist">
               <ul>
                 <a href="/en/">Home </a>
               </ul>
-              <div class="rsfqzlanguages-mobile">
+              <div class="uw9ddlanguages-mobile">
                 <ul>
                   <li><a href="/tr/referanslar/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/referanslar/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li>
                 </ul>
@@ -90,13 +90,13 @@
         </div>
 
 
-        <div class="rsfqztitlebodylang">
+        <div class="uw9ddtitlebodylang">
           <ul>
             <li><a href="/tr/referanslar/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/referanslar/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li>
           </ul>
         </div>
       </div>
-      <button type="button" class="rsfqz-mobile-toggle" onclick="menu_slider_toggle()">
+      <button type="button" class="uw9dd-mobile-toggle" onclick="menu_slider_toggle()">
         <span class="material-symbols-outlined">menu</span>
       </button>
     </div>
@@ -104,9 +104,9 @@
 
 
 
-  <div class="rsfqzslider">
-    <div class="swiper-container rsfqz-slider">
-      <div class="swiper-wrapper" id="rsfqz-slider-wrapper"><div class="swiper-slide"><img  src="/img/menu-slider/?v=1774217498948" alt="QR Menus - Dijital Menü Çözümleri"  loading="lazy"/></div></div>
+  <div class="uw9ddslider">
+    <div class="swiper-container uw9dd-slider">
+      <div class="swiper-wrapper" id="uw9dd-slider-wrapper"><div class="swiper-slide"><img  src="/img/menu-slider/?v=1774217600536" alt="QR Menus - Dijital Menü Çözümleri"  loading="lazy"/></div></div>
       <div class="swiper-button-next"></div>
       <div class="swiper-button-prev"></div>
       <div class="swiper-pagination"></div>
@@ -125,16 +125,16 @@
       if (!root) {
         return;
       }
-      var isOpen = root.classList.contains("rsfqzmenu-open");
+      var isOpen = root.classList.contains("uw9ddmenu-open");
       if (isOpen) {
-        root.classList.remove("rsfqzmenu-open");
+        root.classList.remove("uw9ddmenu-open");
         if (overlay) {
           overlay.classList.remove("active");
           overlay.setAttribute("aria-hidden", "true");
         }
         document.body.style.overflow = "";
       } else {
-        root.classList.add("rsfqzmenu-open");
+        root.classList.add("uw9ddmenu-open");
         if (overlay) {
           overlay.classList.add("active");
           overlay.setAttribute("aria-hidden", "false");
@@ -151,8 +151,8 @@
       var root = document.getElementById("menu-slider-root");
       if (overlay && root) {
         overlay.addEventListener("click", function() {
-          if (root.classList.contains("rsfqzmenu-open")) {
-            root.classList.remove("rsfqzmenu-open");
+          if (root.classList.contains("uw9ddmenu-open")) {
+            root.classList.remove("uw9ddmenu-open");
             overlay.classList.remove("active");
             overlay.setAttribute("aria-hidden", "true");
             document.body.style.overflow = "";
@@ -170,7 +170,7 @@
       attempts++;
       if (typeof Swiper === "function") {
         clearInterval(timer);
-        new Swiper(".rsfqz-slider", {
+        new Swiper(".uw9dd-slider", {
           slidesPerView: 1,
           spaceBetween: 30,
           loop: true,
@@ -204,8 +204,8 @@
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=k73c7"></script>
-<script defer src="/src/cookie.js?v=k73c7"></script>
+<script defer type="text/javascript" src="/src/js.js?v=md6b8"></script>
+<script defer src="/src/cookie.js?v=md6b8"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği

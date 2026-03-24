@@ -25,10 +25,10 @@
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
   <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=nukkf" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=nukkf" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/css.css?v=yk3qq" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="preload" href="/src/cookie.css?v=yk3qq" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=nukkf" type="image/png" />
+  <link rel="shortcut icon" href="/img/icon.png?v=yk3qq" type="image/png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -50,37 +50,37 @@
 }
 </script>
   
-<link rel="stylesheet" href="style.css?v=nukkf">
+<link rel="stylesheet" href="style.css?v=yk3qq">
 </head>
 
 <body>
-  <div id="header"><div class="xrxv2">
+  <div id="header"><div class="pr1og">
 
-  <div class="xrxv2menu-sticky">
+  <div class="pr1ogmenu-sticky">
  
-    <div class="xrxv2header">
-      <div class="xrxv2body">
+    <div class="pr1ogheader">
+      <div class="pr1ogbody">
         <a href="/tr/"
           ><img
-            src="/img/logo.png?v=tqapd"
+            src="/img/logo.png?v=ryqbh"
             alt="QR Menus - Dijital Menü Çözümleri Logo"
-            class="xrxv2bodylogo"
+            class="pr1ogbodylogo"
             loading="lazy"
         /></a>
       </div>
-      <div class="xrxv2menubody">
+      <div class="pr1ogmenubody">
         <!-- Mobilde sağdan açılan menü (Apple tarzı): overlay + panel -->
-        <div class="xrxv2menuoverlay xrxv2menuoverlay-slider" id="menu-slider-overlay" aria-hidden="true"></div>
-        <div class="xrxv2menu" id="menu-slider-root">
-          <div class="xrxv2menulistbody">
-            <button type="button" class="xrxv2menuclose xrxv2menuclose-slider" onclick="menu_slider_toggle()" aria-label="Menüyü Kapat">
+        <div class="pr1ogmenuoverlay pr1ogmenuoverlay-slider" id="menu-slider-overlay" aria-hidden="true"></div>
+        <div class="pr1ogmenu" id="menu-slider-root">
+          <div class="pr1ogmenulistbody">
+            <button type="button" class="pr1ogmenuclose pr1ogmenuclose-slider" onclick="menu_slider_toggle()" aria-label="Menüyü Kapat">
               <span class="material-symbols-outlined">close</span>
             </button>
-            <div class="xrxv2menulist">
+            <div class="pr1ogmenulist">
               <ul>
                 <a href="/tr/">Anasayfa </a>
               </ul>
-              <div class="xrxv2languages-mobile">
+              <div class="pr1oglanguages-mobile">
                 <ul>
                   <li><a href="/tr/referanslar/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/referanslar/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li>
                 </ul>
@@ -90,13 +90,13 @@
         </div>
 
 
-        <div class="xrxv2titlebodylang">
+        <div class="pr1ogtitlebodylang">
           <ul>
             <li><a href="/tr/referanslar/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/referanslar/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li>
           </ul>
         </div>
       </div>
-      <button type="button" class="xrxv2-mobile-toggle" onclick="menu_slider_toggle()">
+      <button type="button" class="pr1og-mobile-toggle" onclick="menu_slider_toggle()">
         <span class="material-symbols-outlined">menu</span>
       </button>
     </div>
@@ -104,9 +104,9 @@
 
 
 
-  <div class="xrxv2slider">
-    <div class="swiper-container xrxv2-slider">
-      <div class="swiper-wrapper" id="xrxv2-slider-wrapper"><div class="swiper-slide"><img  src="/img/menu-slider/?v=1774217498916" alt="QR Menus - Dijital Menü Çözümleri"  loading="lazy"/></div></div>
+  <div class="pr1ogslider">
+    <div class="swiper-container pr1og-slider">
+      <div class="swiper-wrapper" id="pr1og-slider-wrapper"><div class="swiper-slide"><img  src="/img/menu-slider/?v=1774217600504" alt="QR Menus - Dijital Menü Çözümleri"  loading="lazy"/></div></div>
       <div class="swiper-button-next"></div>
       <div class="swiper-button-prev"></div>
       <div class="swiper-pagination"></div>
@@ -125,16 +125,16 @@
       if (!root) {
         return;
       }
-      var isOpen = root.classList.contains("xrxv2menu-open");
+      var isOpen = root.classList.contains("pr1ogmenu-open");
       if (isOpen) {
-        root.classList.remove("xrxv2menu-open");
+        root.classList.remove("pr1ogmenu-open");
         if (overlay) {
           overlay.classList.remove("active");
           overlay.setAttribute("aria-hidden", "true");
         }
         document.body.style.overflow = "";
       } else {
-        root.classList.add("xrxv2menu-open");
+        root.classList.add("pr1ogmenu-open");
         if (overlay) {
           overlay.classList.add("active");
           overlay.setAttribute("aria-hidden", "false");
@@ -151,8 +151,8 @@
       var root = document.getElementById("menu-slider-root");
       if (overlay && root) {
         overlay.addEventListener("click", function() {
-          if (root.classList.contains("xrxv2menu-open")) {
-            root.classList.remove("xrxv2menu-open");
+          if (root.classList.contains("pr1ogmenu-open")) {
+            root.classList.remove("pr1ogmenu-open");
             overlay.classList.remove("active");
             overlay.setAttribute("aria-hidden", "true");
             document.body.style.overflow = "";
@@ -170,7 +170,7 @@
       attempts++;
       if (typeof Swiper === "function") {
         clearInterval(timer);
-        new Swiper(".xrxv2-slider", {
+        new Swiper(".pr1og-slider", {
           slidesPerView: 1,
           spaceBetween: 30,
           loop: true,
@@ -204,8 +204,8 @@
 
 
 <script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=nukkf"></script>
-<script defer src="/src/cookie.js?v=nukkf"></script>
+<script defer type="text/javascript" src="/src/js.js?v=yk3qq"></script>
+<script defer src="/src/cookie.js?v=yk3qq"></script>
 
 <script>
   // RTL dil kontrolü - Arapça için sağdan sola yazım desteği

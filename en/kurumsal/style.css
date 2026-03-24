@@ -1,5 +1,5 @@
 
-  .dpwxu {
+  .extov {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,13 +7,13 @@
     justify-content: center;
   }
 
-  .dpwxuslider {
+  .extovslider {
     width: 100%;
     position: relative;
     z-index: 0;
   }
 
-  .dpwxumenu-sticky {
+  .extovmenu-sticky {
     width: 100%;
     position: sticky;
     top: 0;
@@ -21,7 +21,7 @@
     margin-top: calc(-200px - 15px) ;
   }
 
-  .dpwxutitle {
+  .extovtitle {
     width: 100%;
     display: flex;
     align-items: center;
@@ -30,12 +30,12 @@
     z-index: 1;
   }
 
-  .dpwxutitle:has(.dpwxutitlebodylang:empty),
-  .dpwxutitle:has(.dpwxutitlebodylang ul:empty) {
+  .extovtitle:has(.extovtitlebodylang:empty),
+  .extovtitle:has(.extovtitlebodylang ul:empty) {
     display: none;
   }
 
-  .dpwxutitlebody {
+  .extovtitlebody {
     color: ;
     width: var(--max);
     display: flex;
@@ -43,29 +43,29 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .dpwxutitlebodytitle {
+  .extovtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .dpwxutitlebodylang {
+  .extovtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .dpwxutitlebodylang:empty,
-  .dpwxutitlebodylang ul:empty {
+  .extovtitlebodylang:empty,
+  .extovtitlebodylang ul:empty {
     display: none;
   }
 
-  .dpwxutitlebodylang ul {
+  .extovtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .dpwxuheader {
+  .extovheader {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -75,13 +75,13 @@
     gap: 30px;
   }
 
-  .dpwxubody {
+  .extovbody {
     display: flex;
     align-items: center;
     justify-content: flex-start;
   }
 
-  .dpwxu-mobile-toggle {
+  .extov-mobile-toggle {
     display: none;
     background: ;
     color: ;
@@ -93,34 +93,34 @@
     cursor: pointer;
   }
 
-  .dpwxu-mobile-toggle span {
+  .extov-mobile-toggle span {
     font-size: 24px;
   }
 
   /* Overlay ve kapatma butonu: sadece mobilde kullanılır, masaüstünde gizli */
-  .dpwxumenuoverlay-slider {
+  .extovmenuoverlay-slider {
     display: none;
   }
 
-  .dpwxumenuclose-slider {
+  .extovmenuclose-slider {
     display: none;
   }
 
-  .dpwxumenu {
+  .extovmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     padding: 0 10px 0 10px;
   }
 
-  .dpwxumenulist {
+  .extovmenulist {
     background-color: ;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     display: flex;
   }
 
-  .dpwxumenubody {
+  .extovmenubody {
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -130,7 +130,7 @@
   }
 
   /* Menü linkleri listesi (sadece doğrudan çocuk ul; dil listesi hariç) */
-  .dpwxumenulist > ul {
+  .extovmenulist > ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -139,7 +139,7 @@
     padding: 0;
   }
 
-  .dpwxumenulist > ul a {
+  .extovmenulist > ul a {
     padding: 10px;
     font-size: 16px;
     color:  !important;
@@ -151,18 +151,18 @@
     white-space: nowrap;
   }
 
-  .dpwxumenulist > ul a:hover {
+  .extovmenulist > ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .dpwxumenulist > ul a.dpwxu-menu-list-active {
+  .extovmenulist > ul a.extov-menu-list-active {
     color: #000000 !important;
   }
 
-  .dpwxu-menu-list-active {
+  .extov-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
@@ -170,23 +170,23 @@
     cursor: pointer;
   }
 
-  .dpwxumenulistbody {
+  .extovmenulistbody {
     width: 100%;
   }
 
-  .dpwxulanguages-mobile {
+  .extovlanguages-mobile {
     display: none;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .dpwxulanguages-mobile:empty,
-  .dpwxulanguages-mobile ul:empty {
+  .extovlanguages-mobile:empty,
+  .extovlanguages-mobile ul:empty {
     display: none !important;
   }
 
   /* Dil seçici: li'ler her zaman yan yana (flex row) */
-  .dpwxulanguages-mobile ul {
+  .extovlanguages-mobile ul {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -198,7 +198,7 @@
     align-items: center;
   }
 
-  .dpwxulanguages-mobile li {
+  .extovlanguages-mobile li {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -214,7 +214,7 @@
     justify-content: center;
   }
 
-  .dpwxulanguages-mobile li a {
+  .extovlanguages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -222,7 +222,7 @@
     height: 100%;
   }
 
-  .dpwxulanguages-mobile li:hover {
+  .extovlanguages-mobile li:hover {
     background-color: #ffffff;
     border-color: #000000;
   }
@@ -277,71 +277,71 @@
   }
 
   @media screen and (min-width: 1024px) {
-    .dpwxubodylogo {
+    .extovbodylogo {
       height: 200px;
       max-width: 90vw;
     }
 
-    .dpwxutitle {
+    .extovtitle {
       margin-bottom: -30px;
     }
   }
 
   @media screen and (max-width: 1024px) {
 
-    .dpwxumenu-sticky {
+    .extovmenu-sticky {
       margin-top: -100px ;
     }
 
-    .dpwxuheader {
+    .extovheader {
       width: calc(100% - 20px);
       padding: 0 10px;
     }
 
-    .dpwxumenulist > ul {
+    .extovmenulist > ul {
       flex-direction: row;
     }
 
-    .dpwxubodylogo {
+    .extovbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .dpwxutitlebody {
+    .extovtitlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
       display: none;
     }
 
-    .dpwxutitlebodytitle {
+    .extovtitlebodytitle {
       text-align: center;
       font-size: 14px;
     }
 
-    .dpwxutitlebodylang {
+    .extovtitlebodylang {
       display: none;
     }
 
-    .dpwxuheader {
+    .extovheader {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .dpwxu-mobile-toggle {
+    .extov-mobile-toggle {
       display: inline-flex;
     }
 
-    .dpwxubodylogo {
+    .extovbodylogo {
       width: 40vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
     /* Overlay: mobilde menü açıkken arka plan karartma, tıklanınca kapanır */
-    .dpwxumenuoverlay-slider {
+    .extovmenuoverlay-slider {
       display: none;
       position: fixed;
       top: 0;
@@ -355,7 +355,7 @@
       pointer-events: none;
     }
 
-    .dpwxumenuoverlay-slider.active {
+    .extovmenuoverlay-slider.active {
       display: block;
       opacity: 1;
       pointer-events: auto;
@@ -363,7 +363,7 @@
     }
 
     /* Sağdan açılan panel (Apple tarzı): fixed, sağda dışarıda başlar, açılınca kayar */
-    .dpwxumenulistbody {
+    .extovmenulistbody {
       position: fixed;
       top: 0;
       right: -100%;
@@ -380,12 +380,12 @@
       padding: 0;
     }
 
-    .dpwxumenu.dpwxumenu-open .dpwxumenulistbody {
+    .extovmenu.extovmenu-open .extovmenulistbody {
       right: 0;
     }
 
     /* Panel içi kapatma butonu */
-    .dpwxumenuclose-slider {
+    .extovmenuclose-slider {
       display: flex;
       align-items: center;
       justify-content: flex-end;
@@ -396,11 +396,11 @@
       cursor: pointer;
     }
 
-    .dpwxumenuclose-slider span {
+    .extovmenuclose-slider span {
       font-size: 28px;
     }
 
-    .dpwxumenulist {
+    .extovmenulist {
       display: flex;
       flex-direction: column;
       padding: 0 12px 12px;
@@ -408,12 +408,12 @@
     }
 
     /* Mobil panel: menü linkleri dikey liste */
-    .dpwxumenulist > ul {
+    .extovmenulist > ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .dpwxumenulist > ul a {
+    .extovmenulist > ul a {
       font-size: 14px;
       width: 100%;
       padding: 12px;
@@ -422,21 +422,21 @@
       border-radius: 0;
     }
 
-    .dpwxumenulist > ul a:last-child {
+    .extovmenulist > ul a:last-child {
       border-bottom: none;
     }
 
-    .dpwxumenulist > ul a:hover {
+    .extovmenulist > ul a:hover {
       background-color: #ffffff;
       border-radius: 0;
     }
 
-    /* Dil seçici: panel açıkken görünür, li'ler yan yana (üstteki .dpwxulanguages-mobile ul/li kuralları geçerli) */
-    .dpwxumenu.dpwxumenu-open .dpwxulanguages-mobile {
+    /* Dil seçici: panel açıkken görünür, li'ler yan yana (üstteki .extovlanguages-mobile ul/li kuralları geçerli) */
+    .extovmenu.extovmenu-open .extovlanguages-mobile {
       display: block;
     }
 
-    .dpwxutitlebodytitle {
+    .extovtitlebodytitle {
       font-size: 12px;
     }
   }

@@ -1,5 +1,5 @@
 
-  .dxd3g {
+  .wnmmp {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,13 +7,13 @@
     justify-content: center;
   }
 
-  .dxd3gslider {
+  .wnmmpslider {
     width: 100%;
     position: relative;
     z-index: 0;
   }
 
-  .dxd3gmenu-sticky {
+  .wnmmpmenu-sticky {
     width: 100%;
     position: sticky;
     top: 0;
@@ -21,7 +21,7 @@
     margin-top: calc(-200px - 15px) ;
   }
 
-  .dxd3gtitle {
+  .wnmmptitle {
     width: 100%;
     display: flex;
     align-items: center;
@@ -30,12 +30,12 @@
     z-index: 1;
   }
 
-  .dxd3gtitle:has(.dxd3gtitlebodylang:empty),
-  .dxd3gtitle:has(.dxd3gtitlebodylang ul:empty) {
+  .wnmmptitle:has(.wnmmptitlebodylang:empty),
+  .wnmmptitle:has(.wnmmptitlebodylang ul:empty) {
     display: none;
   }
 
-  .dxd3gtitlebody {
+  .wnmmptitlebody {
     color: ;
     width: var(--max);
     display: flex;
@@ -43,29 +43,29 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .dxd3gtitlebodytitle {
+  .wnmmptitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .dxd3gtitlebodylang {
+  .wnmmptitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .dxd3gtitlebodylang:empty,
-  .dxd3gtitlebodylang ul:empty {
+  .wnmmptitlebodylang:empty,
+  .wnmmptitlebodylang ul:empty {
     display: none;
   }
 
-  .dxd3gtitlebodylang ul {
+  .wnmmptitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .dxd3gheader {
+  .wnmmpheader {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -75,13 +75,13 @@
     gap: 30px;
   }
 
-  .dxd3gbody {
+  .wnmmpbody {
     display: flex;
     align-items: center;
     justify-content: flex-start;
   }
 
-  .dxd3g-mobile-toggle {
+  .wnmmp-mobile-toggle {
     display: none;
     background: ;
     color: ;
@@ -93,34 +93,34 @@
     cursor: pointer;
   }
 
-  .dxd3g-mobile-toggle span {
+  .wnmmp-mobile-toggle span {
     font-size: 24px;
   }
 
   /* Overlay ve kapatma butonu: sadece mobilde kullanılır, masaüstünde gizli */
-  .dxd3gmenuoverlay-slider {
+  .wnmmpmenuoverlay-slider {
     display: none;
   }
 
-  .dxd3gmenuclose-slider {
+  .wnmmpmenuclose-slider {
     display: none;
   }
 
-  .dxd3gmenu {
+  .wnmmpmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     padding: 0 10px 0 10px;
   }
 
-  .dxd3gmenulist {
+  .wnmmpmenulist {
     background-color: ;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     display: flex;
   }
 
-  .dxd3gmenubody {
+  .wnmmpmenubody {
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -130,7 +130,7 @@
   }
 
   /* Menü linkleri listesi (sadece doğrudan çocuk ul; dil listesi hariç) */
-  .dxd3gmenulist > ul {
+  .wnmmpmenulist > ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -139,7 +139,7 @@
     padding: 0;
   }
 
-  .dxd3gmenulist > ul a {
+  .wnmmpmenulist > ul a {
     padding: 10px;
     font-size: 16px;
     color:  !important;
@@ -151,18 +151,18 @@
     white-space: nowrap;
   }
 
-  .dxd3gmenulist > ul a:hover {
+  .wnmmpmenulist > ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .dxd3gmenulist > ul a.dxd3g-menu-list-active {
+  .wnmmpmenulist > ul a.wnmmp-menu-list-active {
     color: #000000 !important;
   }
 
-  .dxd3g-menu-list-active {
+  .wnmmp-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
@@ -170,23 +170,23 @@
     cursor: pointer;
   }
 
-  .dxd3gmenulistbody {
+  .wnmmpmenulistbody {
     width: 100%;
   }
 
-  .dxd3glanguages-mobile {
+  .wnmmplanguages-mobile {
     display: none;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .dxd3glanguages-mobile:empty,
-  .dxd3glanguages-mobile ul:empty {
+  .wnmmplanguages-mobile:empty,
+  .wnmmplanguages-mobile ul:empty {
     display: none !important;
   }
 
   /* Dil seçici: li'ler her zaman yan yana (flex row) */
-  .dxd3glanguages-mobile ul {
+  .wnmmplanguages-mobile ul {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -198,7 +198,7 @@
     align-items: center;
   }
 
-  .dxd3glanguages-mobile li {
+  .wnmmplanguages-mobile li {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -214,7 +214,7 @@
     justify-content: center;
   }
 
-  .dxd3glanguages-mobile li a {
+  .wnmmplanguages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -222,7 +222,7 @@
     height: 100%;
   }
 
-  .dxd3glanguages-mobile li:hover {
+  .wnmmplanguages-mobile li:hover {
     background-color: #ffffff;
     border-color: #000000;
   }
@@ -277,71 +277,71 @@
   }
 
   @media screen and (min-width: 1024px) {
-    .dxd3gbodylogo {
+    .wnmmpbodylogo {
       height: 200px;
       max-width: 90vw;
     }
 
-    .dxd3gtitle {
+    .wnmmptitle {
       margin-bottom: -30px;
     }
   }
 
   @media screen and (max-width: 1024px) {
 
-    .dxd3gmenu-sticky {
+    .wnmmpmenu-sticky {
       margin-top: -100px ;
     }
 
-    .dxd3gheader {
+    .wnmmpheader {
       width: calc(100% - 20px);
       padding: 0 10px;
     }
 
-    .dxd3gmenulist > ul {
+    .wnmmpmenulist > ul {
       flex-direction: row;
     }
 
-    .dxd3gbodylogo {
+    .wnmmpbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .dxd3gtitlebody {
+    .wnmmptitlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
       display: none;
     }
 
-    .dxd3gtitlebodytitle {
+    .wnmmptitlebodytitle {
       text-align: center;
       font-size: 14px;
     }
 
-    .dxd3gtitlebodylang {
+    .wnmmptitlebodylang {
       display: none;
     }
 
-    .dxd3gheader {
+    .wnmmpheader {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .dxd3g-mobile-toggle {
+    .wnmmp-mobile-toggle {
       display: inline-flex;
     }
 
-    .dxd3gbodylogo {
+    .wnmmpbodylogo {
       width: 40vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
     /* Overlay: mobilde menü açıkken arka plan karartma, tıklanınca kapanır */
-    .dxd3gmenuoverlay-slider {
+    .wnmmpmenuoverlay-slider {
       display: none;
       position: fixed;
       top: 0;
@@ -355,7 +355,7 @@
       pointer-events: none;
     }
 
-    .dxd3gmenuoverlay-slider.active {
+    .wnmmpmenuoverlay-slider.active {
       display: block;
       opacity: 1;
       pointer-events: auto;
@@ -363,7 +363,7 @@
     }
 
     /* Sağdan açılan panel (Apple tarzı): fixed, sağda dışarıda başlar, açılınca kayar */
-    .dxd3gmenulistbody {
+    .wnmmpmenulistbody {
       position: fixed;
       top: 0;
       right: -100%;
@@ -380,12 +380,12 @@
       padding: 0;
     }
 
-    .dxd3gmenu.dxd3gmenu-open .dxd3gmenulistbody {
+    .wnmmpmenu.wnmmpmenu-open .wnmmpmenulistbody {
       right: 0;
     }
 
     /* Panel içi kapatma butonu */
-    .dxd3gmenuclose-slider {
+    .wnmmpmenuclose-slider {
       display: flex;
       align-items: center;
       justify-content: flex-end;
@@ -396,11 +396,11 @@
       cursor: pointer;
     }
 
-    .dxd3gmenuclose-slider span {
+    .wnmmpmenuclose-slider span {
       font-size: 28px;
     }
 
-    .dxd3gmenulist {
+    .wnmmpmenulist {
       display: flex;
       flex-direction: column;
       padding: 0 12px 12px;
@@ -408,12 +408,12 @@
     }
 
     /* Mobil panel: menü linkleri dikey liste */
-    .dxd3gmenulist > ul {
+    .wnmmpmenulist > ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .dxd3gmenulist > ul a {
+    .wnmmpmenulist > ul a {
       font-size: 14px;
       width: 100%;
       padding: 12px;
@@ -422,21 +422,21 @@
       border-radius: 0;
     }
 
-    .dxd3gmenulist > ul a:last-child {
+    .wnmmpmenulist > ul a:last-child {
       border-bottom: none;
     }
 
-    .dxd3gmenulist > ul a:hover {
+    .wnmmpmenulist > ul a:hover {
       background-color: #ffffff;
       border-radius: 0;
     }
 
-    /* Dil seçici: panel açıkken görünür, li'ler yan yana (üstteki .dxd3glanguages-mobile ul/li kuralları geçerli) */
-    .dxd3gmenu.dxd3gmenu-open .dxd3glanguages-mobile {
+    /* Dil seçici: panel açıkken görünür, li'ler yan yana (üstteki .wnmmplanguages-mobile ul/li kuralları geçerli) */
+    .wnmmpmenu.wnmmpmenu-open .wnmmplanguages-mobile {
       display: block;
     }
 
-    .dxd3gtitlebodytitle {
+    .wnmmptitlebodytitle {
       font-size: 12px;
     }
   }

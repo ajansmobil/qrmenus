@@ -1,5 +1,5 @@
 
-  .xrxv2 {
+  .pr1og {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -7,13 +7,13 @@
     justify-content: center;
   }
 
-  .xrxv2slider {
+  .pr1ogslider {
     width: 100%;
     position: relative;
     z-index: 0;
   }
 
-  .xrxv2menu-sticky {
+  .pr1ogmenu-sticky {
     width: 100%;
     position: sticky;
     top: 0;
@@ -21,7 +21,7 @@
     margin-top: calc(-200px - 15px) ;
   }
 
-  .xrxv2title {
+  .pr1ogtitle {
     width: 100%;
     display: flex;
     align-items: center;
@@ -30,12 +30,12 @@
     z-index: 1;
   }
 
-  .xrxv2title:has(.xrxv2titlebodylang:empty),
-  .xrxv2title:has(.xrxv2titlebodylang ul:empty) {
+  .pr1ogtitle:has(.pr1ogtitlebodylang:empty),
+  .pr1ogtitle:has(.pr1ogtitlebodylang ul:empty) {
     display: none;
   }
 
-  .xrxv2titlebody {
+  .pr1ogtitlebody {
     color: ;
     width: var(--max);
     display: flex;
@@ -43,29 +43,29 @@
     padding: 10px 0px 10px 0px;
   }
 
-  .xrxv2titlebodytitle {
+  .pr1ogtitlebodytitle {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: left;
   }
 
-  .xrxv2titlebodylang {
+  .pr1ogtitlebodylang {
     width: auto;
     margin: -5px 0px -5px 0px;
   }
 
-  .xrxv2titlebodylang:empty,
-  .xrxv2titlebodylang ul:empty {
+  .pr1ogtitlebodylang:empty,
+  .pr1ogtitlebodylang ul:empty {
     display: none;
   }
 
-  .xrxv2titlebodylang ul {
+  .pr1ogtitlebodylang ul {
     display: flex;
     gap: 5px;
   }
 
-  .xrxv2header {
+  .pr1ogheader {
     width: var(--max);
     display: flex;
     align-items: center;
@@ -75,13 +75,13 @@
     gap: 30px;
   }
 
-  .xrxv2body {
+  .pr1ogbody {
     display: flex;
     align-items: center;
     justify-content: flex-start;
   }
 
-  .xrxv2-mobile-toggle {
+  .pr1og-mobile-toggle {
     display: none;
     background: ;
     color: ;
@@ -93,34 +93,34 @@
     cursor: pointer;
   }
 
-  .xrxv2-mobile-toggle span {
+  .pr1og-mobile-toggle span {
     font-size: 24px;
   }
 
   /* Overlay ve kapatma butonu: sadece mobilde kullanılır, masaüstünde gizli */
-  .xrxv2menuoverlay-slider {
+  .pr1ogmenuoverlay-slider {
     display: none;
   }
 
-  .xrxv2menuclose-slider {
+  .pr1ogmenuclose-slider {
     display: none;
   }
 
-  .xrxv2menu {
+  .pr1ogmenu {
     display: flex;
     flex-direction: row;
     gap: 10px;
     padding: 0 10px 0 10px;
   }
 
-  .xrxv2menulist {
+  .pr1ogmenulist {
     background-color: ;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     display: flex;
   }
 
-  .xrxv2menubody {
+  .pr1ogmenubody {
     display: flex;
     align-items: center;
     justify-content: flex-end;
@@ -130,7 +130,7 @@
   }
 
   /* Menü linkleri listesi (sadece doğrudan çocuk ul; dil listesi hariç) */
-  .xrxv2menulist > ul {
+  .pr1ogmenulist > ul {
     width: 100%;
     list-style-type: none;
     display: flex;
@@ -139,7 +139,7 @@
     padding: 0;
   }
 
-  .xrxv2menulist > ul a {
+  .pr1ogmenulist > ul a {
     padding: 10px;
     font-size: 16px;
     color:  !important;
@@ -151,18 +151,18 @@
     white-space: nowrap;
   }
 
-  .xrxv2menulist > ul a:hover {
+  .pr1ogmenulist > ul a:hover {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
     cursor: pointer;
   }
 
-  .xrxv2menulist > ul a.xrxv2-menu-list-active {
+  .pr1ogmenulist > ul a.pr1og-menu-list-active {
     color: #000000 !important;
   }
 
-  .xrxv2-menu-list-active {
+  .pr1og-menu-list-active {
     background-color: #ffffff;
     border-radius: 5px;
     color: #000000 !important;
@@ -170,23 +170,23 @@
     cursor: pointer;
   }
 
-  .xrxv2menulistbody {
+  .pr1ogmenulistbody {
     width: 100%;
   }
 
-  .xrxv2languages-mobile {
+  .pr1oglanguages-mobile {
     display: none;
     padding-top: 15px;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
-  .xrxv2languages-mobile:empty,
-  .xrxv2languages-mobile ul:empty {
+  .pr1oglanguages-mobile:empty,
+  .pr1oglanguages-mobile ul:empty {
     display: none !important;
   }
 
   /* Dil seçici: li'ler her zaman yan yana (flex row) */
-  .xrxv2languages-mobile ul {
+  .pr1oglanguages-mobile ul {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -198,7 +198,7 @@
     align-items: center;
   }
 
-  .xrxv2languages-mobile li {
+  .pr1oglanguages-mobile li {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -214,7 +214,7 @@
     justify-content: center;
   }
 
-  .xrxv2languages-mobile li a {
+  .pr1oglanguages-mobile li a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -222,7 +222,7 @@
     height: 100%;
   }
 
-  .xrxv2languages-mobile li:hover {
+  .pr1oglanguages-mobile li:hover {
     background-color: #ffffff;
     border-color: #000000;
   }
@@ -277,71 +277,71 @@
   }
 
   @media screen and (min-width: 1024px) {
-    .xrxv2bodylogo {
+    .pr1ogbodylogo {
       height: 200px;
       max-width: 90vw;
     }
 
-    .xrxv2title {
+    .pr1ogtitle {
       margin-bottom: -30px;
     }
   }
 
   @media screen and (max-width: 1024px) {
 
-    .xrxv2menu-sticky {
+    .pr1ogmenu-sticky {
       margin-top: -100px ;
     }
 
-    .xrxv2header {
+    .pr1ogheader {
       width: calc(100% - 20px);
       padding: 0 10px;
     }
 
-    .xrxv2menulist > ul {
+    .pr1ogmenulist > ul {
       flex-direction: row;
     }
 
-    .xrxv2bodylogo {
+    .pr1ogbodylogo {
       width: 50vw;
       max-width: 50vw;
       max-height: 100px;
     }
 
-    .xrxv2titlebody {
+    .pr1ogtitlebody {
       flex-direction: column;
       gap: 10px;
       align-items: center;
       display: none;
     }
 
-    .xrxv2titlebodytitle {
+    .pr1ogtitlebodytitle {
       text-align: center;
       font-size: 14px;
     }
 
-    .xrxv2titlebodylang {
+    .pr1ogtitlebodylang {
       display: none;
     }
 
-    .xrxv2header {
+    .pr1ogheader {
       width: calc(100% - 20px);
       padding: 0 10px;
       justify-content: space-between;
     }
 
-    .xrxv2-mobile-toggle {
+    .pr1og-mobile-toggle {
       display: inline-flex;
     }
 
-    .xrxv2bodylogo {
+    .pr1ogbodylogo {
       width: 40vw;
       max-width: 40vw;
       max-height: 80px;
     }
 
     /* Overlay: mobilde menü açıkken arka plan karartma, tıklanınca kapanır */
-    .xrxv2menuoverlay-slider {
+    .pr1ogmenuoverlay-slider {
       display: none;
       position: fixed;
       top: 0;
@@ -355,7 +355,7 @@
       pointer-events: none;
     }
 
-    .xrxv2menuoverlay-slider.active {
+    .pr1ogmenuoverlay-slider.active {
       display: block;
       opacity: 1;
       pointer-events: auto;
@@ -363,7 +363,7 @@
     }
 
     /* Sağdan açılan panel (Apple tarzı): fixed, sağda dışarıda başlar, açılınca kayar */
-    .xrxv2menulistbody {
+    .pr1ogmenulistbody {
       position: fixed;
       top: 0;
       right: -100%;
@@ -380,12 +380,12 @@
       padding: 0;
     }
 
-    .xrxv2menu.xrxv2menu-open .xrxv2menulistbody {
+    .pr1ogmenu.pr1ogmenu-open .pr1ogmenulistbody {
       right: 0;
     }
 
     /* Panel içi kapatma butonu */
-    .xrxv2menuclose-slider {
+    .pr1ogmenuclose-slider {
       display: flex;
       align-items: center;
       justify-content: flex-end;
@@ -396,11 +396,11 @@
       cursor: pointer;
     }
 
-    .xrxv2menuclose-slider span {
+    .pr1ogmenuclose-slider span {
       font-size: 28px;
     }
 
-    .xrxv2menulist {
+    .pr1ogmenulist {
       display: flex;
       flex-direction: column;
       padding: 0 12px 12px;
@@ -408,12 +408,12 @@
     }
 
     /* Mobil panel: menü linkleri dikey liste */
-    .xrxv2menulist > ul {
+    .pr1ogmenulist > ul {
       flex-direction: column;
       gap: 0;
     }
 
-    .xrxv2menulist > ul a {
+    .pr1ogmenulist > ul a {
       font-size: 14px;
       width: 100%;
       padding: 12px;
@@ -422,21 +422,21 @@
       border-radius: 0;
     }
 
-    .xrxv2menulist > ul a:last-child {
+    .pr1ogmenulist > ul a:last-child {
       border-bottom: none;
     }
 
-    .xrxv2menulist > ul a:hover {
+    .pr1ogmenulist > ul a:hover {
       background-color: #ffffff;
       border-radius: 0;
     }
 
-    /* Dil seçici: panel açıkken görünür, li'ler yan yana (üstteki .xrxv2languages-mobile ul/li kuralları geçerli) */
-    .xrxv2menu.xrxv2menu-open .xrxv2languages-mobile {
+    /* Dil seçici: panel açıkken görünür, li'ler yan yana (üstteki .pr1oglanguages-mobile ul/li kuralları geçerli) */
+    .pr1ogmenu.pr1ogmenu-open .pr1oglanguages-mobile {
       display: block;
     }
 
-    .xrxv2titlebodytitle {
+    .pr1ogtitlebodytitle {
       font-size: 12px;
     }
   }
