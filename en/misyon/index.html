@@ -4,31 +4,43 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta http-equiv="Page-Exit" content="BlendTrans(Duration"="0)" />
-  <meta http-equiv="Page-Enter" content="BlendTrans(Duration"="0)" />
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
-  <meta http-equiv="Cache-Control" content="max-age=3600, public" />
-  <meta http-equiv="Pragma" content="cache" />
-  <meta http-equiv="Expires" content="3600" />
   <title>Mission</title>
-  <meta property="og:title" content="Mission" />
-  <meta name="description" content="[object Object]" />
-  <meta name="keywords" content="[object Object]" />
-  <meta property="og:description" content="[object Object]" />
-  <meta property="og:image" content="https://qrmenus.com.tr/img/icon.png" />
+  <meta name="description" content="Our company provides modern, easy and fast menu solutions for restaurants and cafes." />
+  <meta name="keywords" content="qr menu, restaurant menu, digital menu, cafe menu, online menu" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://qrmenus.com.tr/en/misyon/" />
+
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Mission" />
+  <meta property="og:description" content="Our company provides modern, easy and fast menu solutions for restaurants and cafes." />
+  <meta property="og:image" content="https://qrmenus.com.tr/img/icon.png" />
+  <meta property="og:url" content="https://qrmenus.com.tr/en/misyon/" />
+  <meta property="og:site_name" content="QR Menus - Dijital Menü Çözümleri" />
+  <meta property="og:locale" content="en_US" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Mission" />
+  <meta name="twitter:description" content="Our company provides modern, easy and fast menu solutions for restaurants and cafes." />
+  <meta name="twitter:image" content="https://qrmenus.com.tr/img/icon.png" />
 
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin />
   <link rel="preload" href="/src/fonts/rubik/rubik-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin />
 
-  <link rel="preload" href="/src/rubik.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/css.css?v=bb5os" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="preload" href="/src/cookie.css?v=bb5os" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <link rel="stylesheet" href="/src/rubik.css" />
+  <link rel="stylesheet" href="/src/css.css?v=ncgxm" />
+  <link rel="stylesheet" href="/src/mx-ui.css?v=ncgxm" />
+  <link rel="preload" href="/src/cookie.css?v=ncgxm" as="style" onload="this.onload=null;this.rel='stylesheet'" />
   <link rel="preload" href="/src/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-  <link rel="shortcut icon" href="/img/icon.png?v=bb5os" type="image/png" />
+  <link rel="preload" href="/src/material-symbols-outlined.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <noscript>
+    <link rel="stylesheet" href="/src/cookie.css?v=ncgxm" />
+    <link rel="stylesheet" href="/src/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/src/material-symbols-outlined.css" />
+  </noscript>
+  <link rel="shortcut icon" href="/img/icon.png?v=ncgxm" type="image/png" />
+  <link rel="apple-touch-icon" href="/img/icon.png" />
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -50,37 +62,39 @@
 }
 </script>
   
-<link rel="stylesheet" href="style.css?v=bb5os">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#2196f3">
+<link rel="stylesheet" href="style.css?v=ncgxm">
 </head>
 
 <body>
-  <div id="header"><div class="pj4rl">
+  <div id="header"><div class="h0000">
 
-  <div class="pj4rlmenu-sticky">
+  <div class="h0000menu-sticky">
  
-    <div class="pj4rlheader">
-      <div class="pj4rlbody">
+    <div class="h0000header">
+      <div class="h0000body">
         <a href="/en/"
           ><img
-            src="/img/logo.png?v=qli0o"
+            src="/img/logo.png?v=vqtiv"
             alt="QR Menus - Dijital Menü Çözümleri Logo"
-            class="pj4rlbodylogo"
+            class="h0000bodylogo"
             loading="lazy"
         /></a>
       </div>
-      <div class="pj4rlmenubody">
-        <!-- Mobilde sağdan açılan menü (Apple tarzı): overlay + panel -->
-        <div class="pj4rlmenuoverlay pj4rlmenuoverlay-slider" id="menu-slider-overlay" aria-hidden="true"></div>
-        <div class="pj4rlmenu" id="menu-slider-root">
-          <div class="pj4rlmenulistbody">
-            <button type="button" class="pj4rlmenuclose pj4rlmenuclose-slider" onclick="menu_slider_toggle()" aria-label="Close Menu">
+      <div class="h0000menubody">
+        
+        <div class="h0000menuoverlay h0000menuoverlay-slider" id="menu-slider-overlay" aria-hidden="true"></div>
+        <div class="h0000menu" id="menu-slider-root">
+          <div class="h0000menulistbody">
+            <button type="button" class="h0000menuclose h0000menuclose-slider" onclick="menu_slider_toggle()" aria-label="Close Menu">
               <span class="material-symbols-outlined">close</span>
             </button>
-            <div class="pj4rlmenulist">
+            <div class="h0000menulist">
               <ul>
                 <a href="/en/">Home </a>
               </ul>
-              <div class="pj4rllanguages-mobile">
+              <div class="h0000languages-mobile">
                 <ul>
                   <li><a href="/tr/misyon/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/misyon/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li>
                 </ul>
@@ -90,13 +104,13 @@
         </div>
 
 
-        <div class="pj4rltitlebodylang">
+        <div class="h0000titlebodylang">
           <ul>
             <li><a href="/tr/misyon/"><img height="25" src="/src/lang/tr.png" alt="tr" loading="lazy"></a></li><li><a href="/en/misyon/"><img height="25" src="/src/lang/en.png" alt="en" loading="lazy"></a></li>
           </ul>
         </div>
       </div>
-      <button type="button" class="pj4rl-mobile-toggle" onclick="menu_slider_toggle()">
+      <button type="button" class="h0000-mobile-toggle" onclick="menu_slider_toggle()">
         <span class="material-symbols-outlined">menu</span>
       </button>
     </div>
@@ -104,9 +118,9 @@
 
 
 
-  <div class="pj4rlslider">
-    <div class="swiper-container pj4rl-slider">
-      <div class="swiper-wrapper" id="pj4rl-slider-wrapper"><div class="swiper-slide"><img  src="/img/menu-slider/?v=1774217600546" alt="QR Menus - Dijital Menü Çözümleri"  loading="lazy"/></div></div>
+  <div class="h0000slider">
+    <div class="swiper-container h0000-slider">
+      <div class="swiper-wrapper" id="h0000-slider-wrapper"><div class="swiper-slide"><img  src="/img/menu-slider/?v=1783520819473" alt="QR Menus - Dijital Menü Çözümleri"  loading="lazy"/></div></div>
       <div class="swiper-button-next"></div>
       <div class="swiper-button-prev"></div>
       <div class="swiper-pagination"></div>
@@ -117,7 +131,6 @@
 </div>
 
 <script>
-  // Mobil menü aç/kapa: sağdan panel + overlay + body scroll kilidi
   if (typeof menu_slider_toggle === "undefined") {
     function menu_slider_toggle() {
       var root = document.getElementById("menu-slider-root");
@@ -125,16 +138,16 @@
       if (!root) {
         return;
       }
-      var isOpen = root.classList.contains("pj4rlmenu-open");
+      var isOpen = root.classList.contains("h0000menu-open");
       if (isOpen) {
-        root.classList.remove("pj4rlmenu-open");
+        root.classList.remove("h0000menu-open");
         if (overlay) {
           overlay.classList.remove("active");
           overlay.setAttribute("aria-hidden", "true");
         }
         document.body.style.overflow = "";
       } else {
-        root.classList.add("pj4rlmenu-open");
+        root.classList.add("h0000menu-open");
         if (overlay) {
           overlay.classList.add("active");
           overlay.setAttribute("aria-hidden", "false");
@@ -143,16 +156,14 @@
       }
     }
   }
-
-  // Overlay tıklanınca menüyü kapat (Apple tarzı davranış)
   (function menuSliderOverlayInit() {
     setTimeout(function() {
       var overlay = document.getElementById("menu-slider-overlay");
       var root = document.getElementById("menu-slider-root");
       if (overlay && root) {
         overlay.addEventListener("click", function() {
-          if (root.classList.contains("pj4rlmenu-open")) {
-            root.classList.remove("pj4rlmenu-open");
+          if (root.classList.contains("h0000menu-open")) {
+            root.classList.remove("h0000menu-open");
             overlay.classList.remove("active");
             overlay.setAttribute("aria-hidden", "true");
             document.body.style.overflow = "";
@@ -163,14 +174,13 @@
   })();
 
   (function menuSliderInit() {
-    // Swiper yüklenene kadar bekle, sonra başlat
     var attempts = 0;
     var maxAttempts = 20;
     var timer = setInterval(function () {
       attempts++;
       if (typeof Swiper === "function") {
         clearInterval(timer);
-        new Swiper(".pj4rl-slider", {
+        new Swiper(".h0000-slider", {
           slidesPerView: 1,
           spaceBetween: 30,
           loop: true,
@@ -196,34 +206,31 @@
 </script>
 
 </div>
-  <div id="content"></div>
+  <div id="content"><div class="b0000-text-module-body">Text content</div>
+
+</div>
   <div id="footer"></div>
+
+  
+
+  <script defer src="/src/swiper-bundle.min.js"></script>
+  <script defer src="/src/mx-ui.js?v=ncgxm"></script>
+  <script defer type="text/javascript" src="/src/js.js?v=ncgxm"></script>
+  <script defer src="/src/cookie.js?v=ncgxm"></script>
+
+  <script>
+    setTimeout(function() {
+      var currentPath = window.location.pathname;
+      var rtlLanguages = ['ar', 'he', 'fa'];
+      var langMatch = currentPath.match(/^\/([a-z]{2})\//);
+      var currentLang = langMatch ? langMatch[1] : '';
+      if (rtlLanguages.indexOf(currentLang) !== -1) {
+        document.documentElement.setAttribute('dir', 'rtl');
+      } else {
+        document.documentElement.setAttribute('dir', 'ltr');
+      }
+    }, 100);
+  </script>
 </body>
-<link rel="preload" href="/src/material-symbols-outlined.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-
-
-
-<script defer src="/src/swiper-bundle.min.js"></script>
-<script defer type="text/javascript" src="/src/js.js?v=bb5os"></script>
-<script defer src="/src/cookie.js?v=bb5os"></script>
-
-<script>
-  // RTL dil kontrolü - Arapça için sağdan sola yazım desteği
-  setTimeout(function() {
-    var currentPath = window.location.pathname;
-    var rtlLanguages = ['ar', 'he', 'fa']; // RTL diller: Arapça, İbranice, Farsça
-    
-    // URL'den dil kodunu çıkar (/ar/, /he/, /fa/ gibi)
-    var langMatch = currentPath.match(/^\/([a-z]{2})\//);
-    var currentLang = langMatch ? langMatch[1] : '';
-    
-    // Eğer RTL dil ise dir="rtl" set et
-    if (rtlLanguages.indexOf(currentLang) !== -1) {
-      document.documentElement.setAttribute('dir', 'rtl');
-    } else {
-      document.documentElement.setAttribute('dir', 'ltr');
-    }
-  }, 100);
-</script>
 
 </html>

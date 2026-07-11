@@ -1,10 +1,6 @@
-/* ============================================
-   TİKE CİĞER Halil Usta – QR Menü Stilleri
-   Koyu tema, mobil öncelikli, animasyonlu tek sayfa
-   Logo, kartlar, pill fiyatlar, giriş animasyonları
-   ============================================ */
 
-/* CSS değişkenleri: renk paleti ve tipografi */
+
+
 :root {
   --bg-dark: #0d0d0d;
   --bg-section: #1a1a1a;
@@ -29,7 +25,7 @@
   --ease: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* Temel sıfırlama ve kutu modeli */
+
 *,
 *::before,
 *::after {
@@ -53,7 +49,7 @@ body {
   padding-bottom: env(safe-area-inset-bottom);
 }
 
-/* ========== Animasyonlar ========== */
+
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -70,7 +66,7 @@ body {
   to { opacity: 1; }
 }
 
-/* Hareket azaltma tercihi: animasyonları kısalt veya kapat */
+
 @media (prefers-reduced-motion: reduce) {
   .animate-in,
   .menu-item {
@@ -79,7 +75,7 @@ body {
   }
 }
 
-/* ========== Header: logo + restoran adı, slogan, usta ========== */
+
 .site-header {
   padding: var(--space-lg) var(--space-unit) var(--space-xl);
   padding-top: calc(var(--space-lg) + env(safe-area-inset-top));
@@ -89,7 +85,7 @@ body {
   animation: fadeIn 0.5s var(--ease);
 }
 
-/* Logo ve başlık yan yana (mobilde ortalanmış) */
+
 .header-brand {
   display: flex;
   align-items: center;
@@ -104,7 +100,7 @@ body {
   object-fit: contain;
   flex-shrink: 0;
   border-radius: 50%;
-  /* Hafif parıltı */
+  
   box-shadow: 0 0 0 2px var(--accent-soft);
 }
 
@@ -137,7 +133,7 @@ body {
   font-style: italic;
 }
 
-/* Kategori chip’leri – mobil app tarzı pill navigasyon */
+
 .nav-categories {
   margin-top: var(--space-lg);
   display: flex;
@@ -174,14 +170,14 @@ body {
   transform: scale(0.97);
 }
 
-/* ========== Main: kartlar ve bölümler ========== */
+
 main {
   padding: var(--space-lg) var(--space-unit) var(--space-xxl);
   max-width: 520px;
   margin: 0 auto;
 }
 
-/* Kart: yuvarlatılmış köşe, gölge, giriş animasyonu */
+
 .menu-section.card {
   margin-bottom: var(--space-lg);
   padding: var(--space-lg);
@@ -192,7 +188,7 @@ main {
   animation: fadeInUp 0.5s var(--ease) backwards;
 }
 
-/* Bölüm gecikmeleri: sırayla belirme */
+
 .menu-section.card:nth-child(1) { animation-delay: 0.1s; }
 .menu-section.card:nth-child(2) { animation-delay: 0.2s; }
 .menu-section.card:nth-child(3) { animation-delay: 0.3s; }
@@ -207,7 +203,7 @@ main {
   color: var(--text-primary);
 }
 
-/* Kategori başlığı: altın pill (resimdeki gibi) */
+
 .section-pill {
   display: inline-block;
   padding: 0.4rem 1rem;
@@ -217,7 +213,7 @@ main {
   font-weight: 700;
 }
 
-/* Kebap tablosu: Ürün | Dürüm | Porsiyon */
+
 .menu-table {
   display: grid;
   gap: 0;
@@ -247,7 +243,7 @@ main {
   word-break: break-word;
 }
 
-/* Fiyat pill: altın arka plan, beyaz yazı */
+
 .price-pill {
   display: inline-block;
   padding: 0.25rem 0.6rem;
@@ -261,17 +257,17 @@ main {
   transition: transform 0.2s var(--ease), background-color 0.2s var(--ease);
 }
 
-/* Dürüm yoksa (—) pill: soluk arka plan */
+
 .col-durum.price-pill {
   min-width: 2ch;
 }
 
-/* Menü satırı: girişte hafif gecikmeli (stagger) */
+
 .menu-item {
   animation: fadeInUp 0.4s var(--ease) backwards;
 }
 
-/* Kebap satırları: ilk child table-header, 2–13 table-row */
+
 .kebap-table .table-row.menu-item:nth-child(2) { animation-delay: 0.05s; }
 .kebap-table .table-row.menu-item:nth-child(3) { animation-delay: 0.08s; }
 .kebap-table .table-row.menu-item:nth-child(4) { animation-delay: 0.11s; }
@@ -298,7 +294,7 @@ main {
   text-align: right;
 }
 
-/* Pide ve içecek listesi: ürün adı + noktalı çizgi hissi + fiyat pill */
+
 .menu-list {
   list-style: none;
   margin: 0;
@@ -316,7 +312,7 @@ main {
   transition: background-color 0.2s var(--ease);
 }
 
-/* Dokunma geri bildirimi: satıra basınca hafif vurgu */
+
 .menu-list li:active {
   background-color: var(--accent-soft);
   border-radius: 8px;
@@ -335,7 +331,7 @@ main {
   flex-shrink: 0;
 }
 
-/* ========== Footer: sosyal medya ========== */
+
 .site-footer {
   padding: var(--space-xl) var(--space-unit);
   padding-bottom: calc(var(--space-xl) + env(safe-area-inset-bottom));

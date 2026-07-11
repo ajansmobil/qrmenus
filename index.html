@@ -2,102 +2,50 @@
 <html lang="tr">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>TİKE CİĞER Halil Usta – Menü</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>QR Menus - Dijital Menü Çözümleri</title>
+  <meta name="description" content="QR Menus - Restoran, kafe ve oteller için profesyonel dijital QR kod menü çözümleri. Temassız menü deneyimi, anlık güncelleme, çoklu dil desteği ve sipariş entegrasyonu ile işletmenizi dijitale taşıyın." />
+  <link rel="canonical" href="https://qrmenus.com.tr/" />
+  <link rel="alternate" hreflang="tr" href="https://qrmenus.com.tr/tr/" />
+  <link rel="alternate" hreflang="en" href="https://qrmenus.com.tr/en/" />
+  <link rel="alternate" hreflang="x-default" href="https://qrmenus.com.tr/tr/" />
+  <script>
+(function() {
+  var available = ["tr","en"];
+  var fallbackLang = "en";
+  var defaultLang = "tr";
+  var settingDefaultLang = "";
+  if (settingDefaultLang && available.indexOf(settingDefaultLang) !== -1) {
+    location.replace('/' + settingDefaultLang + '/' + (location.search || '') + (location.hash || ''));
+    return;
+  }
+  var browserLangs = [];
+  if (navigator.languages && navigator.languages.length) {
+    navigator.languages.forEach(function(l) {
+      var code = (l.split('-')[0] || '').toLowerCase();
+      if (code && browserLangs.indexOf(code) === -1) browserLangs.push(code);
+    });
+  }
+  if (!browserLangs.length && navigator.language) {
+    browserLangs.push((navigator.language.split('-')[0] || defaultLang).toLowerCase());
+  }
+  var chosen = null;
+  for (var i = 0; i < browserLangs.length; i++) {
+    if (available.indexOf(browserLangs[i]) !== -1) {
+      chosen = browserLangs[i];
+      break;
+    }
+  }
+  if (chosen === null) {
+    chosen = fallbackLang;
+  }
+  var target = '/' + chosen + '/' + (location.search || '') + (location.hash || '');
+  location.replace(target);
+})();
+  </script>
 </head>
 <body>
-  <!-- Üst bölüm: logo, restoran adı, slogan, usta adı -->
-  <header class="site-header">
-    <div class="header-brand">
-      <img src="logo.png" alt="TİKE CİĞER logo" class="site-logo" width="120" />
-      <div class="header-text">
-        <p class="slogan">HER ŞİŞTE USTALIK</p>
-        <p class="usta-name">Halil Usta</p>
-      </div>
-    </div>
-    <!-- Kategori atlama: chip/pill navigasyon (mobil app tarzı) -->
-    <nav class="nav-categories" aria-label="Menü kategorileri">
-      <a href="#kebaplar" class="nav-chip">Kebaplar</a>
-      <a href="#pideler" class="nav-chip">Pideler</a>
-      <a href="#icecekler" class="nav-chip">İçecekler</a>
-    </nav>
-  </header>
-
-  <main>
-    <!-- KEBAPLAR: Dürüm ve Porsiyon fiyatları -->
-    <section id="kebaplar" class="menu-section card animate-in">
-      <h2 class="section-title section-pill">KEBAPLAR</h2>
-      <div class="menu-table kebap-table">
-        <div class="table-header">
-          <span class="col-name">Ürün</span>
-          <span class="col-durum">Dürüm</span>
-          <span class="col-porsiyon">Porsiyon</span>
-        </div>
-        <div class="table-row menu-item"><span class="col-name">CİĞER</span><span class="col-durum price-pill">220₺</span><span class="col-porsiyon price-pill">390₺</span></div>
-        <div class="table-row menu-item"><span class="col-name">YÜREK</span><span class="col-durum price-pill">220₺</span><span class="col-porsiyon price-pill">390₺</span></div>
-        <div class="table-row menu-item"><span class="col-name">ADANA</span><span class="col-durum price-pill">220₺</span><span class="col-porsiyon price-pill">390₺</span></div>
-        <div class="table-row menu-item"><span class="col-name">URFA</span><span class="col-durum price-pill">220₺</span><span class="col-porsiyon price-pill">390₺</span></div>
-        <div class="table-row menu-item"><span class="col-name">KUŞBAŞI</span><span class="col-durum price-pill">250₺</span><span class="col-porsiyon price-pill">500₺</span></div>
-        <div class="table-row menu-item"><span class="col-name">PATLICANLI</span><span class="col-durum price-pill">250₺</span><span class="col-porsiyon price-pill">500₺</span></div>
-        <div class="table-row menu-item"><span class="col-name">KARIŞIK KEBAP</span><span class="col-durum price-pill">—</span><span class="col-porsiyon price-pill">500₺</span></div>
-        <div class="table-row menu-item"><span class="col-name">DOMATESLİ</span><span class="col-durum price-pill">250₺</span><span class="col-porsiyon price-pill">500₺</span></div>
-        <div class="table-row menu-item"><span class="col-name">KANAT</span><span class="col-durum price-pill">—</span><span class="col-porsiyon price-pill">250₺</span></div>
-        <div class="table-row menu-item"><span class="col-name">TAVUK ŞİŞ</span><span class="col-durum price-pill">150₺</span><span class="col-porsiyon price-pill">300₺</span></div>
-        <div class="table-row menu-item"><span class="col-name">T.PİRZOLA</span><span class="col-durum price-pill">—</span><span class="col-porsiyon price-pill">300₺</span></div>
-        <div class="table-row menu-item"><span class="col-name">DALAK-BÖBREK</span><span class="col-durum price-pill">200₺</span><span class="col-porsiyon price-pill">350₺</span></div>
-      </div>
-    </section>
-
-    <!-- PİDELER: tek fiyat -->
-    <section id="pideler" class="menu-section card animate-in">
-      <h2 class="section-title section-pill">PİDELER</h2>
-      <ul class="menu-list">
-        <li class="menu-item"><span class="item-name">LAHMACUN</span><span class="item-price price-pill">100₺</span></li>
-        <li class="menu-item"><span class="item-name">FINDIK LAHMACUN</span><span class="item-price price-pill">50₺</span></li>
-        <li class="menu-item"><span class="item-name">KUŞBAŞILI PİDE</span><span class="item-price price-pill">230₺</span></li>
-        <li class="menu-item"><span class="item-name">KUŞBAŞI KAŞARLI</span><span class="item-price price-pill">270₺</span></li>
-        <li class="menu-item"><span class="item-name">ATOM PİDE</span><span class="item-price price-pill">180₺</span></li>
-        <li class="menu-item"><span class="item-name">KAŞARLI SUCUKLU</span><span class="item-price price-pill">160₺</span></li>
-      </ul>
-    </section>
-
-    <!-- İÇECEKLER: tek fiyat -->
-    <section id="icecekler" class="menu-section card animate-in">
-      <h2 class="section-title section-pill">İÇECEKLER</h2>
-      <ul class="menu-list">
-        <li class="menu-item"><span class="item-name">KOLA - FANTA</span><span class="item-price price-pill">50₺</span></li>
-        <li class="menu-item"><span class="item-name">AYRAN</span><span class="item-price price-pill">20₺</span></li>
-        <li class="menu-item"><span class="item-name">ŞALGAM</span><span class="item-price price-pill">35₺</span></li>
-        <li class="menu-item"><span class="item-name">SU</span><span class="item-price price-pill">15₺</span></li>
-        <li class="menu-item"><span class="item-name">İCE TEA</span><span class="item-price price-pill">50₺</span></li>
-        <li class="menu-item"><span class="item-name">BEYPAZARI SODA</span><span class="item-price price-pill">25₺</span></li>
-        <li class="menu-item"><span class="item-name">K.AYRAN</span><span class="item-price price-pill">30₺</span></li>
-      </ul>
-    </section>
-  </main>
-
-  <!-- Sosyal medya linkleri -->
-  <footer class="site-footer animate-in">
-    <p class="footer-title">Bizi takip edin</p>
-    <div class="social-links">
-      <a href="https://www.tiktok.com/@tikeciger" target="_blank" rel="noopener noreferrer" aria-label="TikTok">TikTok @tikeciger</a>
-      <a href="https://www.instagram.com/tikeciger" target="_blank" rel="noopener noreferrer" aria-label="Instagram">Instagram @tikeciger</a>
-    </div>
-  </footer>
-
-  <!-- Kategori linklerine tıklanınca yumuşak kaydırma -->
-  <script>
-    document.querySelectorAll('.nav-categories a[href^="#"]').forEach(function (anchor) {
-      anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        var target = document.querySelector(this.getAttribute('href'));
-        if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      });
-    });
-  </script>
+  <p>QR Menus - Dijital Menü Çözümleri</p>
+  <noscript><p>Dil seçin: <a href="/tr/">TR</a> | <a href="/en/">EN</a></p></noscript>
 </body>
 </html>
