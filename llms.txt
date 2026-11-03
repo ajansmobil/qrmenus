@@ -1,0 +1,26 @@
+# QR Menüs
+
+> Kafe ve restoranlar için ücretsiz QR menü: işletmenizin adıyla kendi menü adresiniz (adiniz.qrmenus.tr), ürünlerinizi kendiniz ekleyin, QR kodunu yazdırın.
+
+Web: https://qrmenus.tr/tr/
+
+## Sayfalar
+- [QR Menüs](https://qrmenus.tr/tr/): Kafe ve restoranlar için ücretsiz QR menü: işletmenizin adıyla kendi menü adresiniz (adiniz.qrmenus.tr), ürünlerinizi kendiniz ekleyin, QR kodunu yazdırın.
+- [Özellikler](https://qrmenus.tr/tr/ozellikler/): Kendi adresin, kolay ürün ekleme, masa için QR kod: kafe ve restoranlar için ücretsiz QR menü özellikleri.
+- [Sık Sorulan Sorular](https://qrmenus.tr/tr/sss/): QR Menüs hakkında sık sorulan sorular: ücret, alt alan adı, QR kod, silme.
+- [Hakkımızda](https://qrmenus.tr/tr/hakkimizda/): QR Menüs, kafe ve restoranlar için ücretsiz QR menü hizmetidir: kendi adresin, kolay ürün ekleme, masa için QR kod.
+- [İletişim](https://qrmenus.tr/tr/iletisim/): QR Menüs ile WhatsApp üzerinden iletişime geçin.
+- [Kurumsal](https://qrmenus.tr/tr/kurumsal/): Firmamız hakkında bilgiler ve yasal bilgilendirme sayfaları
+- [Çerez Politikası](https://qrmenus.tr/tr/cerez-politikasi/): Bu politika, QR Menüs tarafından işletilen https://qrmenus.tr internet sitesinde kullanılan çerezleri, bunların hangi amaçlarla kullanıldığını ve…
+- [Gizlilik Politikası](https://qrmenus.tr/tr/gizlilik-politikasi/): Bu Gizlilik Politikası, QR Menüs tarafından işletilen https://qrmenus.tr internet sitesini ziyaret ettiğinizde ve hizmetlerimizi kullandığınızda…
+- [Misyon](https://qrmenus.tr/tr/misyon/): QR Menüs’ün misyonu: kafe ve restoranlara ücretsiz, sade bir QR menü aracı sunmak.
+- [Vizyon](https://qrmenus.tr/tr/vizyon/): QR Menüs’ün vizyonu: kafe ve restoranlar için ücretsiz, sade ve güvenilir QR menü.
+- [Kalite Politikamız](https://qrmenus.tr/tr/kalitepolitikamiz/): Kalite, firmamız için yalnızca bir sonuç değil, işin her aşamasına yerleştirilmiş bir çalışma biçimidir.
+- [Kişisel Veriler](https://qrmenus.tr/tr/kisiselveriler/): Bu metin, 6698 sayılı Kişisel Verilerin Korunması Kanunu’nun 10.
+- [Kullanıcı Hakları](https://qrmenus.tr/tr/kullanicahaklari/): https://qrmenus.tr internet sitesini kullanan herkes, yürürlükteki mevzuattan doğan haklara sahiptir.
+- [Yasal Uyarı](https://qrmenus.tr/tr/yasaluyari/): https://qrmenus.tr internet sitesi QR Menüs tarafından işletilmektedir.
+- [Kullanım Koşulları](https://qrmenus.tr/tr/kullanim-kosullari/): Bu koşullar, QR Menüs tarafından işletilen https://qrmenus.tr internet sitesinin kullanımına ilişkin kuralları belirler.
+
+## Diger
+- [sitemap.xml](https://qrmenus.tr/sitemap.xml): tum URL listesi
+- [llms-full.txt](https://qrmenus.tr/llms-full.txt): sayfa govdeleri duz metin

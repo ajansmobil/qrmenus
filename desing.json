@@ -1,68 +1,86 @@
 {
   "header": [
-    "menu-slider"
+    "63tooe",
+    "zi70q4"
   ],
   "body": [
-    "text-module",
-    "contact-form"
+    "31xjpp",
+    "eg741x",
+    "yu5sa6"
   ],
   "footer": [
-    "footer-basic"
+    "8jqw6l",
+    "r1oty5"
   ],
   "headerdefault": [
-    "menu-slider"
+    "63tooe"
   ],
-  "bodydefault": [
-    "text-module"
-  ],
+  "bodydefault": [],
   "footerdefault": [
-    "footer-basic"
+    "8jqw6l",
+    "r1oty5"
   ],
   "headtop": "",
   "headbottom": "",
   "colors": {
     "lite": [
       {
-        "name": "--primary-color",
-        "value": "#2c3e50"
+        "name": "--button",
+        "value": "#C2410C"
       },
       {
-        "name": "--secondary-color",
-        "value": "#3498db"
+        "name": "--buttonText",
+        "value": "#FFFFFF"
       },
       {
-        "name": "--accent-color",
-        "value": "#e74c3c"
+        "name": "--accent",
+        "value": "#C2410C"
       },
       {
-        "name": "--light-color",
-        "value": "#ecf0f1"
+        "name": "--bg",
+        "value": "#FFF8F1"
       },
       {
-        "name": "--dark-color",
-        "value": "#34495e"
+        "name": "--text",
+        "value": "#1C1917"
+      },
+      {
+        "name": "--color1",
+        "value": "#FFFFFF"
+      },
+      {
+        "name": "--color2",
+        "value": "#F5ECE2"
       }
     ],
     "dark": [
       {
-        "name": "--primary-color",
-        "value": "#34495e"
+        "name": "--button",
+        "value": "#FB8A4B"
       },
       {
-        "name": "--secondary-color",
-        "value": "#2980b9"
+        "name": "--buttonText",
+        "value": "#181311"
       },
       {
-        "name": "--accent-color",
-        "value": "#e74c3c"
+        "name": "--accent",
+        "value": "#FB8A4B"
       },
       {
-        "name": "--light-color",
-        "value": "#7f8c8d"
+        "name": "--bg",
+        "value": "#181311"
       },
       {
-        "name": "--dark-color",
-        "value": "#2c3e50"
+        "name": "--text",
+        "value": "#F5EDE4"
+      },
+      {
+        "name": "--color1",
+        "value": "#241C18"
+      },
+      {
+        "name": "--color2",
+        "value": "#2E241F"
       }
     ]
   }

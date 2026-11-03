@@ -1,0 +1,33 @@
+{
+  "id": "i3pyq0egtb",
+  "name": {
+    "tr": "Kurumsal"
+  },
+  "description": {
+    "tr": "Firmamız hakkında bilgiler ve yasal bilgilendirme sayfaları"
+  },
+  "keyword": {
+    "tr": "kurumsal, hakkımızda, yasal bilgiler"
+  },
+  "path": "kurumsal",
+  "icon": "business",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "hmh6ig"
+    ],
+    "footer": []
+  },
+  "index": 4,
+  "url": "",
+  "text": {
+    "tr": "<section><h2>Kurumsal</h2>\n<p>QR Menüs, kafe ve restoranlar için ücretsiz QR menü hizmeti sunar. Bu bölümde hizmetin amacı, ilkeleri ve kullanıcılara ilişkin yasal metinler yer alır.</p>\n<p>Hakkımızda, Misyon ve Vizyon sayfaları hizmetin ne olduğunu ve nereye gitmek istediğini anlatır. Kalite Politikamız, çalışma biçimimizi ve hizmet kalitesine yaklaşımımızı açıklar.</p>\n<p>Gizlilik Politikası, Kişisel Veriler (KVKK) aydınlatma metni, Kullanıcı Hakları, Çerez Politikası, Kullanım Koşulları ve Yasal Uyarı sayfaları, verilerinizin nasıl işlendiğini ve haklarınızı açıklar.</p>\n<h3>Bu bölümdeki sayfalar</h3>\n<ul><li>Hakkımızda, Misyon, Vizyon, Kalite Politikamız</li><li>Gizlilik Politikası, Kişisel Veriler, Kullanıcı Hakları</li><li>Çerez Politikası, Kullanım Koşulları, Yasal Uyarı</li></ul><p>Bu sayfalardaki bilgiler QR Menüs hizmetini kullanan işletmeler ve menüyü görüntüleyen ziyaretçiler için hazırlanmıştır. Güncel metinler her zaman bu bölümde yayımlanır; önemli değişiklikler sayfada belirtilir.</p><p>Sorularınız için WhatsApp hattımızdan bize yazabilirsiniz.</p></section>"
+  },
+  "title": {
+    "tr": "Kurumsal | QR Menüs"
+  },
+  "date": "2026-11-02T07:16:24.073Z",
+  "update": "2026-11-02T07:25:16.258Z"
+}

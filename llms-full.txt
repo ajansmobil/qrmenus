@@ -1,0 +1,371 @@
+# QR Menüs
+
+> Kafe ve restoranlar için ücretsiz QR menü: işletmenizin adıyla kendi menü adresiniz (adiniz.qrmenus.tr), ürünlerinizi kendiniz ekleyin, QR kodunu yazdırın.
+
+---
+
+## QR Menüs
+https://qrmenus.tr/tr/
+
+Kafe ve restoranlar için ücretsiz QR menü: işletmenizin adıyla kendi menü adresiniz (adiniz.qrmenus.tr), ürünlerinizi kendiniz ekleyin, QR kodunu yazdırın.
+
+1
+Adım 1
+Hesap aç
+E-posta ve şifrenle ücretsiz hesap oluştur.
+2
+Adım 2
+Adını seç
+İşletmene bir kullanıcı adı seç; ad boşsa menün adiniz.qrmenus.tr adresinde yayınlanır.
+3
+Adım 3
+Ürünlerini ekle
+Kategori, ürün, fiyat ve fotoğraf ekle; değişiklik menüde hemen görünür.
+4
+Adım 4
+QR'ı yazdır
+Panelden QR kodunu indir, masalara yerleştir.
+01
+Kendi adresin
+Her işletme kendi alt alanını alır: kafem.qrmenus.tr. Yazarken adın boş olup olmadığını anında görürsün.
+02
+Ürünlerini kendin ekle
+Kategori, ürün, açıklama, fiyat ve fotoğraf ekle; tükenen ürünü menüde «tükendi» olarak işaretle.
+03
+Masaya QR
+Panelde hazır QR kod: SVG olarak indir, yazdır. Ürünleri değiştirsen de QR aynı kalır.
+04
+Ücretsiz
+Bugün için ödeme, komisyon ya da kart bilgisi yok.
+Menünü şimdi aç
+Ücretsiz hesap oluştur, adını seç, ürünlerini ekle.
+Ücretsiz menü aç Sık sorulan sorular
+Sorun mu var?
+0531 679 10 14
+Destek: WhatsApp'tan her zaman yazabilirsiniz
+WhatsApp'tan yazın
+
+---
+
+## Özellikler
+https://qrmenus.tr/tr/ozellikler/
+
+Kendi adresin, kolay ürün ekleme, masa için QR kod: kafe ve restoranlar için ücretsiz QR menü özellikleri.
+
+01
+Kendi adresin
+Her işletme kendi alt alanını alır: kafem.qrmenus.tr. Yazarken adın boş olup olmadığını anında görürsün.
+02
+Ürünlerini kendin ekle
+Kategori, ürün, açıklama, fiyat ve fotoğraf ekle; tükenen ürünü menüde «tükendi» olarak işaretle.
+03
+Masaya QR
+Panelde hazır QR kod: SVG olarak indir, yazdır. Ürünleri değiştirsen de QR aynı kalır.
+04
+Ücretsiz
+Bugün için ödeme, komisyon ya da kart bilgisi yok.
+
+---
+
+## Sık Sorulan Sorular
+https://qrmenus.tr/tr/sss/
+
+QR Menüs hakkında sık sorulan sorular: ücret, alt alan adı, QR kod, silme.
+
+Bize yazın
+Gerçekten ücretsiz mi?
+Evet. Şu an hizmet için ödeme, komisyon ya da kart bilgisi istenmez.
+Menü adresimi nasıl seçerim?
+Kayıttan sonra işletme adımında bir kullanıcı adı seçersin: 3–30 karakter, küçük harf (a-z), rakam ve tire. Ad boşsa menün kullaniciadi.qrmenus.tr olur; alınmışsa başka bir ad denersin.
+Seçtiğim adı sonradan değiştirebilir miyim?
+Hayır. QR kodların bozulmaması için ad ilk seçimde sabitlenir. Gerekirse WhatsApp'tan bize yaz.
+Hangi adlar alınamaz?
+Sistemin kullandığı adlar (www, panel, api gibi), başka markaları taklit eden ve uygunsuz adlar.
+Menüyü güncellersem QR kod değişir mi?
+Hayır. QR kod menü adresine gider; ürünleri ya da fiyatları değiştirmen yeterli, yeniden baskı gerekmez.
+Sipariş alınıyor mu?
+Şu an yalnızca menü gösterilir; sipariş ve ödeme özelliği yoktur.
+Mobil uygulama var mı?
+Mobil uygulama hazırlanıyor. Şimdilik tüm düzenlemeler web panelinden yapılır.
+Verilerimi silebilir miyim?
+Evet. Panelden hesabını silersen işletme, ürün ve fotoğrafların kalıcı olarak silinir.
+
+---
+
+## Hakkımızda
+https://qrmenus.tr/tr/hakkimizda/
+
+QR Menüs, kafe ve restoranlar için ücretsiz QR menü hizmetidir: kendi adresin, kolay ürün ekleme, masa için QR kod.
+
+Hakkımızda
+QR Menüs nedir?
+QR Menüs, kafe ve restoranların ücretsiz dijital menü oluşturması için hazırlanan bir hizmettir. İşletme hesap açar, kendi adıyla bir menü adresi seçer (adiniz.qrmenus.tr), ürünlerini kategorilerle ekler ve masalara koyacağı QR kodu panelden alır.
+Menüyü güncellemek için yeniden baskı gerekmez: ürün ya da fiyat değiştiğinde panelden düzenlenir, müşteri bir sonraki taramada güncel menüyü görür.
+Nasıl çalışır?
+E-posta ve şifreyle ücretsiz hesap açılır.
+İşletme adı ve menü adresi (kullanıcı adı) seçilir; ad boşsa size aittir.
+Kategoriler, ürünler, fiyatlar ve fotoğraflar eklenir.
+QR kod indirilir ve masalara yerleştirilir.
+Ücret
+Hizmet şu an ücretsizdir; ödeme, komisyon ya da kart bilgisi istenmez. Sipariş alma ve çevrimiçi ödeme bu aşamada yoktur; menü yalnızca görüntülenir.
+İletişim
+Soru ve istekleriniz için WhatsApp: 0531 679 10 14 .
+
+---
+
+## İletişim
+https://qrmenus.tr/tr/iletisim/
+
+QR Menüs ile WhatsApp üzerinden iletişime geçin.
+
+İletişim
+Bize ulaşın
+WhatsApp: 0531 679 10 14
+Menünü şimdi aç
+Ücretsiz hesap oluştur, adını seç, ürünlerini ekle.
+Ücretsiz menü aç Sık sorulan sorular
+Sorun mu var?
+0531 679 10 14
+Destek: WhatsApp'tan her zaman yazabilirsiniz
+WhatsApp'tan yazın
+
+---
+
+## Kurumsal
+https://qrmenus.tr/tr/kurumsal/
+
+Firmamız hakkında bilgiler ve yasal bilgilendirme sayfaları
+
+Çerez Politikası
+İncele
+Gizlilik Politikası
+İncele
+Misyon
+İncele
+Vizyon
+İncele
+Kalite Politikamız
+İncele
+Kişisel Veriler
+İncele
+Kullanıcı Hakları
+İncele
+Yasal Uyarı
+İncele
+Kullanım Koşulları
+İncele
+
+---
+
+## Çerez Politikası
+https://qrmenus.tr/tr/cerez-politikasi/
+
+Bu politika, QR Menüs tarafından işletilen https://qrmenus.tr internet sitesinde kullanılan çerezleri, bunların hangi amaçlarla kullanıldığını ve…
+
+Çerez Politikası
+Çerez Politikası
+Bu politika, QR Menüs tarafından işletilen https://qrmenus.tr internet sitesinde kullanılan çerezleri, bunların hangi amaçlarla kullanıldığını ve tercihlerinizi nasıl yönetebileceğinizi açıklar. Çerezler aracılığıyla elde edilen kişisel veriler 6698 sayılı Kişisel Verilerin Korunması Kanunu’na uygun olarak işlenir.
+Çerez nedir?
+Çerezler, bir internet sitesini ziyaret ettiğinizde tarayıcınız aracılığıyla cihazınıza kaydedilen küçük metin dosyalarıdır. Oturumunuzun sürdürülmesi, tercihlerinizin hatırlanması ve sitenin nasıl kullanıldığının anlaşılması gibi amaçlara hizmet eder. Çerezler, tarayıcı kapatıldığında silinen oturum çerezleri veya belirli bir süre cihazda kalan kalıcı çerezler olabilir.
+Kullandığımız çerez türleri
+Sitemizde aşağıdaki kategorilerde çerezler kullanılabilir:
+Zorunlu çerezler: Sitenin temel işlevlerinin, güvenliğin ve oturumun sağlanması için gereklidir; devre dışı bırakılmaları sitenin çalışmasını engelleyebilir.
+İşlevsel çerezler: Dil, bölge veya görünüm gibi tercihlerinizi hatırlayarak daha kişisel bir deneyim sunar.
+Analitik çerezler: Ziyaretçilerin siteyi nasıl kullandığını toplu olarak ölçerek sitenin iyileştirilmesine yardımcı olur.
+Pazarlama çerezleri: İlgi alanlarınıza uygun içerik ve reklamların gösterilmesi amacıyla kullanılır.
+Onay ve tercihlerin yönetimi
+Zorunlu çerezler dışındaki çerezler yalnızca açık rızanız alınarak kullanılır. Sitemizi ilk ziyaretinizde gösterilen çerez bildirimi üzerinden tercihlerinizi belirleyebilir, verdiğiniz onayı dilediğiniz zaman geri alabilirsiniz.
+Ayrıca tarayıcınızın ayarlar bölümündeki gizlilik veya site verileri seçenekleri aracılığıyla çerezleri görüntüleyebilir, silebilir ya da engelleyebilirsiniz. Çerezleri tamamen engellemeniz hâlinde sitenin bazı bölümleri beklendiği gibi çalışmayabilir.
+Haklarınız
+Çerezler aracılığıyla işlenen kişisel verilerinize ilişkin olarak Kanun’un 11. maddesindeki haklarınızı kullanmak için +90 531 679 10 14 numaralı telefon hattımız üzerinden başvurabilirsiniz.
+Son güncelleme: 2026-11-02. Kullandığımız çerezlerde değişiklik olduğunda bu politika güncellenir.
+
+---
+
+## Gizlilik Politikası
+https://qrmenus.tr/tr/gizlilik-politikasi/
+
+Bu Gizlilik Politikası, QR Menüs tarafından işletilen https://qrmenus.tr internet sitesini ziyaret ettiğinizde ve hizmetlerimizi kullandığınızda…
+
+Gizlilik Politikası
+Gizlilik Politikası
+Bu Gizlilik Politikası, QR Menüs tarafından işletilen https://qrmenus.tr internet sitesini ziyaret ettiğinizde ve hizmetlerimizi kullandığınızda bilgilerinizin nasıl ele alındığını açıklar. Kişisel verileriniz 6698 sayılı Kişisel Verilerin Korunması Kanunu ve ilgili mevzuata uygun olarak işlenir.
+Toplanan bilgiler
+Sitemizi kullanımınıza bağlı olarak aşağıdaki bilgi türleri işlenebilir:
+İletişim formları aracılığıyla ilettiğiniz ad, e-posta, telefon ve mesaj içeriği
+Site güvenliği ve ilgili mevzuattan doğan yükümlülükler için gerekli IP adresi, tarayıcı ve erişim kayıtları
+Tercihlerinize bağlı olarak çerezler aracılığıyla elde edilen kullanım bilgileri
+Sipariş veya hizmet talebi oluşturmanız hâlinde işlemin gerektirdiği bilgiler
+Bilgilerin kullanımı ve paylaşımı
+Bilgileriniz; taleplerinizi yanıtlamak, hizmetlerimizi sunmak, siteyi güvenli ve çalışır durumda tutmak ve yasal yükümlülüklerimizi yerine getirmek amacıyla kullanılır. Bilgileriniz satılmaz; yalnızca hizmetin sağlanması için gerekli olan hizmet sağlayıcılarla veya yasal olarak yetkili kurum ve kuruluşlarla, mevzuatın izin verdiği ölçüde paylaşılır.
+Güvenlik ve saklama
+Bilgilerinizi yetkisiz erişime, kayba ve kötüye kullanıma karşı korumak için makul teknik ve idari tedbirleri alırız. Bilgiler, işlenme amacının gerektirdiği veya mevzuatın öngördüğü süre boyunca saklanır; bu süre sonunda silinir, yok edilir ya da anonim hâle getirilir.
+Haklarınız ve iletişim
+Kişisel verilerinize ilişkin haklarınızı 6698 sayılı Kanun çerçevesinde kullanabilirsiniz. Ayrıntılı bilgi için Kişisel Verilerin Korunması ve Aydınlatma Metni sayfamızı inceleyebilir, sorularınızı +90 531 679 10 14 numaralı telefon hattımız üzerinden iletebilirsiniz.
+Değişiklikler: Bu politika gerektiğinde güncellenebilir; güncel sürüm her zaman bu sayfada yayımlanır. Son güncelleme: 2026-11-02.
+
+---
+
+## Misyon
+https://qrmenus.tr/tr/misyon/
+
+QR Menüs’ün misyonu: kafe ve restoranlara ücretsiz, sade bir QR menü aracı sunmak.
+
+Misyon
+Misyonumuz
+Kafe ve restoranların, ek maliyet ve karmaşık kurulum olmadan kendi dijital menüsüne sahip olmasını sağlamak.
+İşletme kendi adresini seçer (adiniz.qrmenus.tr), kategorilerini, ürünlerini, fiyatlarını ve fotoğraflarını kendisi ekler, QR kodunu panelden alıp masalara yerleştirir. Menü değiştiğinde yeniden baskı gerekmez; müşteri bir sonraki taramada güncel menüyü görür.
+Bu hizmeti, küçük işletmelerin de kolayca kullanabileceği sade bir araç olarak sunuyoruz. Bugün için ödeme, komisyon ya da kart bilgisi istemiyoruz.
+İlkelerimiz
+Sade ve herkesin kolayca kullanabileceği bir panel
+İşletmenin kendi içeriği ve kendi menü adresi üzerinde söz sahibi olması
+Kişisel verilerin yalnızca hizmet için gereken kısmının işlenmesi ve hesabın istendiğinde silinebilmesi
+Menünün telefonda hızlı açılması ve her ekranda okunabilir olması
+Hizmetle ilgili görüş ve önerilerinizi WhatsApp hattımızdan iletebilirsiniz.
+
+---
+
+## Vizyon
+https://qrmenus.tr/tr/vizyon/
+
+QR Menüs’ün vizyonu: kafe ve restoranlar için ücretsiz, sade ve güvenilir QR menü.
+
+Vizyon
+Vizyonumuz
+Her ölçekten kafe ve restoran için QR menüyü akla gelen ilk ücretsiz, sade ve güvenilir seçenek hâline getirmek.
+Menü hazırlamanın bir işletme sahibi için bir kahve molası kadar kısa sürmesini, menünün müşterinin telefonunda hızlı açılmasını ve her ekranda rahat okunmasını hedefliyoruz.
+Bu hedef doğrultusunda web paneline ek olarak işletmelerin menülerini telefondan da düzenleyebileceği bir mobil uygulama hazırlıyoruz.
+Önceliklerimiz
+Kolay kullanım: hesap açma, adını seçme ve ilk ürünü ekleme birkaç dakikada tamamlanabilmeli
+Erişilebilirlik: açık ve koyu temada okunabilir, klavye ile kullanılabilir sayfalar
+Güven: kişisel verilerin korunması, açık kullanım koşulları ve silme hakkı
+Sürdürülebilirlik: basılı menü israfını azaltan, güncellemesi kolay menüler
+Planlarımız ve yeni özellikler bu sayfada ve duyurularda paylaşılır; henüz yayına alınmamış özellikler söz konusu olduğunda bunu açıkça belirtiriz.
+
+---
+
+## Kalite Politikamız
+https://qrmenus.tr/tr/kalitepolitikamiz/
+
+Kalite, firmamız için yalnızca bir sonuç değil, işin her aşamasına yerleştirilmiş bir çalışma biçimidir.
+
+Kalite Politikamız
+Kalite Politikamız
+Kalite, firmamız için yalnızca bir sonuç değil, işin her aşamasına yerleştirilmiş bir çalışma biçimidir. Müşteri memnuniyetini, yasal gerekliliklere uyumu ve sürekli iyileştirmeyi kalite anlayışımızın temeli olarak kabul ederiz.
+Temel ilkelerimiz
+Kalite politikamız aşağıdaki ilkeler üzerine kuruludur:
+Müşteri beklentilerini doğru anlamak ve bunları karşılayan ürün ve hizmetler sunmak
+Faaliyetlerimizi ilgili mevzuata ve üstlendiğimiz yükümlülüklere uygun yürütmek
+Süreçlerimizi tanımlı, izlenebilir ve ölçülebilir hâle getirmek
+Hataları kaynağında önlemeye yönelik kontroller uygulamak
+Çalışanlarımızın eğitimini ve katılımını desteklemek
+Sürekli iyileştirme
+Müşteri geri bildirimlerini, iç değerlendirmelerimizi ve süreç verilerimizi düzenli olarak gözden geçirir, iyileştirme fırsatlarını belirleriz. Belirlenen iyileştirmeleri planlı biçimde uygular ve sonuçlarını takip ederiz.
+Sorumluluk ve paylaşım
+Kalite, firmamızdaki her çalışanın ortak sorumluluğudur. Tedarikçilerimiz ve iş ortaklarımızla da aynı anlayışı paylaşmayı, beklentilerimizi açıkça ifade etmeyi ve birlikte gelişmeyi hedefleriz.
+Geri bildiriminiz değerlidir: Ürün ve hizmetlerimizle ilgili her türlü görüş ve öneriniz, kalite çalışmalarımızın önemli bir girdisidir.
+
+---
+
+## Kişisel Veriler
+https://qrmenus.tr/tr/kisiselveriler/
+
+Bu metin, 6698 sayılı Kişisel Verilerin Korunması Kanunu’nun 10.
+
+Kişisel Veriler
+KVKK Kişisel Verilerin Korunması ve Aydınlatma Metni
+Bu metin, 6698 sayılı Kişisel Verilerin Korunması Kanunu’nun 10. maddesi ve Aydınlatma Yükümlülüğünün Yerine Getirilmesinde Uyulacak Usul ve Esaslar Hakkında Tebliğ uyarınca, veri sorumlusu sıfatıyla QR Menüs tarafından hazırlanmıştır.
+İşleme amaçları
+Kişisel verileriniz, aşağıdaki amaçlarla ve bu amaçlarla bağlantılı, sınırlı ve ölçülü biçimde işlenir:
+Talep ve şikâyetlerinizin alınması ve yanıtlanması
+Ürün ve hizmetlerin sunulması, sözleşme süreçlerinin yürütülmesi
+Mevzuattan doğan yükümlülüklerin yerine getirilmesi ve yetkili kurumlara bilgi verilmesi
+Bilgi güvenliğinin ve site işleyişinin sağlanması
+Açık rızanız bulunması hâlinde tanıtım ve bilgilendirme iletişiminin yapılması
+Hukuki sebepler ve toplama yöntemi
+Verileriniz; site formları, e-posta, telefon, fiziki başvurular ve çerezler aracılığıyla otomatik veya kısmen otomatik yollarla toplanır ve Kanun’un 5. maddesindeki sözleşmenin kurulması veya ifası, hukuki yükümlülük, bir hakkın tesisi, kullanılması veya korunması ve meşru menfaat sebeplerine; bunların bulunmadığı hâllerde açık rızanıza dayanılarak işlenir. Özel nitelikli kişisel veriler yalnızca Kanun’un 6. maddesindeki şartlar sağlandığında işlenir.
+Aktarım
+Verileriniz, amaçlarla sınırlı olarak yetkili kamu kurumlarına ve barındırma, yazılım, kargo, muhasebe gibi tedarikçilerimize Kanun’un 8. ve 9. maddelerine uygun olarak aktarılabilir.
+Kanun’un 11. maddesi kapsamındaki haklarınız
+Veri sorumlusuna başvurarak:
+Verilerinizin işlenip işlenmediğini öğrenme, işlenmişse bilgi talep etme
+İşlenme amacını ve amacına uygun kullanılıp kullanılmadığını öğrenme
+Yurt içinde veya yurt dışında aktarıldığı üçüncü kişileri bilme
+Eksik veya yanlış işlenmişse düzeltilmesini, Kanun’un 7. maddesi çerçevesinde silinmesini veya yok edilmesini ve bu işlemlerin aktarıldığı üçüncü kişilere bildirilmesini isteme
+Münhasıran otomatik sistemlerle analiz edilmesi sonucu aleyhinize bir sonucun ortaya çıkmasına itiraz etme
+Kanuna aykırı işlenme sebebiyle zarara uğramanız hâlinde zararın giderilmesini talep etme
+haklarına sahipsiniz.
+Başvuru yöntemi
+Başvurularınızı, Veri Sorumlusuna Başvuru Usul ve Esasları Hakkında Tebliğ’e uygun olarak +90 531 679 10 14 numaralı telefon hattımız üzerinden iletebilirsiniz. Başvurular, Kanun’un 13. maddesi uyarınca en geç otuz gün içinde ücretsiz sonuçlandırılır; işlem ayrıca maliyet gerektirirse Kurul tarifesindeki ücret alınabilir.
+Son güncelleme: 2026-11-02.
+
+---
+
+## Kullanıcı Hakları
+https://qrmenus.tr/tr/kullanicahaklari/
+
+https://qrmenus.tr internet sitesini kullanan herkes, yürürlükteki mevzuattan doğan haklara sahiptir.
+
+Kullanıcı Hakları
+Kullanıcı Hakları
+https://qrmenus.tr internet sitesini kullanan herkes, yürürlükteki mevzuattan doğan haklara sahiptir. Bu sayfa, QR Menüs ile ilişkinizde başlıca haklarınızı ve bunları nasıl kullanabileceğinizi özetler.
+Kişisel verilere ilişkin haklar
+6698 sayılı Kişisel Verilerin Korunması Kanunu’nun 11. maddesi kapsamında kişisel verilerinizin işlenip işlenmediğini öğrenme, bilgi talep etme, düzeltme, silme veya yok edilmesini isteme, itiraz etme ve zararın giderilmesini talep etme haklarına sahipsiniz. Bu hakları kullanma yöntemi Aydınlatma Metnimizde açıklanmıştır.
+Tüketici olarak haklarınız
+Sitemiz üzerinden mal veya hizmet satın almanız hâlinde 6502 sayılı Tüketicinin Korunması Hakkında Kanun ve Mesafeli Sözleşmeler Yönetmeliği kapsamındaki haklarınız saklıdır. Bunlar arasında şunlar yer alır:
+Sözleşme kurulmadan önce açık ve anlaşılır biçimde bilgilendirilme
+Yönetmelikte belirtilen istisnalar dışında on dört gün içinde cayma hakkı
+Ayıplı mal veya hizmet durumunda Kanun’da sayılan seçimlik haklar
+Uyuşmazlıklarda Tüketici Hakem Heyeti veya Tüketici Mahkemesine başvurma
+Ticari elektronik iletiler
+6563 sayılı Elektronik Ticaretin Düzenlenmesi Hakkında Kanun uyarınca, onayınız olmadan size ticari elektronik ileti gönderilmez. Onay verdiyseniz, herhangi bir gerekçe göstermeksizin dilediğiniz zaman ret hakkınızı kullanarak ileti almayı durdurabilirsiniz.
+Başvuru ve iletişim
+Haklarınızla ilgili taleplerinizi +90 531 679 10 14 numaralı telefon hattımız üzerinden iletebilirsiniz. Başvurularınız mevzuatta öngörülen süreler içinde değerlendirilir.
+Önemli: Bu sayfa bilgilendirme amaçlıdır; haklarınızın kapsamını ilgili mevzuat belirler.
+
+---
+
+## Yasal Uyarı
+https://qrmenus.tr/tr/yasaluyari/
+
+https://qrmenus.tr internet sitesi QR Menüs tarafından işletilmektedir.
+
+Yasal Uyarı
+Yasal Uyarı
+https://qrmenus.tr internet sitesi QR Menüs tarafından işletilmektedir. Siteyi ziyaret eden veya kullanan herkes, aşağıdaki koşulları okumuş ve kabul etmiş sayılır. Koşulları kabul etmiyorsanız lütfen siteyi kullanmayınız.
+Fikri ve sınai haklar
+Sitede yer alan metin, görsel, logo, tasarım, yazılım ve diğer tüm içerikler, aksi belirtilmedikçe QR Menüs adına korunmaktadır ve 5846 sayılı Fikir ve Sanat Eserleri Kanunu ile ilgili mevzuat kapsamındadır. Bu içerikler önceden yazılı izin alınmaksızın kopyalanamaz, çoğaltılamaz, dağıtılamaz veya ticari amaçla kullanılamaz.
+Bilgilerin doğruluğu
+Sitedeki bilgiler genel bilgilendirme amacı taşır ve özenle hazırlanır; ancak bilgilerin her zaman eksiksiz ve güncel olacağı garanti edilmez. Firmamız, önceden bildirimde bulunmaksızın içerikte değişiklik yapma hakkını saklı tutar. Özellikle şu hususlara dikkat edilmesini rica ederiz:
+Ürün, hizmet ve fiyat bilgileri değişiklik gösterebilir; bağlayıcı bilgiler sözleşme aşamasında sunulur
+Sitedeki içerikler profesyonel danışmanlık yerine geçmez
+Siteye erişimde yaşanabilecek teknik kesintilerden doğan zararlardan, mevzuatın izin verdiği ölçüde sorumluluk kabul edilmez
+Üçüncü taraf içerikler
+Sitede başka internet sitelerine yönlendirme bulunması hâlinde, bu sitelerin içerik ve gizlilik uygulamalarından ilgili site işletenleri sorumludur. 5651 sayılı Kanun kapsamında, bağlantı verilen içeriklerin benimsendiği açıkça anlaşılmadıkça bu içeriklerden sorumluluk doğmaz.
+Uygulanacak hukuk
+Bu koşulların yorumlanmasında ve uygulanmasında Türkiye Cumhuriyeti hukuku uygulanır. Tüketici işlemlerinden doğan uyuşmazlıklarda tüketicinin kanuni hakları saklıdır.
+İletişim: Sorularınız için +90 531 679 10 14 numaralı telefon hattımız üzerinden bize ulaşabilirsiniz. Son güncelleme: 2026-11-02.
+
+---
+
+## Kullanım Koşulları
+https://qrmenus.tr/tr/kullanim-kosullari/
+
+Bu koşullar, QR Menüs tarafından işletilen https://qrmenus.tr internet sitesinin kullanımına ilişkin kuralları belirler.
+
+Kullanım Koşulları
+Kullanım Koşulları
+Bu koşullar, QR Menüs tarafından işletilen https://qrmenus.tr internet sitesinin kullanımına ilişkin kuralları belirler. Siteyi kullanarak bu koşulları kabul etmiş sayılırsınız.
+Sitenin kullanımı
+Site, yalnızca hukuka uygun amaçlarla kullanılabilir. Kullanıcıların aşağıdaki davranışlardan kaçınması gerekir:
+Sitenin işleyişini bozmaya, güvenlik önlemlerini aşmaya veya yetkisiz erişim sağlamaya yönelik girişimler
+Başkalarının kişisel verilerini, fikri haklarını veya kişilik haklarını ihlal eden paylaşımlar
+Yanıltıcı, hukuka aykırı veya zararlı yazılım içeren içerik yüklenmesi
+Site içeriğinin izinsiz olarak otomatik araçlarla toplanması
+Fikri mülkiyet
+Sitedeki tüm içerik ve tasarım unsurları QR Menüs adına korunmaktadır. İçerikler kişisel ve ticari olmayan amaçlarla görüntülenebilir; bunun dışındaki kullanımlar için önceden yazılı izin alınması gerekir.
+Sorumluluğun sınırları
+Site içeriği özenle hazırlanmakla birlikte genel bilgilendirme amaçlıdır. Firma, sitenin kesintisiz veya hatasız çalışacağını taahhüt etmez; mevzuatın izin verdiği ölçüde, siteye erişilememesinden veya içeriklerin kullanılmasından doğabilecek dolaylı zararlardan sorumlu tutulamaz. Tüketicinin kanundan doğan hakları saklıdır.
+Değişiklikler ve hukuk
+Firma bu koşulları güncelleyebilir; güncel metin bu sayfada yayımlandığı anda geçerlilik kazanır. Koşullara Türkiye Cumhuriyeti hukuku uygulanır.
+İletişim: Kullanım koşullarıyla ilgili sorularınızı +90 531 679 10 14 numaralı telefon hattımız üzerinden iletebilirsiniz. Son güncelleme: 2026-11-02.

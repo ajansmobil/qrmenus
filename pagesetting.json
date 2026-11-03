@@ -1,7 +1,9 @@
 {
   "data": [
     {
-      "name": "Sayfalar",
+      "name": {
+        "tr": "Sayfalar"
+      },
       "path": "page",
       "desc": [],
       "data": [
@@ -11,33 +13,6 @@
           "name": {
             "tr": "Hakkımızda",
             "en": "About Us"
-          },
-          "status": "play"
-        },
-        {
-          "id": "hizmetler",
-          "path": "hizmetler",
-          "name": {
-            "tr": "Hizmetler",
-            "en": "Services"
-          },
-          "status": "play"
-        },
-        {
-          "id": "referanslar",
-          "path": "referanslar",
-          "name": {
-            "tr": "Referanslar",
-            "en": "References"
-          },
-          "status": "play"
-        },
-        {
-          "id": "iletisim",
-          "path": "iletisim",
-          "name": {
-            "tr": "İletişim",
-            "en": "Contact"
           },
           "status": "play"
         }
@@ -59,19 +34,12 @@
       "activeclass": "buttonGreen"
     },
     {
-      "name": "Kurumsal",
+      "name": {
+        "tr": "Kurumsal"
+      },
       "path": "kurumsal",
       "desc": [],
       "data": [
-        {
-          "id": "kurumsal",
-          "path": "kurumsal",
-          "name": {
-            "tr": "Kurumsal",
-            "en": "Corporate"
-          },
-          "status": "play"
-        },
         {
           "id": "misyon",
           "path": "misyon",
@@ -87,15 +55,6 @@
           "name": {
             "tr": "Vizyon",
             "en": "Vision"
-          },
-          "status": "play"
-        },
-        {
-          "id": "ekip",
-          "path": "ekip",
-          "name": {
-            "tr": "Ekip",
-            "en": "Team"
           },
           "status": "play"
         }

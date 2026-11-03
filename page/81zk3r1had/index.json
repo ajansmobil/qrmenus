@@ -1,0 +1,33 @@
+{
+  "id": "81zk3r1had",
+  "name": {
+    "tr": "Abonelik İptali / Fesih"
+  },
+  "description": {
+    "tr": "Bu sayfa, https://qrmenus.tr üzerinden QR Menüs tarafından sunulan aboneliklerinizi nasıl sona erdirebileceğinizi ve iptal sonrasında nelerin geçerli…"
+  },
+  "keyword": {
+    "tr": "Abonelik İptali / Fesih, QR Menüs"
+  },
+  "path": "abonelik-iptal",
+  "icon": "gavel",
+  "category": "",
+  "status": "pause",
+  "desing": {
+    "header": [],
+    "body": [
+      "vmr50z"
+    ],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {
+    "tr": "<article class=\"wm-metin\">\n<h2>Abonelik İptali</h2>\n<p class=\"lead\">Bu sayfa, https://qrmenus.tr üzerinden QR Menüs tarafından sunulan aboneliklerinizi nasıl sona erdirebileceğinizi ve iptal sonrasında nelerin geçerli olacağını açıklar. Aboneliğinizi sona erdirmek, en az başlatmak kadar kolay olmalıdır.</p>\n<h3>İptal yöntemleri</h3>\n<p>Aboneliğinizi aşağıdaki yollardan biriyle iptal edebilirsiniz:</p>\n<ul>\n<li>Hesabınıza giriş yaparak abonelik ayarları bölümündeki iptal seçeneğini kullanarak</li>\n\n<li>+90 531 679 10 14 numaralı müşteri hizmetleri hattını arayarak</li>\n</ul>\n<h3>İptalin sonuçları</h3>\n<p>İptal talebiniz alındığında tarafınıza onay bildirimi gönderilir. Aksi belirtilmedikçe, ödemesi yapılmış dönem sonuna kadar hizmetten yararlanmaya devam edebilirsiniz ve sonraki dönemler için ödeme alınmaz. Abonelik sözleşmesinin kurulmasından itibaren on dört gün içinde cayma hakkınızı kullanmanız hâlinde, Mesafeli Sözleşmeler Yönetmeliği’ndeki istisnalar saklı kalmak kaydıyla ödemeniz iade edilir.</p>\n<h3>Taahhütlü abonelikler</h3>\n<p>Belirli süre taahhüdüne bağlı indirimli aboneliklerde, taahhüt süresi dolmadan yapılan iptallerin sonuçları abonelik başlatılırken bildirilen koşullara göre belirlenir. Tüketicilerin herhangi bir gerekçe göstermeksizin abonelik sözleşmesini feshetme hakkı, mevzuatın öngördüğü çerçevede saklıdır.</p>\n<aside class=\"vurgu-kutusu\"><strong>Son güncelleme:</strong> 2026-11-02. Sorularınız için müşteri hizmetlerimize ulaşabilirsiniz.</aside>\n</article>"
+  },
+  "title": {
+    "tr": "Abonelik İptali / Fesih | QR Menüs"
+  },
+  "date": "2026-11-02T07:16:24.232Z",
+  "update": "2026-11-02T07:21:55.181Z"
+}

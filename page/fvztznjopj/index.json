@@ -1,0 +1,31 @@
+{
+  "id": "fvztznjopj",
+  "name": {
+    "tr": "Entegrasyonlar"
+  },
+  "description": {
+    "tr": ""
+  },
+  "keyword": {
+    "tr": ""
+  },
+  "path": "entegrasyonlar",
+  "icon": "article",
+  "category": "",
+  "status": "pause",
+  "desing": {
+    "header": [],
+    "body": [
+      "tcxxg0"
+    ],
+    "footer": []
+  },
+  "index": 10,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Entegrasyonlar | QR Menüs"
+  },
+  "date": "2026-11-02T07:16:24.126Z",
+  "update": "2026-11-02T07:16:24.132Z"
+}

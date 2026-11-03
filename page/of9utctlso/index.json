@@ -1,0 +1,31 @@
+{
+  "id": "of9utctlso",
+  "name": {
+    "tr": "Blog / Rehberler"
+  },
+  "description": {
+    "tr": ""
+  },
+  "keyword": {
+    "tr": ""
+  },
+  "path": "blog",
+  "icon": "article",
+  "category": "",
+  "status": "pause",
+  "desing": {
+    "header": [],
+    "body": [
+      "4r4ras"
+    ],
+    "footer": []
+  },
+  "index": 9,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Blog / Rehberler | QR Menüs"
+  },
+  "date": "2026-11-02T07:16:24.137Z",
+  "update": "2026-11-02T07:16:24.142Z"
+}

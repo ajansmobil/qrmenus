@@ -1,0 +1,31 @@
+{
+  "id": "q2029xb2nn",
+  "name": {
+    "tr": "Menü"
+  },
+  "description": {
+    "tr": "Menü — QR Menüs"
+  },
+  "keyword": {
+    "tr": "Menü, QR Menüs"
+  },
+  "path": "urunlerimiz",
+  "icon": "article",
+  "category": "",
+  "status": "pause",
+  "desing": {
+    "header": [],
+    "body": [
+      "rn5zo1"
+    ],
+    "footer": []
+  },
+  "index": 13,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Menü | QR Menüs"
+  },
+  "date": "2026-11-02T07:16:23.981Z",
+  "update": "2026-11-02T07:16:23.994Z"
+}

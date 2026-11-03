@@ -1,18 +1,18 @@
 {
-  "name": "QR Menus - Dijital Menü Çözümleri",
-  "domain": "qrmenus.com.tr",
+  "name": "QR Menüs",
+  "domain": "qrmenus.tr",
   "logo": "logo.png",
   "description": {
-    "tr": "QR Menus - Restoran, kafe ve oteller için profesyonel dijital QR kod menü çözümleri. Temassız menü deneyimi, anlık güncelleme, çoklu dil desteği ve sipariş entegrasyonu ile işletmenizi dijitale taşıyın.",
+    "tr": "Kafe ve restoranlar için ücretsiz QR menü: işletmenizin adıyla kendi menü adresiniz (adiniz.qrmenus.tr), ürünlerinizi kendiniz ekleyin, QR kodunu yazdırın.",
     "en": "Our company provides modern, easy and fast menu solutions for restaurants and cafes."
   },
   "keyword": {
-    "tr": "qr menü, dijital menü, restoran menüsü, qr kod menü, temassız menü, online menü, kafe menüsü, otel menüsü, dijital menü sistemi, qr menus",
+    "tr": "qr menü, ücretsiz qr menü, dijital menü, kafe menüsü, restoran menüsü, qrmenus.tr",
     "en": "qr menu, restaurant menu, digital menu, cafe menu, online menu"
   },
   "langs": {
     "tr": true,
-    "en": true,
+    "en": false,
     "ar": false,
     "de": false,
     "ru": false,
@@ -28,5 +28,19 @@
   "user": true,
   "category": "",
   "multi": true,
-  "status": "stop"
+  "status": "stop",
+  "yapi": "saas",
+  "sektor": "saas",
+  "font": {
+    "body": "inter",
+    "heading": "inter"
+  },
+  "firma": {
+    "site": "https://qrmenus.tr",
+    "telefon": "+90 531 679 10 14"
+  },
+  "siteType": "kurumsal",
+  "publishMode": "static",
+  "colorScheme": "auto",
+  "theme_color": "#C2410C"
 }

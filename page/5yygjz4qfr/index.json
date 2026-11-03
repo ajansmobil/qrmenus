@@ -1,0 +1,33 @@
+{
+  "id": "5yygjz4qfr",
+  "name": {
+    "tr": "İşlem Rehberi"
+  },
+  "description": {
+    "tr": "Bu rehber, https://qrmenus.tr üzerinde sık yapılan işlemleri ve bu işlemlerle ilgili haklarınızı adım adım açıklar. Amacımız, bir talebinizi hangi…"
+  },
+  "keyword": {
+    "tr": "İşlem Rehberi, QR Menüs"
+  },
+  "path": "islem-rehberi",
+  "icon": "gavel",
+  "category": "",
+  "status": "pause",
+  "desing": {
+    "header": [],
+    "body": [
+      "vmr50z"
+    ],
+    "footer": []
+  },
+  "index": 1,
+  "url": "",
+  "text": {
+    "tr": "<article class=\"wm-metin\">\n<h2>İşlem Rehberi</h2>\n<p class=\"lead\">Bu rehber, https://qrmenus.tr üzerinde sık yapılan işlemleri ve bu işlemlerle ilgili haklarınızı adım adım açıklar. Amacımız, bir talebinizi hangi kanaldan ve nasıl iletebileceğinizi kolayca bulmanızı sağlamaktır.</p>\n<h3>Sipariş ve ödeme</h3>\n<p>Sipariş vermeden önce ön bilgilendirme formu ve mesafeli satış sözleşmesi size sunulur. Bu metinleri okuyup onayladıktan sonra ödemenizi tamamlayabilirsiniz. Siparişinize ilişkin onay ve sözleşme metinleri ayrıca e-posta adresinize gönderilir.</p>\n<h3>Sık yapılan talepler</h3>\n<p>Aşağıdaki işlemler için izlenecek yol şöyledir:</p>\n<ul>\n<li><strong>Sipariş takibi:</strong> Gönderim sonrasında iletilen kargo takip bilgisi ile.</li>\n<li><strong>Cayma ve iade:</strong> Teslimden itibaren on dört gün içinde +90 531 679 10 14 numaralı telefon hattımız üzerinden bildirimde bulunarak.</li>\n<li><strong>Ayıplı ürün bildirimi:</strong> Ürün fotoğrafları ve sipariş bilgisiyle birlikte müşteri hizmetlerine başvurarak.</li>\n<li><strong>Ticari ileti reddi:</strong> İletilerde yer alan ret bağlantısı veya müşteri hizmetleri aracılığıyla.</li>\n<li><strong>Kişisel veri başvurusu:</strong> KVKK Başvuru sayfasında açıklanan kanallarla.</li>\n</ul>\n<h3>Şikâyet ve uyuşmazlık</h3>\n<p>Talebinize verilen yanıttan memnun kalmamanız hâlinde, 6502 sayılı Tüketicinin Korunması Hakkında Kanun kapsamında Tüketici Hakem Heyetine veya Tüketici Mahkemesine başvurabilirsiniz. Kişisel verilere ilişkin başvurularınızın reddedilmesi veya yanıtsız kalması hâlinde Kişisel Verileri Koruma Kurulu’na şikâyet hakkınız bulunur.</p>\n<aside class=\"vurgu-kutusu\"><strong>Müşteri hizmetleri:</strong> +90 531 679 10 14. Son güncelleme: 2026-11-02.</aside>\n</article>"
+  },
+  "title": {
+    "tr": "İşlem Rehberi | QR Menüs"
+  },
+  "date": "2026-11-02T07:16:24.203Z",
+  "update": "2026-11-02T07:21:26.443Z"
+}

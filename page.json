@@ -1,8 +1,47 @@
 {
-  "name": "Sayfalar",
-  "path": "page",
-  "desc": [],
   "data": [
+    {
+      "id": "utoswzyun2",
+      "name": {
+        "tr": "Özellikler"
+      },
+      "description": {
+        "tr": "Kendi adresin, kolay ürün ekleme, masa için QR kod: kafe ve restoranlar için ücretsiz QR menü özellikleri."
+      },
+      "path": "ozellikler",
+      "icon": "article",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "eg741x"
+        ],
+        "footer": []
+      },
+      "index": 0
+    },
+    {
+      "id": "869sunle9v",
+      "name": {
+        "tr": "Sık Sorulan Sorular"
+      },
+      "description": {
+        "tr": "QR Menüs hakkında sık sorulan sorular: ücret, alt alan adı, QR kod, silme."
+      },
+      "path": "sss",
+      "icon": "description",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "wl2bxt"
+        ],
+        "footer": []
+      },
+      "index": 1
+    },
     {
       "id": "hakkimizda",
       "path": "hakkimizda",
@@ -11,119 +50,274 @@
         "en": "About Us"
       },
       "status": "play",
-      "desc": {},
-      "index": 0
-    },
-    {
-      "id": "iletisim",
-      "path": "iletisim",
-      "name": {
-        "tr": "İletişim",
-        "en": "Contact"
-      },
-      "description": {
-        "tr": "QR Menus ile iletişime geçin. Dijital menü çözümleri, fiyat teklifi ve teknik destek için bize ulaşın. 7/24 destek hattımızla her zaman yanınızdayız.",
-        "en": "Contact QR Menu Service. You can contact us for your questions and support requests."
-      },
-      "textmodul": true,
-      "desing": {
-        "header": [
-          "menu-slider"
-        ],
-        "body": [
-          "text-module",
-          "contact-form"
-        ],
-        "footer": [
-          "footer-basic"
-        ]
-      },
-      "index": 1,
-      "pathnext": "",
-      "category": "",
-      "desc": {}
-    },
-    {
-      "id": "referanslar",
-      "path": "referanslar",
-      "name": {
-        "tr": "Referanslar",
-        "en": "References"
-      },
-      "description": {
-        "tr": "QR Menus'un dijital menü çözümleriyle işletmelerini dijitale taşıyan müşterilerimizin başarı hikayeleri ve referansları. Restoran, kafe, otel ve yeme-içme sektöründen memnun müşterilerimiz.",
-        "en": "References and success stories from our customers who have used our QR menu services."
-      },
-      "desing": {
-        "header": [
-          "menu-slider"
-        ],
-        "body": [
-          "text-module"
-        ],
-        "footer": [
-          "footer-basic"
-        ]
-      },
       "index": 2,
-      "pathnext": "",
-      "category": "",
-      "textmodul": false,
-      "desc": {}
+      "desing": {
+        "header": [],
+        "body": [
+          "vmr50z"
+        ],
+        "footer": []
+      },
+      "description": {
+        "tr": "QR Menüs, kafe ve restoranlar için ücretsiz QR menü hizmetidir: kendi adresin, kolay ürün ekleme, masa için QR kod."
+      }
     },
     {
-      "id": "hizmetler",
-      "path": "hizmetler",
+      "id": "q7xfdilart",
       "name": {
-        "tr": "Hizmetler",
-        "en": "Services"
+        "tr": "İletişim"
       },
+      "description": {
+        "tr": "QR Menüs ile WhatsApp üzerinden iletişime geçin."
+      },
+      "path": "iletisim",
+      "icon": "contact_support",
+      "category": "",
       "status": "play",
-      "desc": {},
+      "desing": {
+        "header": [],
+        "body": [
+          "vmr50z",
+          "gb9qf1",
+          "yu5sa6"
+        ],
+        "footer": []
+      },
       "index": 3
     },
     {
-      "id": "ekip",
-      "path": "ekip",
+      "id": "i3pyq0egtb",
       "name": {
-        "tr": "Ekip",
-        "en": "Team"
+        "tr": "Kurumsal"
       },
       "description": {
-        "tr": "QR Menus'un arkasındaki deneyimli ekibi tanıyın. Yazılım geliştirme, tasarım ve müşteri hizmetleri alanlarında uzman kadromuzla hizmetinizdeyiz.",
-        "en": "Information about our team at QR Menu Service."
+        "tr": "Firmamız hakkında bilgiler ve yasal bilgilendirme sayfaları"
       },
-      "img": "team.jpg",
-      "desing": {
-        "header": [
-          "menu-slider"
-        ],
-        "body": [
-          "text-module"
-        ],
-        "footer": [
-          "footer-basic"
-        ]
-      },
-      "textmodul": true,
+      "path": "kurumsal",
+      "icon": "business",
+      "category": "",
       "status": "play",
-      "category": "team",
-      "pathnext": "hakkimizda",
-      "index": 4,
-      "desc": {}
+      "desing": {
+        "header": [],
+        "body": [
+          "hmh6ig"
+        ],
+        "footer": []
+      },
+      "index": 4
+    },
+    {
+      "id": "oyqc5qnew1",
+      "name": {
+        "tr": "Fiyatlandırma"
+      },
+      "description": {
+        "tr": ""
+      },
+      "path": "fiyatlandirma",
+      "icon": "article",
+      "category": "",
+      "status": "pause",
+      "desing": {
+        "header": [],
+        "body": [
+          "64ktx3"
+        ],
+        "footer": []
+      },
+      "index": 5
+    },
+    {
+      "id": "9dogdwicyo",
+      "name": {
+        "tr": "Ücretsiz Araçlar / Hesaplayıcılar"
+      },
+      "description": {
+        "tr": ""
+      },
+      "path": "araclar",
+      "icon": "article",
+      "category": "",
+      "status": "pause",
+      "desing": {
+        "header": [],
+        "body": [
+          "jq8dyx"
+        ],
+        "footer": []
+      },
+      "index": 6
+    },
+    {
+      "id": "0ayatdkg29",
+      "name": {
+        "tr": "İş Ortaklığı / Partner Programı"
+      },
+      "description": {
+        "tr": ""
+      },
+      "path": "is-ortakligi",
+      "icon": "article",
+      "category": "",
+      "status": "pause",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "index": 7
+    },
+    {
+      "id": "0f2gg5zp73",
+      "name": {
+        "tr": "Geliştiriciler / API"
+      },
+      "description": {
+        "tr": ""
+      },
+      "path": "gelistiriciler",
+      "icon": "article",
+      "category": "",
+      "status": "pause",
+      "desing": {
+        "header": [],
+        "body": [
+          "2e4zsy"
+        ],
+        "footer": []
+      },
+      "index": 8
+    },
+    {
+      "id": "of9utctlso",
+      "name": {
+        "tr": "Blog / Rehberler"
+      },
+      "description": {
+        "tr": ""
+      },
+      "path": "blog",
+      "icon": "article",
+      "category": "",
+      "status": "pause",
+      "desing": {
+        "header": [],
+        "body": [
+          "4r4ras"
+        ],
+        "footer": []
+      },
+      "index": 9
+    },
+    {
+      "id": "fvztznjopj",
+      "name": {
+        "tr": "Entegrasyonlar"
+      },
+      "description": {
+        "tr": ""
+      },
+      "path": "entegrasyonlar",
+      "icon": "article",
+      "category": "",
+      "status": "pause",
+      "desing": {
+        "header": [],
+        "body": [
+          "tcxxg0"
+        ],
+        "footer": []
+      },
+      "index": 10
+    },
+    {
+      "id": "qlatwl8mzw",
+      "name": {
+        "tr": "Demo / Ücretsiz Dene"
+      },
+      "description": {
+        "tr": ""
+      },
+      "path": "demo",
+      "icon": "article",
+      "category": "",
+      "status": "pause",
+      "desing": {
+        "header": [],
+        "body": [],
+        "footer": []
+      },
+      "index": 11
+    },
+    {
+      "id": "l7k1kpxw4d",
+      "name": {
+        "tr": "Dokümantasyon / Yardım"
+      },
+      "description": {
+        "tr": ""
+      },
+      "path": "yardim",
+      "icon": "article",
+      "category": "",
+      "status": "pause",
+      "desing": {
+        "header": [],
+        "body": [
+          "u2xa44"
+        ],
+        "footer": []
+      },
+      "index": 12
+    },
+    {
+      "id": "q2029xb2nn",
+      "name": {
+        "tr": "Menü"
+      },
+      "description": {
+        "tr": "Menü — QR Menüs"
+      },
+      "path": "urunlerimiz",
+      "icon": "article",
+      "category": "",
+      "status": "pause",
+      "desing": {
+        "header": [],
+        "body": [
+          "rn5zo1"
+        ],
+        "footer": []
+      },
+      "index": 13
+    },
+    {
+      "id": "8393wgbcek",
+      "name": {
+        "tr": "Hizmetlerimiz"
+      },
+      "description": {
+        "tr": "Hizmetlerimiz — QR Menüs"
+      },
+      "path": "hizmetlerimiz",
+      "icon": "article",
+      "category": "",
+      "status": "pause",
+      "desing": {
+        "header": [],
+        "body": [
+          "1ekikl"
+        ],
+        "footer": []
+      },
+      "index": 14
     }
   ],
-  "index": 0,
+  "desc": [],
   "desing": {
-    "header": [
-      "menu-slider"
-    ],
-    "body": [
-      "text-module"
-    ],
-    "footer": [
-      "footer-basic"
-    ]
+    "header": [],
+    "body": [],
+    "footer": []
   },
   "modulestatus": {
     "page": true,

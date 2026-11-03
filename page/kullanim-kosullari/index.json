@@ -1,0 +1,33 @@
+{
+  "id": "kullanim-kosullari",
+  "name": {
+    "tr": "Kullanım Koşulları"
+  },
+  "description": {
+    "tr": "Bu koşullar, QR Menüs tarafından işletilen https://qrmenus.tr internet sitesinin kullanımına ilişkin kuralları belirler. Siteyi kullanarak bu koşulları…"
+  },
+  "keyword": {
+    "tr": "Kullanım Koşulları, QR Menüs"
+  },
+  "path": "kullanim-kosullari",
+  "icon": "rule",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "vmr50z"
+    ],
+    "footer": []
+  },
+  "index": 13,
+  "url": "",
+  "text": {
+    "tr": "<article class=\"wm-metin\">\n<h2>Kullanım Koşulları</h2>\n<p class=\"lead\">Bu koşullar, QR Menüs tarafından işletilen https://qrmenus.tr internet sitesinin kullanımına ilişkin kuralları belirler. Siteyi kullanarak bu koşulları kabul etmiş sayılırsınız.</p>\n<h3>Sitenin kullanımı</h3>\n<p>Site, yalnızca hukuka uygun amaçlarla kullanılabilir. Kullanıcıların aşağıdaki davranışlardan kaçınması gerekir:</p>\n<ul>\n<li>Sitenin işleyişini bozmaya, güvenlik önlemlerini aşmaya veya yetkisiz erişim sağlamaya yönelik girişimler</li>\n<li>Başkalarının kişisel verilerini, fikri haklarını veya kişilik haklarını ihlal eden paylaşımlar</li>\n<li>Yanıltıcı, hukuka aykırı veya zararlı yazılım içeren içerik yüklenmesi</li>\n<li>Site içeriğinin izinsiz olarak otomatik araçlarla toplanması</li>\n</ul>\n<h3>Fikri mülkiyet</h3>\n<p>Sitedeki tüm içerik ve tasarım unsurları QR Menüs adına korunmaktadır. İçerikler kişisel ve ticari olmayan amaçlarla görüntülenebilir; bunun dışındaki kullanımlar için önceden yazılı izin alınması gerekir.</p>\n<h3>Sorumluluğun sınırları</h3>\n<p>Site içeriği özenle hazırlanmakla birlikte genel bilgilendirme amaçlıdır. Firma, sitenin kesintisiz veya hatasız çalışacağını taahhüt etmez; mevzuatın izin verdiği ölçüde, siteye erişilememesinden veya içeriklerin kullanılmasından doğabilecek dolaylı zararlardan sorumlu tutulamaz. Tüketicinin kanundan doğan hakları saklıdır.</p>\n<h3>Değişiklikler ve hukuk</h3>\n<p>Firma bu koşulları güncelleyebilir; güncel metin bu sayfada yayımlandığı anda geçerlilik kazanır. Koşullara Türkiye Cumhuriyeti hukuku uygulanır.</p>\n<aside class=\"vurgu-kutusu\"><strong>İletişim:</strong> Kullanım koşullarıyla ilgili sorularınızı +90 531 679 10 14 numaralı telefon hattımız üzerinden iletebilirsiniz. Son güncelleme: 2026-11-02.</aside>\n</article>"
+  },
+  "title": {
+    "tr": "Kullanım Koşulları"
+  },
+  "date": "2026-11-02T07:16:24.047Z",
+  "update": "2026-11-02T07:21:26.443Z"
+}

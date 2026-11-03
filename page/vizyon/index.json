@@ -1,0 +1,31 @@
+{
+  "id": "vizyon",
+  "path": "vizyon",
+  "name": {
+    "tr": "Vizyon",
+    "en": "Vision"
+  },
+  "status": "play",
+  "index": 6,
+  "desc": {},
+  "description": {
+    "tr": "QR Menüs’ün vizyonu: kafe ve restoranlar için ücretsiz, sade ve güvenilir QR menü."
+  },
+  "desing": {
+    "header": [],
+    "body": [
+      "vmr50z"
+    ],
+    "footer": []
+  },
+  "title": {
+    "tr": "Vizyon | QR Menüs"
+  },
+  "text": {
+    "tr": "<section><h2>Vizyonumuz</h2>\n<p>Her ölçekten kafe ve restoran için QR menüyü akla gelen ilk ücretsiz, sade ve güvenilir seçenek hâline getirmek.</p>\n<p>Menü hazırlamanın bir işletme sahibi için bir kahve molası kadar kısa sürmesini, menünün müşterinin telefonunda hızlı açılmasını ve her ekranda rahat okunmasını hedefliyoruz.</p>\n<p>Bu hedef doğrultusunda web paneline ek olarak işletmelerin menülerini telefondan da düzenleyebileceği bir mobil uygulama hazırlıyoruz.</p>\n<h3>Önceliklerimiz</h3>\n<ul><li>Kolay kullanım: hesap açma, adını seçme ve ilk ürünü ekleme birkaç dakikada tamamlanabilmeli</li><li>Erişilebilirlik: açık ve koyu temada okunabilir, klavye ile kullanılabilir sayfalar</li><li>Güven: kişisel verilerin korunması, açık kullanım koşulları ve silme hakkı</li><li>Sürdürülebilirlik: basılı menü israfını azaltan, güncellemesi kolay menüler</li></ul>\n<p>Planlarımız ve yeni özellikler bu sayfada ve duyurularda paylaşılır; henüz yayına alınmamış özellikler söz konusu olduğunda bunu açıkça belirtiriz.</p></section>"
+  },
+  "update": "2026-11-02T07:25:04.015Z",
+  "keyword": {
+    "tr": "vizyon, qr menüs, ücretsiz qr menü"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "oyqc5qnew1",
+  "name": {
+    "tr": "Fiyatlandırma"
+  },
+  "description": {
+    "tr": ""
+  },
+  "keyword": {
+    "tr": ""
+  },
+  "path": "fiyatlandirma",
+  "icon": "article",
+  "category": "",
+  "status": "pause",
+  "desing": {
+    "header": [],
+    "body": [
+      "64ktx3"
+    ],
+    "footer": []
+  },
+  "index": 5,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Fiyatlandırma | QR Menüs"
+  },
+  "date": "2026-11-02T07:16:24.269Z",
+  "update": "2026-11-02T07:16:24.285Z"
+}

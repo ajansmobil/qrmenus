@@ -1,0 +1,33 @@
+{
+  "id": "q7xfdilart",
+  "name": {
+    "tr": "İletişim"
+  },
+  "description": {
+    "tr": "QR Menüs ile WhatsApp üzerinden iletişime geçin."
+  },
+  "keyword": {
+    "tr": "qr menüs iletişim"
+  },
+  "path": "iletisim",
+  "icon": "contact_support",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "vmr50z",
+      "gb9qf1",
+      "yu5sa6"
+    ],
+    "footer": []
+  },
+  "index": 3,
+  "url": "",
+  "title": {
+    "tr": "İletişim | QR Menüs"
+  },
+  "date": "2026-11-02T07:23:43.914Z",
+  "update": "2026-11-02T07:25:26.730Z",
+  "textmodul": false
+}

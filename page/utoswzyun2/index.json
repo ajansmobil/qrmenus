@@ -1,0 +1,33 @@
+{
+  "id": "utoswzyun2",
+  "name": {
+    "tr": "Özellikler"
+  },
+  "description": {
+    "tr": "Kendi adresin, kolay ürün ekleme, masa için QR kod: kafe ve restoranlar için ücretsiz QR menü özellikleri."
+  },
+  "keyword": {
+    "tr": "qr menü özellikleri, ücretsiz qr menü"
+  },
+  "path": "ozellikler",
+  "icon": "article",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "eg741x"
+    ],
+    "footer": []
+  },
+  "index": 0,
+  "url": "",
+  "text": {
+    "tr": "<section><h2>QR Menüs özellikleri</h2>\n<p>QR Menüs, kafe ve restoranların ücretsiz bir dijital menü oluşturması için hazırlanmış bir hizmettir. Bu sayfada menünüzü hazırlarken kullanabileceğiniz özellikler özetlenir.</p>\n<p>Her işletme kendi menü adresini seçer: adiniz.qrmenus.tr. Ad boşsa size aittir; kayıt sırasında adın müsait olup olmadığı anında gösterilir. Seçilen ad sonradan değiştirilemez, böylece masalara yerleştirilen QR kodlar bozulmaz.</p>\n<p>Panelde kategorilerinizi ve ürünlerinizi kendiniz yönetirsiniz: ürün adı, açıklama, fiyat ve fotoğraf eklenir; tükenen ürün menüde «tükendi» olarak işaretlenebilir. Değişiklikler hemen menüde görünür.</p>\n<h3>Masalar için QR kod</h3>\n<p>Panelde menü adresinize giden QR kod hazırdır. SVG olarak indirip yazdırabilir, masalara ve kasaya yerleştirebilirsiniz. Menüde ürün ya da fiyat değiştirseniz de QR kod aynı kalır.</p>\n<h3>Kısaca</h3>\n<ul><li>Kendi alt alan adresiniz (adiniz.qrmenus.tr)</li><li>Kategori, ürün, fiyat ve fotoğraf yönetimi</li><li>Yazdırılabilir QR kod</li><li>Açık ve koyu temada okunabilir, telefonda hızlı açılan menü sayfası</li><li>Ücretsiz: bugün için ödeme, komisyon ya da kart bilgisi yok</li></ul></section>"
+  },
+  "title": {
+    "tr": "Özellikler | QR Menüs"
+  },
+  "date": "2026-11-02T07:16:24.247Z",
+  "update": "2026-11-02T07:25:03.973Z"
+}

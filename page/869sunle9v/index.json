@@ -1,0 +1,33 @@
+{
+  "id": "869sunle9v",
+  "name": {
+    "tr": "Sık Sorulan Sorular"
+  },
+  "description": {
+    "tr": "QR Menüs hakkında sık sorulan sorular: ücret, alt alan adı, QR kod, silme."
+  },
+  "keyword": {
+    "tr": "qr menü sss"
+  },
+  "path": "sss",
+  "icon": "description",
+  "category": "",
+  "status": "play",
+  "desing": {
+    "header": [],
+    "body": [
+      "wl2bxt"
+    ],
+    "footer": []
+  },
+  "index": 1,
+  "url": "",
+  "text": {
+    "tr": "<section><h2>Sık sorulan sorular</h2>\n<p>Bu sayfada QR Menüs hakkında en çok merak edilen konuların yanıtları yer alır: hizmetin ücreti, menü adresi seçimi, QR kodun kullanımı ve hesabın silinmesi.</p>\n<p>Hizmet şu an ücretsizdir; ödeme, komisyon ya da kart bilgisi istenmez. Menü adresiniz (kullaniciadi.qrmenus.tr) kayıttan sonra seçilir ve sonradan değiştirilemez. Menü güncellendiğinde QR kod değişmez, yeniden baskı gerekmez.</p>\n<p>Şu an yalnızca menü gösterilir; sipariş alma ve çevrimiçi ödeme özelliği yoktur. Mobil uygulama hazırlanmaktadır; şimdilik tüm düzenlemeler web panelinden yapılır.</p>\n<h3>Başlıca konular</h3>\n<ul><li>Ücret ve kayıt</li><li>Menü adresi seçimi ve alınamayan adlar</li><li>QR kod ve menü güncelleme</li><li>Hesabın ve verilerin silinmesi</li></ul>\n<p>Aradığınız yanıtı bulamazsanız WhatsApp hattımızdan bize yazabilirsiniz.</p><p>Hesap açmak için kayıt sayfasına gidebilir, menü adresinizin boş olup olmadığını kayıt sırasında anında görebilirsiniz. Menünüzü kurduktan sonra QR kodu panelden indirip yazdırabilirsiniz.</p></section>"
+  },
+  "title": {
+    "tr": "Sık Sorulan Sorular | QR Menüs"
+  },
+  "date": "2026-11-02T07:16:24.022Z",
+  "update": "2026-11-02T07:25:16.265Z"
+}

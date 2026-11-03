@@ -1,0 +1,31 @@
+{
+  "id": "misyon",
+  "path": "misyon",
+  "name": {
+    "tr": "Misyon",
+    "en": "Mission"
+  },
+  "status": "play",
+  "index": 5,
+  "desc": {},
+  "description": {
+    "tr": "QR Menüs’ün misyonu: kafe ve restoranlara ücretsiz, sade bir QR menü aracı sunmak."
+  },
+  "desing": {
+    "header": [],
+    "body": [
+      "vmr50z"
+    ],
+    "footer": []
+  },
+  "title": {
+    "tr": "Misyon | QR Menüs"
+  },
+  "text": {
+    "tr": "<section><h2>Misyonumuz</h2>\n<p>Kafe ve restoranların, ek maliyet ve karmaşık kurulum olmadan kendi dijital menüsüne sahip olmasını sağlamak.</p>\n<p>İşletme kendi adresini seçer (adiniz.qrmenus.tr), kategorilerini, ürünlerini, fiyatlarını ve fotoğraflarını kendisi ekler, QR kodunu panelden alıp masalara yerleştirir. Menü değiştiğinde yeniden baskı gerekmez; müşteri bir sonraki taramada güncel menüyü görür.</p>\n<p>Bu hizmeti, küçük işletmelerin de kolayca kullanabileceği sade bir araç olarak sunuyoruz. Bugün için ödeme, komisyon ya da kart bilgisi istemiyoruz.</p>\n<h3>İlkelerimiz</h3>\n<ul><li>Sade ve herkesin kolayca kullanabileceği bir panel</li><li>İşletmenin kendi içeriği ve kendi menü adresi üzerinde söz sahibi olması</li><li>Kişisel verilerin yalnızca hizmet için gereken kısmının işlenmesi ve hesabın istendiğinde silinebilmesi</li><li>Menünün telefonda hızlı açılması ve her ekranda okunabilir olması</li></ul>\n<p>Hizmetle ilgili görüş ve önerilerinizi WhatsApp hattımızdan iletebilirsiniz.</p></section>"
+  },
+  "update": "2026-11-02T07:25:04.003Z",
+  "keyword": {
+    "tr": "misyon, qr menüs, ücretsiz qr menü"
+  }
+}

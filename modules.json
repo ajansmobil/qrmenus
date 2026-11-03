@@ -1,94 +1,1535 @@
 {
   "data": [
     {
-      "id": "menu-slider",
-      "path": "menu-slider",
-      "local": "header",
-      "name": "Menü Slider",
+      "name": "Menu 2",
+      "desing": {
+        "bgcolor": "var(--mx-site-surface, #ffffff)",
+        "color": "var(--mx-site-text, #1C1917)",
+        "activebgcolor": "transparent",
+        "activecolor": "var(--mx-site-primary, #C2410C)",
+        "height": "72px",
+        "ariaToggle": {
+          "tr": "Menüyü aç/kapat",
+          "en": "Toggle menu",
+          "ar": "تبديل القائمة"
+        },
+        "ariaClose": {
+          "tr": "Menüyü kapat",
+          "en": "Close menu"
+        },
+        "logobg": "transparent",
+        "logoborder": "none",
+        "logoradius": "0",
+        "logopad": "0",
+        "logopadmobil": "0",
+        "logomaxh": "44px",
+        "logoimg": "logo.png",
+        "langcolor": "currentColor",
+        "langbg": "transparent"
+      },
       "category": "menu",
-      "desing": {
-        "bgcolor": "",
-        "color": "",
-        "activebgcolor": "#ffffff",
-        "activecolor": "#000000",
-        "delay": 3000,
-        "margin": "0px",
-        "logo-height": "200px"
-      },
-      "data": [
-        {
-          "title": "",
-          "description": "",
-          "img": "",
-          "path": ""
-        }
-      ],
-      "version": "1.0.0",
+      "description": "Sticky header navigasyon menüsü. Logo, sayfa linkleri ve mobil hamburger menü içerir. 16 farklı projede kullanılır: üretim, e-ticaret, kurumsal, eğitim, ajans ve hizmet sektörü firmalarında. Scroll animasyonu, aktif sayfa vurgulama ve responsive menü geçişi özellikleri vardır.",
+      "version": "1.0.2",
       "icon": "menu",
-      "index": 0
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data"
+      },
+      "id": "63tooe",
+      "path": "menu-2",
+      "local": "header",
+      "data": [],
+      "index": 4
     },
     {
-      "id": "footer-basic",
-      "path": "footer-basic",
-      "local": "footer",
-      "name": "Basit Footer",
+      "name": "Slider Text",
+      "data": [
+        {
+          "bg": "hero.png",
+          "img": "",
+          "layout": "",
+          "title": {
+            "tr": "Kafen için ücretsiz QR menü"
+          },
+          "description": {
+            "tr": "adiniz.qrmenus.tr adresinde kendi menünü oluştur, ürünlerini ekle, QR kodunu masalara koy."
+          },
+          "button": {
+            "tr": "Ücretsiz menü aç"
+          },
+          "link": "https://qrmenus.tr/panel/kayit"
+        },
+        {
+          "bg": "ozellik-qr-masa.png",
+          "img": "",
+          "layout": "",
+          "title": {
+            "tr": "Masaya QR, menüye anında ulaşım"
+          },
+          "description": {
+            "tr": "QR kodu panelden indir, yazdır ve masalara yerleştir; ürün ya da fiyat değiştiğinde yeniden baskı gerekmez."
+          },
+          "button": {
+            "tr": "Nasıl çalışır?"
+          },
+          "link": "ozellikler"
+        }
+      ],
+      "desing": {
+        "delay": 5000,
+        "height": "560px",
+        "max": "1200px",
+        "overlay": "0.6",
+        "align": "left",
+        "layout": "",
+        "titlecolor": "#ffffff",
+        "desccolor": "rgba(255, 255, 255, 0.88)",
+        "btncolor": "var(--mx-site-primary-contrast, #ffffff)",
+        "btnbg": "var(--mx-site-primary, #C2410C)",
+        "border_radius": "0",
+        "margin": "0",
+        "bgcolor": "#181311",
+        "prevLabel": {
+          "tr": "Önceki slayt",
+          "en": "Previous slide",
+          "ar": "الشريحة السابقة"
+        },
+        "nextLabel": {
+          "tr": "Sonraki slayt",
+          "en": "Next slide",
+          "ar": "الشريحة التالية"
+        }
+      },
+      "category": "slider",
+      "description": "Hero slider: bg arka plan, img on plan. layout: left (gorsel sol) veya right (gorsel sag); yoksa sirali alternatif. img yoksa metin ortada.",
+      "version": "2.3.2",
+      "icon": "view_carousel",
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data"
+      },
+      "id": "zi70q4",
+      "path": "slider-text",
+      "local": "header",
+      "index": 5
+    },
+    {
+      "name": "Footer 1",
+      "desing": {
+        "stil": "",
+        "showlang": true,
+        "bgcolor": "var(--mx-site-surface, #ffffff)",
+        "color": "var(--mx-site-text, #1C1917)",
+        "img": "",
+        "imgwidth": "250px",
+        "showsocial": true,
+        "social": [],
+        "langcolor": ""
+      },
       "category": "footer",
+      "data": [],
+      "description": "Evrensel alt bilgi (footer) bölüm modülü. Firma logosu, telif hakları metni, iletişim bilgileri ve sosyal medya ikonlarını responsive tasarımda sunar. 41 farklı projede kullanılır: tüm sektörlerden kurumsal, e-ticaret, restoran, sağlık, ajans, hizmet firmalarında. Tüm sayfa türlerinde standart footer yapısı sağlar. Görsel varyant desing.stil (31 Eki 2026): \"\" klasik (dalgalı üst kenar, ortalı yığın, bugünkü görünüm) · \"cizgili\" (üç sütun: sosyal | sayfalar | dil, ince dikey ayraçlar, telif alt şeritte) · \"ortali-sade\" (dalga yok, tek sütun ortalı, büyük daire çerçeveli sosyal ikonlar, nokta ayraçlı menü). Ayraç/çerçeve renkleri color anahtarının color-mix türevi.",
+      "version": "1.1.0",
+      "icon": "web_asset",
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data"
+      },
+      "id": "8jqw6l",
+      "path": "footer-1",
+      "local": "footer",
+      "index": 6
+    },
+    {
+      "name": "Hizmet Grid 1",
       "desing": {
-        "bgcolor": "",
-        "color": "",
-        "text": ""
+        "max": "1200px",
+        "bgcolor": "#F5F8FC",
+        "accent": "#2E6BFF",
+        "titlecolor": "#1B3A6B",
+        "textcolor": "#475569",
+        "badge": {
+          "tr": "Hizmetler",
+          "en": "Services"
+        },
+        "title": {
+          "tr": "Hizmetlerimiz",
+          "en": "Our Services"
+        },
+        "description": {
+          "tr": "Trafo, iletim, dağıtım ve yenilenebilir enerji altyapısında müteahhitlik hizmetleri.",
+          "en": "Contracting for transformers, transmission, distribution and renewables."
+        },
+        "page": "products",
+        "size": 4,
+        "category": "",
+        "aspect-ratio": "16 / 10",
+        "linkText": {
+          "tr": "İncele",
+          "en": "View"
+        },
+        "accentText": "#ffffff"
+      },
+      "category": "page-list",
+      "description": "Hizmet/sayfa grid modülü. page-list mantığı ile webmakerdata[page].data okur; üstte rozet + başlık, kartlarda görsel, başlık, kısa açıklama ve hover.",
+      "version": "1.0.0",
+      "icon": "grid_view",
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data"
+      },
+      "id": "1ekikl",
+      "path": "hizmet-grid-1",
+      "local": "body",
+      "data": [],
+      "index": 7
+    },
+    {
+      "name": "Sayfa Listesi Kare",
+      "desing": {
+        "eyebrow": {
+          "tr": "Menü"
+        },
+        "sectionTitle": {
+          "tr": "Menü"
+        },
+        "sectionSubtitle": {
+          "tr": "Kafe ve restoranlar için ücretsiz QR menü: işletmenizin adıyla kendi menü adresiniz (adiniz.qrmenus.tr), ürünlerinizi kendiniz ekleyin, QR kodunu yazdırın."
+        },
+        "ctaLabel": {
+          "tr": "Tümünü gör"
+        },
+        "page": "products",
+        "size": 4,
+        "category": "",
+        "aspect-ratio": "1 / 1",
+        "showAllProducts": false,
+        "margin": "20px 0px 20px 0px",
+        "bgcolor": "transparent",
+        "cardbg": "#ffffff",
+        "titlecolor": "#111827",
+        "textcolor": "#4b5563",
+        "bordercolor": "rgba(17, 24, 39, 0.1)",
+        "radius": "14px",
+        "accent": "#1e3a5f"
+      },
+      "category": "page-list",
+      "description": "Modern katalog grid liste modülü. Görsel üstte, altında başlık; soft border + hover lift + görsel zoom, opsiyonel eyebrow/başlık/alt başlık ve CTA satırı. Sayfa içeriklerini responsive grid düzeninde (masaüstü desing.size, ≤1024 3, ≤768 2 kolon) gösterir. 8 farklı projede kullanılır: üretim, lojistik, kurumsal, ambalaj, profesyonel hizmet ve inşaat sektörlerinde.",
+      "version": "1.2.0",
+      "icon": "grid_view",
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data"
+      },
+      "id": "rn5zo1",
+      "path": "page-list",
+      "local": "body",
+      "data": [],
+      "index": 8
+    },
+    {
+      "name": "Page Desing 2",
+      "desing": {
+        "height": "140",
+        "opacity": "0",
+        "font-size": "40",
+        "backgroundcolor": "var(--mx-site-primary, #C2410C)",
+        "textcolor": "var(--mx-site-primary-contrast, #ffffff)",
+        "category": "page"
+      },
+      "category": "page",
+      "description": "Page Desing 2 modülü. 2 farklı web projesinde kullanılmaktadır. İçerik sunumu ve görsel düzenleme için tasarlanmıştır.",
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data"
+      },
+      "id": "vmr50z",
+      "path": "page-text",
+      "local": "body",
+      "data": [],
+      "index": 9
+    },
+    {
+      "name": "SSS Akordeon 1",
+      "desing": {
+        "max": "900px",
+        "bgcolor": "#ffffff",
+        "cardbg": "#f8fafc",
+        "bordercolor": "#e2e8f0",
+        "titlecolor": "#1e293b",
+        "textcolor": "#475569",
+        "accent": "#DE6D26",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "badge": {
+          "tr": "SSS",
+          "en": "FAQ"
+        },
+        "title": {
+          "tr": "Sıkça Sorulan Sorular",
+          "en": "Frequently Asked Questions"
+        },
+        "description": {
+          "tr": "Merak ettiğiniz soruların cevaplarını burada bulabilirsiniz.",
+          "en": "Find answers to the most common questions here."
+        }
       },
       "data": [
         {
-          "text": ""
+          "question": {
+            "tr": "Hizmetleriniz hangi şehirleri kapsıyor?",
+            "en": "Which cities do your services cover?"
+          },
+          "answer": {
+            "tr": "Tüm Türkiye genelinde hizmet veriyoruz; uzaktan projelerde dünya genelinde çalışabiliyoruz.",
+            "en": "We serve all of Turkey and work worldwide on remote projects."
+          }
+        },
+        {
+          "question": {
+            "tr": "Proje teslim süresi ne kadar?",
+            "en": "How long does project delivery take?"
+          },
+          "answer": {
+            "tr": "Kapsama göre değişmekle birlikte standart projeler 2-4 hafta içinde teslim edilir.",
+            "en": "Depending on scope, standard projects are delivered within 2-4 weeks."
+          }
+        },
+        {
+          "question": {
+            "tr": "Destek hizmeti sunuyor musunuz?",
+            "en": "Do you offer support services?"
+          },
+          "answer": {
+            "tr": "Evet, teslim sonrasında 7/24 teknik destek ve bakım paketlerimiz mevcuttur.",
+            "en": "Yes, we provide 24/7 technical support and maintenance packages after delivery."
+          }
         }
       ],
+      "category": "faq",
+      "description": "SSS akordeon modülü. Soru-cevap listesini tek seferde bir açık olacak şekilde akordeon düzende gösterir. Çok dilli veri, animasyonlu açılış, mobil uyum ve erişilebilirlik (aria-expanded) desteği içerir.",
       "version": "1.0.0",
-      "icon": "footer",
-      "error": "An error occurred while reading the file.",
-      "index": 1
+      "icon": "quiz",
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data"
+      },
+      "id": "1tq4yv",
+      "path": "faq-1",
+      "local": "body",
+      "index": 10
     },
     {
-      "index": 2,
-      "name": "Metin Modülü",
-      "path": "text-module",
-      "id": "text-module",
+      "name": "Sayfa Listesi Kare",
+      "desing": {
+        "eyebrow": {
+          "tr": "Kurumsal"
+        },
+        "sectionTitle": {
+          "tr": "Kurumsal"
+        },
+        "sectionSubtitle": {
+          "tr": "Firmamız ve yasal bilgilendirme sayfaları"
+        },
+        "ctaLabel": {
+          "tr": "İncele"
+        },
+        "page": "kurumsal",
+        "size": 12,
+        "category": "",
+        "aspect-ratio": "1 / 1",
+        "showAllProducts": false,
+        "margin": "20px 0px 20px 0px",
+        "bgcolor": "transparent",
+        "cardbg": "var(--mx-site-surface, #ffffff)",
+        "titlecolor": "var(--mx-site-text, #1C1917)",
+        "textcolor": "color-mix(in srgb, var(--mx-site-text, #1C1917) 78%, var(--mx-site-surface, #ffffff))",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1C1917) 16%, transparent)",
+        "radius": "14px",
+        "accent": "var(--mx-site-primary, #C2410C)"
+      },
+      "category": "page-list",
+      "description": "Modern katalog grid liste modülü. Görsel üstte, altında başlık; soft border + hover lift + görsel zoom, opsiyonel eyebrow/başlık/alt başlık ve CTA satırı. Sayfa içeriklerini responsive grid düzeninde (masaüstü desing.size, ≤1024 3, ≤768 2 kolon) gösterir. 8 farklı projede kullanılır: üretim, lojistik, kurumsal, ambalaj, profesyonel hizmet ve inşaat sektörlerinde.",
+      "version": "1.2.0",
+      "icon": "grid_view",
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data"
+      },
+      "id": "hmh6ig",
+      "path": "page-list",
       "local": "body",
-      "category": "content",
-      "desing": {},
+      "data": [],
+      "index": 11
+    },
+    {
+      "name": "Sayfa Listesi Whatsapp",
+      "desing": {
+        "page": "page",
+        "size": 4,
+        "number": "905320000000",
+        "color": "#e0e0e0",
+        "name": {
+          "tr": "Hemen Teklif Al"
+        },
+        "listbgcolor": "#cedc00",
+        "listcolor": "#000",
+        "searchbgcolor": "#006B65",
+        "searchtextColor": "#fff",
+        "borderColor": "#e9ecef",
+        "searchPlaceholder": {
+          "tr": "Sayfa ara...",
+          "en": "Search pages..."
+        },
+        "resultText": {
+          "tr": "sonuç",
+          "en": "results"
+        },
+        "pageText": {
+          "tr": "sayfa",
+          "en": "pages"
+        }
+      },
+      "category": "page-list",
+      "description": "Sayfa içeriklerini liste/grid formatında sergileyen modül.  içerik sunumu için kullanılır.",
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data"
+      },
+      "id": "u2xa44",
+      "path": "page-list-text",
+      "local": "body",
+      "data": [],
+      "index": 12
+    },
+    {
+      "name": "Entegrasyon Izgarası",
+      "description": "SaaS entegrasyonlar sayfası için logo ızgarası: her kutuda logo (yoksa kategori simgesi), entegrasyon adı, kategori, «ne aktarılır» kısa açıklaması, durum rozeti (Hazır / Beta / Yakında — renk + metin) ve kurulum/ayrıntı bağlantısı. Kategori çipleri (aria-pressed) + metin araması istemci tarafında süzer, sonuç sayısı aria-live ile okunur; JS kapalıyken tüm kutular görünür. Logo yalnız izinli marka görseli içindir; varsayılan veri marka adı içermez (kategori adları). Veri desing.cats[] + data.items[{name,cat,desc,status,logo,url}].",
+      "version": "1.0.0",
+      "icon": "hub",
+      "category": "page-list",
+      "tags": [
+        "saas",
+        "entegrasyon",
+        "integrations",
+        "logo",
+        "marketplace"
+      ],
+      "desing": {
+        "max": "1240px",
+        "title": {
+          "tr": "Entegrasyonlar",
+          "en": "Integrations",
+          "ar": "التكاملات"
+        },
+        "description": {
+          "tr": "Kullandığınız sistemlerle veri alışverişi yapın. Her entegrasyonda hangi verinin aktarıldığını ve kurulum adımlarını bulabilirsiniz.",
+          "en": "Exchange data with the systems you already use. Each integration lists what is transferred and how to set it up.",
+          "ar": "تبادل البيانات مع الأنظمة التي تستخدمها. يوضح كل تكامل البيانات المنقولة وخطوات الإعداد."
+        },
+        "filterLabel": {
+          "tr": "Kategoriye göre süz",
+          "en": "Filter by category",
+          "ar": "التصفية حسب الفئة"
+        },
+        "allLabel": {
+          "tr": "Tümü",
+          "en": "All",
+          "ar": "الكل"
+        },
+        "searchLabel": {
+          "tr": "Entegrasyon ara",
+          "en": "Search integrations",
+          "ar": "ابحث في التكاملات"
+        },
+        "searchPlaceholder": {
+          "tr": "Ad ya da kategori yazın…",
+          "en": "Type a name or category…",
+          "ar": "اكتب اسمًا أو فئة…"
+        },
+        "countFmt": {
+          "tr": "{n} entegrasyon",
+          "en": "{n} integrations",
+          "ar": "عدد التكاملات: {n}"
+        },
+        "emptyText": {
+          "tr": "Aramanıza uyan entegrasyon bulunamadı.",
+          "en": "No integration matches your search.",
+          "ar": "لا يوجد تكامل يطابق بحثك."
+        },
+        "detailText": {
+          "tr": "Kurulum",
+          "en": "Setup",
+          "ar": "الإعداد"
+        },
+        "stHazir": {
+          "tr": "Hazır",
+          "en": "Available",
+          "ar": "متاح"
+        },
+        "stBeta": {
+          "tr": "Beta",
+          "en": "Beta",
+          "ar": "تجريبي"
+        },
+        "stYakinda": {
+          "tr": "Yakında",
+          "en": "Coming soon",
+          "ar": "قريبًا"
+        },
+        "requestText": {
+          "tr": "Aradığınız entegrasyon yok mu? Bize iletin.",
+          "en": "Missing an integration? Let us know.",
+          "ar": "لا تجد التكامل المطلوب؟ أخبرنا."
+        },
+        "requestUrl": "iletisim",
+        "cats": [
+          {
+            "key": "banka",
+            "name": {
+              "tr": "Banka ve ödeme",
+              "en": "Banking and payments",
+              "ar": "البنوك والمدفوعات"
+            },
+            "icon": "account_balance"
+          },
+          {
+            "key": "ebelge",
+            "name": {
+              "tr": "e-Belge",
+              "en": "e-Documents",
+              "ar": "المستندات الإلكترونية"
+            },
+            "icon": "receipt_long"
+          },
+          {
+            "key": "eticaret",
+            "name": {
+              "tr": "E-ticaret ve pazaryeri",
+              "en": "E-commerce and marketplaces",
+              "ar": "التجارة الإلكترونية والأسواق"
+            },
+            "icon": "storefront"
+          },
+          {
+            "key": "kargo",
+            "name": {
+              "tr": "Kargo",
+              "en": "Shipping",
+              "ar": "الشحن"
+            },
+            "icon": "local_shipping"
+          },
+          {
+            "key": "crm",
+            "name": {
+              "tr": "CRM ve iletişim",
+              "en": "CRM and messaging",
+              "ar": "إدارة العملاء والتواصل"
+            },
+            "icon": "groups"
+          }
+        ]
+      },
+      "data": [],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing.cats + data.items"
+      },
+      "id": "tcxxg0",
+      "path": "entegrasyon-logo-izgarasi",
+      "local": "body",
+      "index": 14
+    },
+    {
+      "name": "Haber Listesi",
+      "description": "Güncel haber içeriklerini görsel, özet ve tarih bilgisiyle kart görünümünde sergileyen liste modülü.",
+      "version": "1.0.0",
+      "icon": "newsmode",
+      "type": "module",
+      "author": "Code Matrix",
+      "desing": {
+        "name": {
+          "tr": "Haber Listesi",
+          "en": "News List",
+          "de": "Nachrichtenliste",
+          "ar": "قائمة الأخبار"
+        },
+        "page": "page",
+        "size": 3,
+        "category": "",
+        "aspect-ratio": "16 / 9",
+        "margin": "0px 0px 0px 0px",
+        "max": 8,
+        "readMore": {
+          "tr": "Haberi Oku",
+          "en": "Read More",
+          "de": "Weiterlesen",
+          "ar": "اقرأ المزيد"
+        },
+        "emptyList": {
+          "tr": "Gösterilecek haber bulunamadı.",
+          "en": "No news to display.",
+          "de": "Keine Nachrichten anzuzeigen.",
+          "ar": "لا توجد أخبار للعرض."
+        }
+      },
+      "category": "haber list",
+      "data": [],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data"
+      },
+      "id": "4r4ras",
+      "path": "page-haber-list",
+      "local": "body",
+      "index": 15
+    },
+    {
+      "name": "API Doküman Dizini",
+      "description": "SaaS «Geliştiriciler / API» sayfası için doküman dizini: üstte hızlı bilgi kutusu (taban adres, kimlik doğrulama yöntemi, hız sınırı, sürümleme — değerler desing'den; taban adres boşsa «panelde yer alır» metni, uç nokta UYDURULMAZ), altında başlık + açıklama + simgeli doküman kartları (Başlarken, Kimlik doğrulama, Başvuru, Webhook'lar, SDK'lar, Hata kodları, Sürüm notları, Kullanım koşulları). Bağlantısı olmayan kart «Hazırlanıyor» rozetiyle bağlantısız gösterilir. Metin araması istemci tarafında kartları süzer (aria-live sonuç sayısı); JS kapalıyken tüm kartlar görünür. Veri data.sections[{icon,title,desc,url,badge}].",
+      "version": "1.0.0",
+      "icon": "api",
+      "category": "page-list",
+      "tags": [
+        "saas",
+        "api",
+        "geliştirici",
+        "developer",
+        "doküman"
+      ],
+      "desing": {
+        "max": "1200px",
+        "baseUrl": "",
+        "title": {
+          "tr": "Geliştiriciler için API",
+          "en": "API for Developers",
+          "ar": "واجهة برمجة التطبيقات للمطورين"
+        },
+        "description": {
+          "tr": "Ürünü kendi sistemlerinize bağlamak için ihtiyacınız olan dokümanlar. Başlarken rehberiyle ilk isteğinizi birkaç adımda yapabilirsiniz.",
+          "en": "Everything you need to connect the product to your own systems. The getting-started guide walks you through your first request.",
+          "ar": "كل ما تحتاجه لربط المنتج بأنظمتك. يرشدك دليل البدء إلى إرسال طلبك الأول."
+        },
+        "factsTitle": {
+          "tr": "Kısaca",
+          "en": "At a glance",
+          "ar": "باختصار"
+        },
+        "baseLabel": {
+          "tr": "Taban adres",
+          "en": "Base URL",
+          "ar": "العنوان الأساسي"
+        },
+        "baseEmpty": {
+          "tr": "Hesap panelinizdeki API ayarlarında yer alır.",
+          "en": "Shown in the API settings of your account panel.",
+          "ar": "يظهر في إعدادات API ضمن لوحة حسابك."
+        },
+        "authLabel": {
+          "tr": "Kimlik doğrulama",
+          "en": "Authentication",
+          "ar": "المصادقة"
+        },
+        "authText": {
+          "tr": "API anahtarı ile; anahtarlar panelden oluşturulur ve gizli tutulmalıdır.",
+          "en": "With an API key; keys are created in the panel and must be kept secret.",
+          "ar": "بمفتاح API؛ تُنشأ المفاتيح من اللوحة ويجب الحفاظ على سريتها."
+        },
+        "rateLabel": {
+          "tr": "Hız sınırı",
+          "en": "Rate limits",
+          "ar": "حدود المعدل"
+        },
+        "rateText": {
+          "tr": "Sınırlar ve aşıldığında dönen yanıt «Hata kodları» sayfasında açıklanır.",
+          "en": "Limits and the response returned when exceeded are described on the error codes page.",
+          "ar": "تُشرح الحدود والاستجابة عند تجاوزها في صفحة رموز الأخطاء."
+        },
+        "versionLabel": {
+          "tr": "Sürümleme",
+          "en": "Versioning",
+          "ar": "الإصدارات"
+        },
+        "versionText": {
+          "tr": "Geriye uyumsuz değişiklikler önceden sürüm notlarında duyurulur.",
+          "en": "Breaking changes are announced in advance in the release notes.",
+          "ar": "يُعلن عن التغييرات غير المتوافقة مسبقًا في ملاحظات الإصدار."
+        },
+        "searchLabel": {
+          "tr": "Dokümanlarda ara",
+          "en": "Search the docs",
+          "ar": "ابحث في المستندات"
+        },
+        "searchPlaceholder": {
+          "tr": "Örn. webhook, kimlik, hata…",
+          "en": "e.g. webhook, auth, error…",
+          "ar": "مثل: webhook، المصادقة، خطأ…"
+        },
+        "countFmt": {
+          "tr": "{n} doküman",
+          "en": "{n} documents",
+          "ar": "عدد المستندات: {n}"
+        },
+        "emptyText": {
+          "tr": "Aramanıza uyan doküman bulunamadı.",
+          "en": "No document matches your search.",
+          "ar": "لا يوجد مستند يطابق بحثك."
+        },
+        "soonText": {
+          "tr": "Hazırlanıyor",
+          "en": "In preparation",
+          "ar": "قيد الإعداد"
+        },
+        "copyText": {
+          "tr": "Kopyala",
+          "en": "Copy",
+          "ar": "نسخ"
+        },
+        "copiedText": {
+          "tr": "Kopyalandı",
+          "en": "Copied",
+          "ar": "تم النسخ"
+        }
+      },
+      "data": [],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing (hızlı bilgiler) + data.sections"
+      },
+      "id": "2e4zsy",
+      "path": "api-dokuman-dizini",
+      "local": "body",
+      "index": 16
+    },
+    {
+      "name": {
+        "tr": "Hesaplayıcı — Canlı Sonuç Paneli",
+        "en": "Calculator — Live Result Panel"
+      },
+      "description": "Giriş alanları → hesaplanan sonuç. Alanlar değiştikçe sonucu anında yan paneldeki büyük sayıda günceller. Alanlar desing.alanlar, formül desing.formul (yalnız + - * / parantez ve alan adları; eval/Function olmadan kendi ayrıştırıcısıyla) ile tanımlanır.",
+      "path": "hesaplayici-1",
+      "local": "body",
+      "category": "hesaplama",
+      "subCategory": "canli-panel",
+      "version": "1.0.0",
+      "update": "2026-11-01",
+      "icon": "calculate",
+      "tags": [
+        "hesaplayıcı",
+        "hesap",
+        "formül",
+        "calculator",
+        "form"
+      ],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data"
+      },
+      "desing": {
+        "max": "1040px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 16%, transparent)",
+        "errcolor": "color-mix(in srgb, #b42318 74%, var(--mx-site-text, #1b1b1b))",
+        "okcolor": "color-mix(in srgb, #1f7a3d 80%, var(--mx-site-text, #1b1b1b))",
+        "warncolor": "color-mix(in srgb, #8a5a00 82%, var(--mx-site-text, #1b1b1b))",
+        "radius": "14px",
+        "eyebrow": {
+          "tr": "Hesaplama",
+          "en": "Calculator"
+        },
+        "title": {
+          "tr": "Hesaplayıcı",
+          "en": "Calculator"
+        },
+        "description": {
+          "tr": "Değerleri girin, sonuç anında hesaplansın.",
+          "en": "Enter the values and the result is calculated instantly."
+        },
+        "alanlar": [
+          {
+            "ad": "miktar",
+            "etiket": {
+              "tr": "Miktar",
+              "en": "Quantity"
+            },
+            "tip": "sayi",
+            "birim": {
+              "tr": "adet",
+              "en": "pcs"
+            },
+            "varsayilan": 1,
+            "min": 0,
+            "max": 1000,
+            "adim": 1
+          },
+          {
+            "ad": "birimDeger",
+            "etiket": {
+              "tr": "Birim değer",
+              "en": "Unit value"
+            },
+            "tip": "sayi",
+            "birim": "₺",
+            "varsayilan": 0,
+            "min": 0,
+            "max": 100000,
+            "adim": 1
+          },
+          {
+            "ad": "carpan",
+            "etiket": {
+              "tr": "Seçenek",
+              "en": "Option"
+            },
+            "tip": "secim",
+            "birim": "",
+            "varsayilan": 1,
+            "secenekler": [
+              {
+                "etiket": {
+                  "tr": "Standart",
+                  "en": "Standard"
+                },
+                "deger": 1
+              },
+              {
+                "etiket": {
+                  "tr": "Seçenek B",
+                  "en": "Option B"
+                },
+                "deger": 1.5
+              }
+            ]
+          }
+        ],
+        "formul": "miktar * birimDeger * carpan",
+        "ondalik": 2,
+        "sonucEtiket": {
+          "tr": "Sonuç",
+          "en": "Result"
+        },
+        "sonucBirim": "₺",
+        "notMetni": {
+          "tr": "Sonuç bilgi amaçlı bir tahmindir; kesin değer için bizimle iletişime geçin.",
+          "en": "The result is an estimate for information only; contact us for an exact figure."
+        },
+        "hesaplaBtn": {
+          "tr": "Hesapla",
+          "en": "Calculate"
+        },
+        "sifirlaBtn": {
+          "tr": "Sıfırla",
+          "en": "Reset"
+        },
+        "formulHata": {
+          "tr": "Hesaplama formülü geçersiz; ayarları kontrol edin.",
+          "en": "The calculation formula is invalid; check the settings."
+        },
+        "hesapHata": {
+          "tr": "Bu değerlerle hesaplama yapılamıyor.",
+          "en": "A result cannot be calculated with these values."
+        },
+        "gecersizDeger": {
+          "tr": "Lütfen alanlara geçerli sayılar girin.",
+          "en": "Please enter valid numbers in the fields."
+        },
+        "esittir": {
+          "tr": "Hesap",
+          "en": "Calculation"
+        }
+      },
+      "data": [],
+      "id": "jq8dyx",
+      "index": 17
+    },
+    {
+      "name": "Services Grid 1",
+      "desing": {
+        "max": "1200px",
+        "badge": "Hizmetlerimiz",
+        "title": "Dijital Çözümlerimiz",
+        "description": "Web tasarım'dan mobil uygulamaya, SEO'dan sosyal medyaya kadar tüm dijital ihtiyaçlarınız için profesyonel hizmetler.",
+        "cards": "web-design|Web Tasarım|Modern, mobil uyumlu ve SEO dostu web siteleri tasarlıyoruz.|web_icon|reklam|Reklam Yönetimi|Google Ads ve sosyal medya reklamları ile hedef kitlenize ulaşın.|ad_icon|seo|SEO Hizmeti|Google'da üst sıralara çıkın. Organik trafik ve görünürlük artışı.|search_icon|sosyal|Sosyal Medya|Instagram, Facebook, LinkedIn profesyonel yönetim.|social_icon|foto|Fotoğraf Çekimi|Profesyonel ürün ve kurumsal fotoğraf çekimi.|camera_icon",
+        "linkText": {
+          "tr": "Detaylı Bilgi",
+          "en": "Learn More"
+        }
+      },
+      "category": "services",
+      "description": "Modern hizmetler grid modülü. Gradient ikonlar, hover efektleri ve responsive kart yapısı.",
+      "version": "1.0.0",
+      "icon": "services",
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data"
+      },
+      "id": "70p5lq",
+      "path": "services-grid-1",
+      "local": "body",
+      "data": [],
+      "index": 18
+    },
+    {
+      "name": "Fiyatlandırma 1",
+      "desing": {
+        "max": "1200px",
+        "bgcolor": "#f8fafc",
+        "cardbg": "#ffffff",
+        "bordercolor": "#e2e8f0",
+        "titlecolor": "#1e293b",
+        "textcolor": "#475569",
+        "accent": "#DE6D26",
+        "accentText": "#ffffff",
+        "badge": {
+          "tr": "Fiyatlandırma",
+          "en": "Pricing"
+        },
+        "title": {
+          "tr": "Size Uygun Paketi Seçin",
+          "en": "Choose the Right Plan"
+        },
+        "description": {
+          "tr": "İhtiyacınıza göre esnek paket seçenekleri. Dilediğiniz zaman yükseltebilirsiniz.",
+          "en": "Flexible plans for your needs. Upgrade anytime."
+        }
+      },
       "data": [
         {
-          "text": "<h2>QR Menus - Dijital Menü Çözümleri</h2><p>Restoranınız, kafeniz veya oteliniz için modern ve şık dijital menü sistemi. QR kod ile müşterileriniz menünüze anında ulaşsın. Basım maliyetlerine son verin, menünüzü istediğiniz zaman güncelleyin.</p><p><strong>Neden QR Menus?</strong></p><ul><li>Hijyenik ve temassız menü deneyimi</li><li>Anlık güncelleme imkanı</li><li>Çoklu dil desteği</li><li>Görsel zengin menü tasarımı</li><li>Sipariş ve ödeme entegrasyonu</li></ul><p>Hemen ücretsiz demo talep edin ve dijital menünüzü keşfedin!</p>"
+          "plan": {
+            "tr": "Başlangıç",
+            "en": "Starter"
+          },
+          "price": "₺4.900",
+          "period": {
+            "tr": "/ proje",
+            "en": "/ project"
+          },
+          "note": {
+            "tr": "Küçük işletmeler için",
+            "en": "For small businesses"
+          },
+          "features": {
+            "tr": "5 sayfa web sitesi|Mobil uyumlu tasarım|Temel SEO|1 ay destek",
+            "en": "5-page website|Responsive design|Basic SEO|1 month support"
+          },
+          "ctaText": {
+            "tr": "Hemen Başla",
+            "en": "Get Started"
+          },
+          "ctaUrl": "#",
+          "featured": false
+        },
+        {
+          "plan": {
+            "tr": "Profesyonel",
+            "en": "Professional"
+          },
+          "price": "₺9.900",
+          "period": {
+            "tr": "/ proje",
+            "en": "/ project"
+          },
+          "note": {
+            "tr": "Büyüyen markalar için",
+            "en": "For growing brands"
+          },
+          "features": {
+            "tr": "15 sayfa web sitesi|Çok dilli altyapı|Gelişmiş SEO|E-ticaret hazır|3 ay destek",
+            "en": "15-page website|Multi-language|Advanced SEO|E-commerce ready|3 months support"
+          },
+          "ctaText": {
+            "tr": "Hemen Başla",
+            "en": "Get Started"
+          },
+          "ctaUrl": "#",
+          "featured": true,
+          "flag": {
+            "tr": "En Popüler",
+            "en": "Most Popular"
+          }
+        },
+        {
+          "plan": {
+            "tr": "Kurumsal",
+            "en": "Enterprise"
+          },
+          "price": "₺19.900",
+          "period": {
+            "tr": "/ proje",
+            "en": "/ project"
+          },
+          "note": {
+            "tr": "Kurumsal çözümler",
+            "en": "Enterprise solutions"
+          },
+          "features": {
+            "tr": "Sınırsız sayfa|Özel entegrasyonlar|Öncelikli destek|Performans optimizasyonu|12 ay destek",
+            "en": "Unlimited pages|Custom integrations|Priority support|Performance tuning|12 months support"
+          },
+          "ctaText": {
+            "tr": "Teklif Al",
+            "en": "Get a Quote"
+          },
+          "ctaUrl": "#",
+          "featured": false
         }
       ],
+      "category": "pricing",
+      "description": "Fiyatlandırma kartları modülü. Plan adı, fiyat, özellik listesi ve CTA butonlarını responsive grid düzende gösterir. Öne çıkan plan vurgusu (featured + rozet), çok dilli veri ve animasyonlu giriş içerir.",
       "version": "1.0.0",
-      "icon": "text",
-      "error": "An error occurred while reading the file."
+      "icon": "payments",
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data"
+      },
+      "id": "64ktx3",
+      "path": "pricing-1",
+      "local": "body",
+      "index": 19
     },
     {
-      "id": "contact-form",
-      "path": "contact-form",
+      "name": "Page Desing 5",
+      "desing": {
+        "stil": "",
+        "height": "200",
+        "opacity": "1",
+        "font-size": "32",
+        "backgroundcolor": "var(--mx-site-primary, #C2410C)",
+        "menu-active": "var(--mx-site-primary, #C2410C)",
+        "activetext": "var(--mx-site-primary-contrast, #ffffff)",
+        "textcolor": "var(--mx-site-primary-contrast, #ffffff)",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "border_radius": "8px",
+        "card_shadow": "0 10px 28px rgba(0, 0, 0, 0.08)",
+        "color": "var(--mx-site-text, #1C1917)",
+        "colortitle": "var(--mx-site-text, #1C1917)",
+        "coloractive": "var(--mx-site-primary, #C2410C)",
+        "ui": {
+          "tr": {
+            "home": "Anasayfa",
+            "products": "Ürünler",
+            "dimensions": "Ölçüler",
+            "dimNote": "Standart üretim referansıdır; proje bazında özelleştirilebilir.",
+            "quote": "Teklif Al",
+            "whatsapp": "WhatsApp",
+            "prev": "Önceki",
+            "next": "Sonraki"
+          },
+          "en": {
+            "home": "Home",
+            "products": "Products",
+            "dimensions": "Dimensions",
+            "dimNote": "Standard production reference; customizable per project.",
+            "quote": "Get Quote",
+            "whatsapp": "WhatsApp",
+            "prev": "Previous",
+            "next": "Next"
+          },
+          "ar": {
+            "home": "الرئيسية",
+            "products": "المنتجات",
+            "dimensions": "الأبعاد",
+            "dimNote": "مرجع إنتاج قياسي؛ قابل للتخصيص حسب المشروع.",
+            "quote": "عرض سعر",
+            "whatsapp": "واتساب",
+            "prev": "السابق",
+            "next": "التالي"
+          }
+        },
+        "noTitle": {
+          "tr": "Başlık Yok",
+          "en": "No title",
+          "ar": "بدون عنوان"
+        },
+        "productNavAria": {
+          "tr": "Ürün navigasyonu",
+          "en": "Product navigation",
+          "ar": "تنقل المنتج"
+        }
+      },
+      "category": "page",
+      "description": "Sayfa basligi, yan menu ve icerik alani. Urun detayinda breadcrumb, olcu kartlari, teklif/WhatsApp CTA, onceki/sonraki urun navigasyonu. Kategori menusu ve responsive slide-in menu. Görsel varyant desing.stil (31 Eki 2026, yan menü bağlantıları): \"\" klasik (kutulu liste, bugünkü görünüm) · \"ikon-ustte-yuvarlak\" (ortalı karo, üstte daire ikon) · \"yatay-kart\" (ikon solda/RTL sağda, metin yanında, ayrı kartlar) · \"kenar-cizgili\" (kutu yok, başta ince çizgi; hover/aktifte primary çizgi ve içe kayma). Kart zemini bgcolor (31 Eki) korunur; eklenen renkler var(--mx-site-primary) türevi.",
+      "version": "1.4.0",
+      "icon": "web",
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data"
+      },
+      "id": "3o6fr0",
+      "path": "page-desing-5",
       "local": "body",
-      "name": "İletişim Formu",
+      "data": [],
+      "index": 20
+    },
+    {
+      "name": "Süreç Adımları",
+      "description": "3–6 adımlık süreç anlatımı: çizgi/ok ile bağlı daire numaralar, altında başlık + metin. Aktif adım vurgusu kaydırmayla ilerler (IntersectionObserver; JS yoksa tüm adımlar düz görünür). desing.stil: yatay (çizgiyle bağlı sıra; mobilde dikey zaman çizgisi) | dikey (iki yanlı zaman çizgisi) | kartli (kart + ok ayraç). Veri: data[] = [{no?, baslik{tr,en,ar}, metin{}, ikon?}]. Renkler yalnız token; koyu mod otomatik; RTL'de ok/çizgi yönü aynalanır.",
+      "version": "1.0.0",
+      "icon": "timeline",
+      "category": "surec",
+      "tags": [
+        "süreç",
+        "adım",
+        "zaman çizgisi",
+        "process",
+        "steps",
+        "ar"
+      ],
+      "desing": {
+        "stil": "yatay",
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 16%, transparent)",
+        "radius": "16px",
+        "eyebrow": {
+          "tr": "Nasıl çalışır?"
+        },
+        "title": {
+          "tr": "Dört adımda menün hazır"
+        },
+        "description": {
+          "tr": "Kart bilgisi istenmez; hizmet ücretsizdir."
+        },
+        "stepLabel": {
+          "tr": "Adım {n}",
+          "en": "Step {n}",
+          "ar": "الخطوة {n}"
+        },
+        "listLabel": {
+          "tr": "Süreç adımları",
+          "en": "Process steps",
+          "ar": "خطوات العملية"
+        }
+      },
+      "data": [
+        {
+          "ikon": "person_add",
+          "baslik": {
+            "tr": "Hesap aç"
+          },
+          "metin": {
+            "tr": "E-posta ve şifrenle ücretsiz hesap oluştur."
+          }
+        },
+        {
+          "ikon": "storefront",
+          "baslik": {
+            "tr": "Adını seç"
+          },
+          "metin": {
+            "tr": "İşletmene bir kullanıcı adı seç; ad boşsa menün adiniz.qrmenus.tr adresinde yayınlanır."
+          }
+        },
+        {
+          "ikon": "restaurant_menu",
+          "baslik": {
+            "tr": "Ürünlerini ekle"
+          },
+          "metin": {
+            "tr": "Kategori, ürün, fiyat ve fotoğraf ekle; değişiklik menüde hemen görünür."
+          }
+        },
+        {
+          "ikon": "qr_code_2",
+          "baslik": {
+            "tr": "QR'ı yazdır"
+          },
+          "metin": {
+            "tr": "Panelden QR kodunu indir, masalara yerleştir."
+          }
+        }
+      ],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data"
+      },
+      "id": "31xjpp",
+      "path": "surec-adimlar",
+      "local": "body",
+      "index": 21
+    },
+    {
+      "name": "Zigzag Özellik",
+      "description": "Görsel-metin sırası satır satır değişen (sol/sağ) özellik anlatımı: numara rozeti, h3, paragraf, mini CTA; görsel kenarında dekoratif çerçeve/gölge. Kaydırmada satırlar sırayla belirir (IntersectionObserver; reduced-motion ya da JS yoksa hep görünür). desing.stil: cerceve | yuzen | sade. RTL'de sıra kendiliğinden aynalanır. Veri: data[] = [{baslik{tr,en,ar}, metin{}, img, alt{}, url, ctaLabel{}?}]. Renkler yalnız token; koyu mod otomatik.",
+      "version": "1.0.0",
+      "icon": "view_agenda",
+      "category": "ozellik",
+      "tags": [
+        "özellik",
+        "zigzag",
+        "features",
+        "görsel-metin",
+        "ar"
+      ],
+      "desing": {
+        "stil": "cerceve",
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-bg, #ffffff)",
+        "textcolor": "var(--mx-site-text, #1b1b1b)",
+        "mutedcolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-bg, #ffffff))",
+        "surface": "var(--mx-site-surface, #f6f6f4)",
+        "surface2": "var(--mx-site-surface-2, #ececea)",
+        "accent": "var(--mx-site-primary, #2563eb)",
+        "accentText": "var(--mx-site-primary-contrast, #ffffff)",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 16%, transparent)",
+        "radius": "20px",
+        "numara": true,
+        "eyebrow": {
+          "tr": "Neler var?"
+        },
+        "title": {
+          "tr": "İşletmen için gereken, fazlası yok"
+        },
+        "description": {
+          "tr": "Menü oluşturmak için ihtiyacın olan dört şey."
+        },
+        "ctaLabel": {
+          "tr": "Daha fazla",
+          "en": "Read more",
+          "ar": "اقرأ المزيد"
+        }
+      },
+      "data": [
+        {
+          "baslik": {
+            "tr": "Kendi adresin"
+          },
+          "metin": {
+            "tr": "Her işletme kendi alt alanını alır: kafem.qrmenus.tr. Yazarken adın boş olup olmadığını anında görürsün."
+          },
+          "img": "ozellik-alt-alan.png",
+          "alt": {
+            "tr": "Telefonda açık menü adresi"
+          },
+          "url": ""
+        },
+        {
+          "baslik": {
+            "tr": "Ürünlerini kendin ekle"
+          },
+          "metin": {
+            "tr": "Kategori, ürün, açıklama, fiyat ve fotoğraf ekle; tükenen ürünü menüde «tükendi» olarak işaretle."
+          },
+          "img": "ozellik-urun-ekle.png",
+          "alt": {
+            "tr": "Panelde ürün ekleme"
+          },
+          "url": ""
+        },
+        {
+          "baslik": {
+            "tr": "Masaya QR"
+          },
+          "metin": {
+            "tr": "Panelde hazır QR kod: SVG olarak indir, yazdır. Ürünleri değiştirsen de QR aynı kalır."
+          },
+          "img": "ozellik-qr-masa.png",
+          "alt": {
+            "tr": "Masada duran QR menü kartı"
+          },
+          "url": ""
+        },
+        {
+          "baslik": {
+            "tr": "Ücretsiz"
+          },
+          "metin": {
+            "tr": "Bugün için ödeme, komisyon ya da kart bilgisi yok."
+          },
+          "img": "ozellik-ucretsiz.png",
+          "alt": {
+            "tr": "Ücretsiz hizmet"
+          },
+          "url": ""
+        }
+      ],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data"
+      },
+      "id": "eg741x",
+      "path": "ozellik-zigzag",
+      "local": "body",
+      "index": 22
+    },
+    {
+      "name": "Bant CTA (zengin) — CTA 3",
+      "description": "Tam genişlik iki sütunlu çağrı bandı: sol h2 + metin + 2 buton; sağ görsel/illüstrasyon ya da telefon-WhatsApp kartı (numara, saat). Arka plan: token zemin + hafif gradient katmanı + dekoratif daireler (CSS). desing.stil: gradient | gorselli (sağ sütun tam yükseklik görsel) | cerceveli-kart (içerik sayfa zemini üstünde yüzen kart). desing.sag: whatsapp | gorsel | yok. Zemin + yazı ÇİFT token (bgcolor = birincil, textcolor = birincil kontrast); WhatsApp kartı opak yüzey (cardbg/cardtext). Üç dil + RTL; koyu mod paletten.",
+      "version": "1.0.0",
+      "icon": "campaign",
+      "category": "cta",
+      "tags": [
+        "cta",
+        "çağrı",
+        "whatsapp",
+        "bant",
+        "banner",
+        "ar"
+      ],
+      "desing": {
+        "stil": "gradient",
+        "sag": "whatsapp",
+        "max": "1200px",
+        "bgcolor": "var(--mx-site-primary, #2563eb)",
+        "textcolor": "var(--mx-site-primary-contrast, #ffffff)",
+        "mutedcolor": "var(--mx-site-primary-contrast, #ffffff)",
+        "pagebg": "var(--mx-site-bg, #ffffff)",
+        "cardbg": "var(--mx-site-surface, #ffffff)",
+        "cardtext": "var(--mx-site-text, #1b1b1b)",
+        "cardmuted": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 72%, var(--mx-site-surface, #ffffff))",
+        "bordercolor": "color-mix(in srgb, var(--mx-site-text, #1b1b1b) 14%, transparent)",
+        "radius": "24px",
+        "title": {
+          "tr": "Menünü şimdi aç"
+        },
+        "text": {
+          "tr": "Ücretsiz hesap oluştur, adını seç, ürünlerini ekle."
+        },
+        "btn1Label": {
+          "tr": "Ücretsiz menü aç"
+        },
+        "btn1Url": "https://qrmenus.tr/panel/kayit",
+        "btn2Label": {
+          "tr": "Sık sorulan sorular"
+        },
+        "btn2Url": "sss",
+        "number": "905316791014",
+        "numberText": "0531 679 10 14",
+        "waLabel": {
+          "tr": "WhatsApp'tan yazın"
+        },
+        "waTitle": {
+          "tr": "Sorun mu var?"
+        },
+        "hours": {
+          "tr": "WhatsApp'tan her zaman yazabilirsiniz"
+        },
+        "hoursLabel": {
+          "tr": "Destek"
+        },
+        "waMessage": {
+          "tr": "Merhaba, qrmenus.tr hakkında bilgi almak istiyorum."
+        },
+        "img": "",
+        "alt": {
+          "tr": "Ekibimizle görüşme",
+          "en": "Meeting with our team",
+          "ar": "اجتماع مع فريقنا"
+        }
+      },
+      "data": [],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data"
+      },
+      "id": "yu5sa6",
+      "path": "cta-3",
+      "local": "body",
+      "index": 23
+    },
+    {
+      "name": {
+        "tr": "SSS 2 — İki sütun (yapışkan giriş + açılır liste)",
+        "en": "FAQ 2 — Two columns (sticky intro + disclosure list)"
+      },
+      "description": {
+        "tr": "İki sütunlu SSS: solda yapışkan başlık, açıklama ve iletişim düğmesi; sağda yerel <details>/<summary> açılır soru listesi (JS gerektirmez, birden çok soru aynı anda açık olabilir). İlk soru isteğe bağlı açık.",
+        "en": "Two-column FAQ: sticky heading, description and contact button on the left; native <details>/<summary> disclosure list on the right (no JS, several can be open). First question optionally open."
+      },
+      "path": "faq-2",
+      "category": "faq",
+      "subCategory": "iki-sutun-details",
+      "version": "1.0.0",
+      "update": "2026-11-01",
+      "icon": "quiz",
+      "tags": [
+        "faq",
+        "sss",
+        "details",
+        "iki-sutun"
+      ],
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data (render zamanı)"
+      },
+      "desing": {
+        "max": "1200px",
+        "eyebrow": {
+          "tr": "SSS"
+        },
+        "title": {
+          "tr": "Sık sorulan sorular"
+        },
+        "description": {
+          "tr": "Aklına takılan bir şey varsa buradan bak; bulamazsan bize yaz."
+        },
+        "ctaText": {
+          "tr": "Bize yazın"
+        },
+        "ctaUrl": "iletisim",
+        "ilkAcik": true
+      },
+      "data": [
+        {
+          "soru": {
+            "tr": "Gerçekten ücretsiz mi?"
+          },
+          "cevap": {
+            "tr": "Evet. Şu an hizmet için ödeme, komisyon ya da kart bilgisi istenmez."
+          }
+        },
+        {
+          "soru": {
+            "tr": "Menü adresimi nasıl seçerim?"
+          },
+          "cevap": {
+            "tr": "Kayıttan sonra işletme adımında bir kullanıcı adı seçersin: 3–30 karakter, küçük harf (a-z), rakam ve tire. Ad boşsa menün kullaniciadi.qrmenus.tr olur; alınmışsa başka bir ad denersin."
+          }
+        },
+        {
+          "soru": {
+            "tr": "Seçtiğim adı sonradan değiştirebilir miyim?"
+          },
+          "cevap": {
+            "tr": "Hayır. QR kodların bozulmaması için ad ilk seçimde sabitlenir. Gerekirse WhatsApp'tan bize yaz."
+          }
+        },
+        {
+          "soru": {
+            "tr": "Hangi adlar alınamaz?"
+          },
+          "cevap": {
+            "tr": "Sistemin kullandığı adlar (www, panel, api gibi), başka markaları taklit eden ve uygunsuz adlar."
+          }
+        },
+        {
+          "soru": {
+            "tr": "Menüyü güncellersem QR kod değişir mi?"
+          },
+          "cevap": {
+            "tr": "Hayır. QR kod menü adresine gider; ürünleri ya da fiyatları değiştirmen yeterli, yeniden baskı gerekmez."
+          }
+        },
+        {
+          "soru": {
+            "tr": "Sipariş alınıyor mu?"
+          },
+          "cevap": {
+            "tr": "Şu an yalnızca menü gösterilir; sipariş ve ödeme özelliği yoktur."
+          }
+        },
+        {
+          "soru": {
+            "tr": "Mobil uygulama var mı?"
+          },
+          "cevap": {
+            "tr": "Mobil uygulama hazırlanıyor. Şimdilik tüm düzenlemeler web panelinden yapılır."
+          }
+        },
+        {
+          "soru": {
+            "tr": "Verilerimi silebilir miyim?"
+          },
+          "cevap": {
+            "tr": "Evet. Panelden hesabını silersen işletme, ürün ve fotoğrafların kalıcı olarak silinir."
+          }
+        }
+      ],
+      "id": "wl2bxt",
+      "local": "body",
+      "index": 24
+    },
+    {
+      "name": "WhatsApp",
+      "desing": {
+        "number": "905316791014",
+        "name": {
+          "tr": "WhatsApp ile yazın"
+        },
+        "position": "fixed",
+        "bottom": "30px",
+        "color": "#0F766E",
+        "z_index": 10000,
+        "responsive": true
+      },
       "category": "contact",
+      "data": [],
+      "description": "Sabit floating WhatsApp butonu modülü. Sayfanın sağ alt köşesinde yeşil WhatsApp ikonu gösterir, tıklandığında otomatik mesaj başlatır. 7 farklı projede kullanılır: üretim, lojistik, ajans, inşaat ve e-ticaret sektörlerinde. Z-index yüksek önceliği, responsive pozisyonlama ve custom mesaj template özellikleri vardır.",
+      "version": "1.0.0",
+      "icon": "chat",
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data"
+      },
+      "id": "r1oty5",
+      "path": "whatsapp",
+      "local": "footer",
+      "index": 24
+    },
+    {
+      "name": "İletişim",
       "desing": {
-        "bgcolor": "",
-        "color": "",
-        "padding": "",
-        "margin": ""
+        "stil": "",
+        "color": "var(--mx-site-text, #1C1917)",
+        "name": {
+          "tr": "Bize ulaşın"
+        },
+        "margin": "30px 0px 30px 0px",
+        "linkcolor": "var(--mx-site-primary, #C2410C)"
       },
       "data": [
         {
-          "name": "",
-          "email": "",
-          "phone": "",
-          "message": ""
+          "icon": "chat",
+          "text": "WhatsApp: 0531 679 10 14",
+          "url": "https://wa.me/905316791014"
         }
       ],
-      "version": "1.0.0",
-      "icon": "contact",
-      "error": "An error occurred while reading the file.",
-      "index": 3
+      "category": "contact",
+      "description": "İletişim bilgileri görüntüleme modülü. Telefon, email ve adres bilgilerini icon ile şık tasarımda sunar. 26 farklı projede kullanılır: kurumsal şirketler, restoranlar, e-ticaret siteleri, sağlık kuruluşları ve hizmet sektöründe. Responsive kart düzeni ve tıklanabilir telefon/email linkleri içerir. Görsel varyant desing.stil (31 Eki 2026): \"\" klasik (çerçeveli liste, bugünkü görünüm) · \"kartli\" (her bilgi ortalı bir kart, 3→2→1 sütun) · \"koyu-panel\" (sol koyu başlık paneli primary/primary-contrast + sağda ayraçlı liste). Varyant renkleri yalnız var(--mx-site-*) token.",
+      "version": "1.1.0",
+      "icon": "contact_mail",
+      "veri": {
+        "statik": true,
+        "dinamik": false,
+        "kaynak": "desing/data"
+      },
+      "id": "gb9qf1",
+      "path": "contact-3",
+      "local": "body",
+      "index": 25
     }
   ]
 }

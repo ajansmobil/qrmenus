@@ -1,18 +1,88 @@
 {
-  "name": "Kurumsal",
-  "path": "kurumsal",
-  "desc": [],
   "data": [
     {
-      "id": "kurumsal",
-      "path": "kurumsal",
+      "id": "81zk3r1had",
       "name": {
-        "tr": "Kurumsal",
-        "en": "Corporate"
+        "tr": "Abonelik İptali / Fesih"
       },
-      "status": "play",
-      "desc": {},
+      "description": {
+        "tr": "Bu sayfa, https://qrmenus.tr üzerinden QR Menüs tarafından sunulan aboneliklerinizi nasıl sona erdirebileceğinizi ve iptal sonrasında nelerin geçerli…"
+      },
+      "path": "abonelik-iptal",
+      "icon": "gavel",
+      "category": "",
+      "status": "pause",
+      "desing": {
+        "header": [],
+        "body": [
+          "vmr50z"
+        ],
+        "footer": []
+      },
       "index": 0
+    },
+    {
+      "id": "5yygjz4qfr",
+      "name": {
+        "tr": "İşlem Rehberi"
+      },
+      "description": {
+        "tr": "Bu rehber, https://qrmenus.tr üzerinde sık yapılan işlemleri ve bu işlemlerle ilgili haklarınızı adım adım açıklar. Amacımız, bir talebinizi hangi…"
+      },
+      "path": "islem-rehberi",
+      "icon": "gavel",
+      "category": "",
+      "status": "pause",
+      "desing": {
+        "header": [],
+        "body": [
+          "vmr50z"
+        ],
+        "footer": []
+      },
+      "index": 1
+    },
+    {
+      "id": "59pma8ms5r",
+      "name": {
+        "tr": "Çerez Politikası"
+      },
+      "description": {
+        "tr": "Bu politika, QR Menüs tarafından işletilen https://qrmenus.tr internet sitesinde kullanılan çerezleri, bunların hangi amaçlarla kullanıldığını ve…"
+      },
+      "path": "cerez-politikasi",
+      "icon": "article",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "vmr50z"
+        ],
+        "footer": []
+      },
+      "index": 2
+    },
+    {
+      "id": "nskceas25z",
+      "name": {
+        "tr": "Gizlilik Politikası"
+      },
+      "description": {
+        "tr": "Bu Gizlilik Politikası, QR Menüs tarafından işletilen https://qrmenus.tr internet sitesini ziyaret ettiğinizde ve hizmetlerimizi kullandığınızda…"
+      },
+      "path": "gizlilik-politikasi",
+      "icon": "article",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "vmr50z"
+        ],
+        "footer": []
+      },
+      "index": 3
     },
     {
       "id": "misyon",
@@ -22,8 +92,17 @@
         "en": "Mission"
       },
       "status": "play",
-      "desc": {},
-      "index": 1
+      "index": 5,
+      "description": {
+        "tr": "QR Menüs’ün misyonu: kafe ve restoranlara ücretsiz, sade bir QR menü aracı sunmak."
+      },
+      "desing": {
+        "header": [],
+        "body": [
+          "vmr50z"
+        ],
+        "footer": []
+      }
     },
     {
       "id": "vizyon",
@@ -33,43 +112,129 @@
         "en": "Vision"
       },
       "status": "play",
-      "desc": {},
-      "index": 2
+      "index": 6,
+      "description": {
+        "tr": "QR Menüs’ün vizyonu: kafe ve restoranlar için ücretsiz, sade ve güvenilir QR menü."
+      },
+      "desing": {
+        "header": [],
+        "body": [
+          "vmr50z"
+        ],
+        "footer": []
+      }
     },
     {
-      "id": "ekip",
-      "path": "ekip",
+      "id": "kalitepolitikamiz",
       "name": {
-        "tr": "Ekip",
-        "en": "Team"
+        "tr": "Kalite Politikamız"
       },
+      "description": {
+        "tr": "Kalite, firmamız için yalnızca bir sonuç değil, işin her aşamasına yerleştirilmiş bir çalışma biçimidir. Müşteri memnuniyetini, yasal gerekliliklere uyumu…"
+      },
+      "path": "kalitepolitikamiz",
+      "icon": "verified",
+      "category": "",
       "status": "play",
-      "desc": {},
-      "index": 3
+      "desing": {
+        "header": [],
+        "body": [
+          "vmr50z"
+        ],
+        "footer": []
+      },
+      "index": 9
     },
     {
-      "id": "ekip",
-      "path": "ekip",
+      "id": "kisiselveriler",
       "name": {
-        "tr": "Ekip",
-        "en": "Team"
+        "tr": "Kişisel Veriler"
       },
+      "description": {
+        "tr": "Bu metin, 6698 sayılı Kişisel Verilerin Korunması Kanunu’nun 10. maddesi ve Aydınlatma Yükümlülüğünün Yerine Getirilmesinde Uyulacak Usul ve Esaslar…"
+      },
+      "path": "kisiselveriler",
+      "icon": "shield",
+      "category": "",
       "status": "play",
-      "desc": {},
-      "index": 4
+      "desing": {
+        "header": [],
+        "body": [
+          "vmr50z"
+        ],
+        "footer": []
+      },
+      "index": 10
+    },
+    {
+      "id": "kullanicahaklari",
+      "name": {
+        "tr": "Kullanıcı Hakları"
+      },
+      "description": {
+        "tr": "https://qrmenus.tr internet sitesini kullanan herkes, yürürlükteki mevzuattan doğan haklara sahiptir. Bu sayfa, QR Menüs ile ilişkinizde başlıca…"
+      },
+      "path": "kullanicahaklari",
+      "icon": "gavel",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "vmr50z"
+        ],
+        "footer": []
+      },
+      "index": 11
+    },
+    {
+      "id": "yasaluyari",
+      "name": {
+        "tr": "Yasal Uyarı"
+      },
+      "description": {
+        "tr": "https://qrmenus.tr internet sitesi QR Menüs tarafından işletilmektedir. Siteyi ziyaret eden veya kullanan herkes, aşağıdaki koşulları okumuş ve kabul…"
+      },
+      "path": "yasaluyari",
+      "icon": "policy",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "vmr50z"
+        ],
+        "footer": []
+      },
+      "index": 12
+    },
+    {
+      "id": "kullanim-kosullari",
+      "name": {
+        "tr": "Kullanım Koşulları"
+      },
+      "description": {
+        "tr": "Bu koşullar, QR Menüs tarafından işletilen https://qrmenus.tr internet sitesinin kullanımına ilişkin kuralları belirler. Siteyi kullanarak bu koşulları…"
+      },
+      "path": "kullanim-kosullari",
+      "icon": "rule",
+      "category": "",
+      "status": "play",
+      "desing": {
+        "header": [],
+        "body": [
+          "vmr50z"
+        ],
+        "footer": []
+      },
+      "index": 13
     }
   ],
-  "index": 1,
+  "desc": [],
   "desing": {
-    "header": [
-      "menu-slider"
-    ],
-    "body": [
-      "text-module"
-    ],
-    "footer": [
-      "footer-basic"
-    ]
+    "header": [],
+    "body": [],
+    "footer": []
   },
   "modulestatus": {
     "page": true,

@@ -1,0 +1,31 @@
+{
+  "id": "l7k1kpxw4d",
+  "name": {
+    "tr": "Dokümantasyon / Yardım"
+  },
+  "description": {
+    "tr": ""
+  },
+  "keyword": {
+    "tr": ""
+  },
+  "path": "yardim",
+  "icon": "article",
+  "category": "",
+  "status": "pause",
+  "desing": {
+    "header": [],
+    "body": [
+      "u2xa44"
+    ],
+    "footer": []
+  },
+  "index": 12,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Dokümantasyon / Yardım | QR Menüs"
+  },
+  "date": "2026-11-02T07:16:24.088Z",
+  "update": "2026-11-02T07:16:24.091Z"
+}

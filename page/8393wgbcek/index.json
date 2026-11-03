@@ -1,0 +1,31 @@
+{
+  "id": "8393wgbcek",
+  "name": {
+    "tr": "Hizmetlerimiz"
+  },
+  "description": {
+    "tr": "Hizmetlerimiz — QR Menüs"
+  },
+  "keyword": {
+    "tr": "Hizmetlerimiz, QR Menüs"
+  },
+  "path": "hizmetlerimiz",
+  "icon": "article",
+  "category": "",
+  "status": "pause",
+  "desing": {
+    "header": [],
+    "body": [
+      "1ekikl"
+    ],
+    "footer": []
+  },
+  "index": 14,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Hizmetlerimiz | QR Menüs"
+  },
+  "date": "2026-11-02T07:16:23.969Z",
+  "update": "2026-11-02T07:16:23.972Z"
+}

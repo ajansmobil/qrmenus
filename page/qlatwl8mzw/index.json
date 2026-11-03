@@ -1,0 +1,29 @@
+{
+  "id": "qlatwl8mzw",
+  "name": {
+    "tr": "Demo / Ücretsiz Dene"
+  },
+  "description": {
+    "tr": ""
+  },
+  "keyword": {
+    "tr": ""
+  },
+  "path": "demo",
+  "icon": "article",
+  "category": "",
+  "status": "pause",
+  "desing": {
+    "header": [],
+    "body": [],
+    "footer": []
+  },
+  "index": 11,
+  "url": "",
+  "text": {},
+  "title": {
+    "tr": "Demo / Ücretsiz Dene | QR Menüs"
+  },
+  "date": "2026-11-02T07:16:24.111Z",
+  "update": "2026-11-02T07:21:08.288Z"
+}

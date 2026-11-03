@@ -1,144 +1,132 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
     <url>
-        <loc>https://qrmenus.com.tr/</loc>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://qrmenus.com.tr/tr/" />
-        <xhtml:link rel="alternate" hreflang="en" href="https://qrmenus.com.tr/en/" />
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://qrmenus.com.tr/tr/" />
-        <lastmod>2026-03-22</lastmod>
+        <loc>https://qrmenus.tr/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://qrmenus.tr/tr/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://qrmenus.tr/tr/" />
+        <lastmod>2026-11-02</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://qrmenus.com.tr/tr/</loc>
-        <lastmod>2026-03-22</lastmod>
+        <loc>https://qrmenus.tr/tr/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://qrmenus.tr/tr/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://qrmenus.tr/tr/" />
+        <lastmod>2026-11-02</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://qrmenus.com.tr/en/</loc>
-        <lastmod>2026-03-22</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    <url>
-        <loc>https://qrmenus.com.tr/tr/hakkimizda/</loc>
-        <lastmod>2026-03-22</lastmod>
+        <loc>https://qrmenus.tr/tr/ozellikler/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://qrmenus.tr/tr/ozellikler/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://qrmenus.tr/tr/ozellikler/" />
+        <lastmod>2026-11-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://qrmenus.com.tr/en/hakkimizda/</loc>
-        <lastmod>2026-03-22</lastmod>
+        <loc>https://qrmenus.tr/tr/sss/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://qrmenus.tr/tr/sss/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://qrmenus.tr/tr/sss/" />
+        <lastmod>2026-11-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://qrmenus.com.tr/tr/iletisim/</loc>
-        <lastmod>2026-03-22</lastmod>
+        <loc>https://qrmenus.tr/tr/hakkimizda/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://qrmenus.tr/tr/hakkimizda/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://qrmenus.tr/tr/hakkimizda/" />
+        <lastmod>2026-11-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://qrmenus.com.tr/en/iletisim/</loc>
-        <lastmod>2026-03-22</lastmod>
+        <loc>https://qrmenus.tr/tr/iletisim/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://qrmenus.tr/tr/iletisim/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://qrmenus.tr/tr/iletisim/" />
+        <lastmod>2026-11-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://qrmenus.com.tr/tr/referanslar/</loc>
-        <lastmod>2026-03-22</lastmod>
+        <loc>https://qrmenus.tr/tr/kurumsal/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://qrmenus.tr/tr/kurumsal/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://qrmenus.tr/tr/kurumsal/" />
+        <lastmod>2026-11-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://qrmenus.com.tr/en/referanslar/</loc>
-        <lastmod>2026-03-22</lastmod>
+        <loc>https://qrmenus.tr/tr/cerez-politikasi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://qrmenus.tr/tr/cerez-politikasi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://qrmenus.tr/tr/cerez-politikasi/" />
+        <lastmod>2026-11-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://qrmenus.com.tr/tr/hizmetler/</loc>
-        <lastmod>2026-03-22</lastmod>
+        <loc>https://qrmenus.tr/tr/gizlilik-politikasi/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://qrmenus.tr/tr/gizlilik-politikasi/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://qrmenus.tr/tr/gizlilik-politikasi/" />
+        <lastmod>2026-11-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://qrmenus.com.tr/en/hizmetler/</loc>
-        <lastmod>2026-03-22</lastmod>
+        <loc>https://qrmenus.tr/tr/misyon/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://qrmenus.tr/tr/misyon/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://qrmenus.tr/tr/misyon/" />
+        <lastmod>2026-11-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://qrmenus.com.tr/tr/ekip/</loc>
-        <lastmod>2026-03-22</lastmod>
+        <loc>https://qrmenus.tr/tr/vizyon/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://qrmenus.tr/tr/vizyon/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://qrmenus.tr/tr/vizyon/" />
+        <lastmod>2026-11-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://qrmenus.com.tr/en/ekip/</loc>
-        <lastmod>2026-03-22</lastmod>
+        <loc>https://qrmenus.tr/tr/kalitepolitikamiz/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://qrmenus.tr/tr/kalitepolitikamiz/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://qrmenus.tr/tr/kalitepolitikamiz/" />
+        <lastmod>2026-11-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://qrmenus.com.tr/tr/kurumsal/</loc>
-        <lastmod>2026-03-22</lastmod>
+        <loc>https://qrmenus.tr/tr/kisiselveriler/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://qrmenus.tr/tr/kisiselveriler/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://qrmenus.tr/tr/kisiselveriler/" />
+        <lastmod>2026-11-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://qrmenus.com.tr/en/kurumsal/</loc>
-        <lastmod>2026-03-22</lastmod>
+        <loc>https://qrmenus.tr/tr/kullanicahaklari/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://qrmenus.tr/tr/kullanicahaklari/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://qrmenus.tr/tr/kullanicahaklari/" />
+        <lastmod>2026-11-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://qrmenus.com.tr/tr/misyon/</loc>
-        <lastmod>2026-03-22</lastmod>
+        <loc>https://qrmenus.tr/tr/yasaluyari/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://qrmenus.tr/tr/yasaluyari/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://qrmenus.tr/tr/yasaluyari/" />
+        <lastmod>2026-11-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://qrmenus.com.tr/en/misyon/</loc>
-        <lastmod>2026-03-22</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://qrmenus.com.tr/tr/vizyon/</loc>
-        <lastmod>2026-03-22</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://qrmenus.com.tr/en/vizyon/</loc>
-        <lastmod>2026-03-22</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://qrmenus.com.tr/tr/ekip/</loc>
-        <lastmod>2026-03-22</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://qrmenus.com.tr/en/ekip/</loc>
-        <lastmod>2026-03-22</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://qrmenus.com.tr/tr/ekip/</loc>
-        <lastmod>2026-03-22</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://qrmenus.com.tr/en/ekip/</loc>
-        <lastmod>2026-03-22</lastmod>
+        <loc>https://qrmenus.tr/tr/kullanim-kosullari/</loc>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://qrmenus.tr/tr/kullanim-kosullari/" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://qrmenus.tr/tr/kullanim-kosullari/" />
+        <lastmod>2026-11-02</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>
